@@ -1,0 +1,77 @@
+<x-layout title="eKYC for Insurance Industry in Indonesia — EMAS eKYC">
+    {{-- Hero --}}
+    <section class="bg-primary text-primary-content py-16 sm:py-24">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight mb-4">eKYC for Insurance Industry in Indonesia</h1>
+            <p class="text-lg text-primary-content/80 max-w-2xl mx-auto mb-8">Enhance your insurance onboarding with AI-powered identity verification compliant with OJK regulations for the Indonesian market.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/contact" class="btn btn-secondary">Get In Touch</a>
+                <a href="/solutions/landing-pages/ekyc-for-insurance-industry" class="btn btn-ghost border-primary-content/30">Insurance Solutions</a>
+            </div>
+        </div>
+    </section>
+
+    {{-- Regulatory Context --}}
+    <section class="py-16">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-semibold tracking-tight text-center mb-10">Indonesian Insurance Regulatory Landscape</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="card bg-base-200 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title text-base">OJK Compliance</h3>
+                        <p class="text-sm text-base-content/70">Comply with Otoritas Jasa Keuangan (OJK) regulations governing digital onboarding for insurance companies in Indonesia.</p>
+                    </div>
+                </div>
+                <div class="card bg-base-200 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title text-base">Data Localisation</h3>
+                        <p class="text-sm text-base-content/70">Our solution supports Indonesian data residency requirements under Government Regulation 71/2019 with on-premise deployment options.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Solutions --}}
+    <section class="py-16 bg-base-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-semibold tracking-tight text-center mb-10">How EMAS eKYC Helps Indonesian Insurers</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                @foreach([
+                    'e-KTP verification with NIK data extraction',
+                    'Facial matching for policyholder identity confirmation',
+                    'Liveness detection to prevent fraudulent applications',
+                    'AML/CFT screening against global and local watchlists',
+                    'Digital signatures compliant with Indonesian regulations',
+                    'API integration with existing insurance platforms',
+                ] as $solution)
+                    <div class="flex gap-3 items-start p-4 bg-base-100 rounded-box">
+                        <svg class="w-5 h-5 text-success shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                        <p class="text-sm">{{ $solution }}</p>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+    {{-- Documents --}}
+    <section class="py-16">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-semibold tracking-tight text-center mb-6">Supported Documents</h2>
+            <div class="flex flex-wrap justify-center gap-3">
+                @foreach(['e-KTP', 'Passport', 'SIM (Driving License)', 'KITAS', 'KITAP'] as $doc)
+                    <span class="badge badge-lg badge-outline">{{ $doc }}</span>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+    {{-- CTA --}}
+    <section class="py-16 bg-base-200">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-semibold tracking-tight mb-4">Ready to modernise your insurance onboarding in Indonesia?</h2>
+            <p class="text-base-content/70 mb-8">Talk to our team about implementing eKYC for your Indonesian insurance operations.</p>
+            <a href="/contact" class="btn btn-primary btn-lg">Contact Us</a>
+        </div>
+    </section>
+</x-layout>
