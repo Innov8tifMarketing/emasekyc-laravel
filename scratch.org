@@ -1,1 +1,1 @@
-s
+Ignore the UIUX and content for a bit, I'd like you to deep dive into this proejct and review this project based on a rubrics score. Rubrics should include KISS, YAGNI, Laravel best practices, database architecture, components /layout structure etc.

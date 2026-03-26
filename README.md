@@ -1,58 +1,152 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# EMAS eKYC
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Marketing website and admin platform for EMAS eKYC (Electronic Know Your Customer), built with Laravel.
 
-## About Laravel
+## Tech Stack
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+| Layer | Technology |
+|-------|-----------|
+| Backend | Laravel 13, PHP 8.3 |
+| Frontend | Alpine.js, Tailwind CSS 4, DaisyUI 5 |
+| Admin Panel | Filament 5 |
+| Build Tool | Vite 8 |
+| Database | SQLite (dev), MySQL/PostgreSQL (prod) |
+| Queue/Cache/Session | Database-backed (dev), Redis recommended (prod) |
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **40+ marketing pages** covering features, solutions, country-specific landing pages, and whitepapers
+- **Knowledge Hub** (blog) with tag filtering, pagination, and published/draft workflow
+- **Contact form** with honeypot spam protection, rate limiting, and queued email delivery
+- **Admin panel** (Filament) for managing posts, tags, clients, and injectable site scripts
+- **Caching layer** with automatic invalidation on model changes
+- **Soft deletes** on posts for data retention
 
-## Learning Laravel
+## Prerequisites
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- PHP 8.3+
+- Composer
+- Node.js 20+ and npm
+- SQLite (dev) or MySQL/PostgreSQL (prod)
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
-
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+## Setup
 
 ```bash
-composer require laravel/boost --dev
+# Clone and install everything (dependencies, .env, key, migrations, assets)
+composer setup
 
-php artisan boost:install
+# Or manually:
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+npm install
+npm run build
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+## Development
 
-## Contributing
+```bash
+# Start all dev services concurrently (server, queue, logs, vite)
+composer dev
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+This runs:
+- `php artisan serve` on port 8000
+- `php artisan queue:listen` for async jobs
+- `php artisan pail` for log tailing
+- `npm run dev` for Vite HMR
 
-## Code of Conduct
+## Testing
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+composer test
+```
 
-## Security Vulnerabilities
+Tests use in-memory SQLite with array drivers for cache, queue, and session. Current test coverage includes:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **ContactController** - validation, honeypot, rate limiting, mail queueing
+- **PostController** - published/unpublished filtering, tag filtering, slugs, 404s
+
+## Admin Panel
+
+Access at `/admin`. Requires a user with `is_admin = true`.
+
+```bash
+# Create an admin user via tinker
+php artisan tinker
+> User::factory()->create(['name' => 'Admin', 'email' => 'admin@example.com', 'is_admin' => true]);
+```
+
+Manages: Posts, Tags, Clients (logo carousel), Site Scripts (analytics/tracking injection).
+
+## Project Structure
+
+```
+app/
+  Filament/Resources/   # Admin panel resources (Posts, Clients, Tags, SiteScripts)
+  Http/Controllers/     # ContactController, PostController
+  Http/Requests/        # StoreContactRequest (validation)
+  Mail/                 # ContactFormMail (queued)
+  Models/               # User, Post, Tag, Client, SiteScript
+  Providers/            # View composers, cache bindings
+resources/views/
+  components/           # Layout, nav, footer, sidebar, post-card
+  errors/               # 404 page
+  mail/                 # Contact form email template
+  pages/                # All marketing pages, knowledge hub, contact
+routes/
+  web.php               # All route definitions
+```
+
+## Route Groups
+
+| Prefix | Description |
+|--------|-------------|
+| `/` | Homepage, about, careers |
+| `/contact` | Contact form (GET + throttled POST) |
+| `/features-and-components/*` | Identity verification, user screening, additional verification |
+| `/solutions/*` | Country pages, industry solutions, whitepapers |
+| `/resources/*` | Knowledge hub, guides, events, privacy policy |
+| `/admin` | Filament admin panel |
+
+## Environment Variables
+
+Key variables to configure for production:
+
+```env
+APP_ENV=production
+APP_DEBUG=false
+APP_URL=https://your-domain.com
+
+DB_CONNECTION=mysql
+DB_HOST=...
+DB_DATABASE=...
+
+CACHE_STORE=redis
+SESSION_DRIVER=redis
+QUEUE_CONNECTION=redis
+
+MAIL_MAILER=smtp
+MAIL_HOST=...
+MAIL_FROM_ADDRESS=noreply@your-domain.com
+
+FREEPIK_API_KEY=...
+```
+
+## Deployment
+
+Targeting **Laravel Cloud**. Production checklist:
+
+- [ ] Set `APP_ENV=production`, `APP_DEBUG=false`
+- [ ] Configure production database (MySQL/PostgreSQL)
+- [ ] Configure Redis for cache, session, and queue
+- [ ] Set up SMTP mail provider (SendGrid, Mailgun, or SES)
+- [ ] Run `php artisan migrate --force`
+- [ ] Run `npm run build` for production assets
+- [ ] Set up queue worker
+- [ ] Configure SSL and DNS
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Proprietary. All rights reserved.

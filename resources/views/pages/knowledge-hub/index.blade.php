@@ -5,9 +5,9 @@
 
         {{-- Tag Filter --}}
         <div class="flex flex-wrap gap-2 mb-8">
-            <a href="/resources/knowledge-hub" class="btn btn-sm {{ !$activeTag ? 'btn-primary' : 'btn-soft' }}">All</a>
+            <a href="{{ route('resources.knowledge-hub.index') }}" class="btn btn-sm {{ !$activeTag ? 'btn-primary' : 'btn-soft' }}">All</a>
             @foreach($tags as $tag)
-                <a href="/resources/knowledge-hub?tag={{ $tag->slug }}" class="btn btn-sm {{ $activeTag === $tag->slug ? 'btn-primary' : 'btn-soft' }}">{{ $tag->name }}</a>
+                <a href="{{ route('resources.knowledge-hub.index', ['tag' => $tag->slug]) }}" class="btn btn-sm {{ $activeTag === $tag->slug ? 'btn-primary' : 'btn-soft' }}">{{ $tag->name }}</a>
             @endforeach
         </div>
 
@@ -17,23 +17,7 @@
         @else
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 @foreach($posts as $post)
-                    <a href="/resources/knowledge-hub/{{ $post->slug }}" class="card bg-base-200 hover:shadow-md transition">
-                        @if($post->featured_image)
-                            <figure><img src="{{ $post->featured_image }}" alt="" class="w-full h-48 object-cover"></figure>
-                        @endif
-                        <div class="card-body p-5">
-                            <time class="text-xs text-base-content/50">{{ $post->published_at->format('F j, Y') }}</time>
-                            <h2 class="card-title text-base">{{ $post->title }}</h2>
-                            @if($post->excerpt)
-                                <p class="text-sm text-base-content/70 line-clamp-3">{{ $post->excerpt }}</p>
-                            @endif
-                            <div class="flex flex-wrap gap-1 mt-2">
-                                @foreach($post->tags->take(3) as $tag)
-                                    <span class="badge badge-sm badge-soft">{{ $tag->name }}</span>
-                                @endforeach
-                            </div>
-                        </div>
-                    </a>
+                    <x-post-card :post="$post" />
                 @endforeach
             </div>
 

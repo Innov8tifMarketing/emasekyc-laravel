@@ -25,8 +25,13 @@
                                 </div>
                             @endif
 
-                            <form action="/contact" method="POST" class="space-y-4">
+                            <form action="{{ route('contact.store') }}" method="POST" class="space-y-4">
                                 @csrf
+
+                                {{-- Honeypot --}}
+                                <div class="hidden" aria-hidden="true">
+                                    <input type="text" name="website" tabindex="-1" autocomplete="off">
+                                </div>
 
                                 <div class="grid sm:grid-cols-2 gap-4">
                                     {{-- First Name --}}

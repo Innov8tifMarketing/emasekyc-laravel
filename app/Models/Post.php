@@ -4,10 +4,20 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Support\Facades\Cache;
 
 class Post extends Model
 {
-    protected $guarded = [];
+    use SoftDeletes;
+
+    protected $fillable = ['title', 'slug', 'excerpt', 'body', 'featured_image', 'published_at'];
+
+    protected static function booted(): void
+    {
+        static::saved(fn () => Cache::forget('homepage_posts'));
+        static::deleted(fn () => Cache::forget('homepage_posts'));
+    }
 
     protected function casts(): array
     {

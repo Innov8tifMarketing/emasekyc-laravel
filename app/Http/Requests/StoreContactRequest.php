@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class StoreContactRequest extends FormRequest
+{
+    public function authorize(): bool
+    {
+        return true;
+    }
+
+    public function rules(): array
+    {
+        return [
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'work_email' => 'required|email|max:255',
+            'phone' => 'nullable|string|max:50',
+            'company_name' => 'nullable|string|max:255',
+            'inquiry_type' => 'required|string|in:general,demo,pricing,partnership,technical,other',
+            'message' => 'required|string|max:5000',
+        ];
+    }
+}

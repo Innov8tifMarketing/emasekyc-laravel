@@ -20,7 +20,10 @@ class ClientForm
                     ->label('Website URL'),
                 FileUpload::make('logo')
                     ->image()
-                    ->directory('images/clients'),
+                    ->disk('public')
+                    ->directory('images/clients')
+                    ->visibility('public')
+                    ->maxSize(2048),
                 TextInput::make('sort_order')
                     ->numeric()
                     ->default(0),

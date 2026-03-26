@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "instruckt": {
+            "command": "php",
+            "args": [
+                "/home/jothamlec/co_projects/emasekyc-laravel/artisan",
+                "mcp:start",
+                "instruckt"
+            ]
+        }
+    }
+}

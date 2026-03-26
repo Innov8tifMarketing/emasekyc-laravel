@@ -10,7 +10,7 @@ class PostController extends Controller
 {
     public function index(Request $request)
     {
-        $query = Post::published()->latest('published_at');
+        $query = Post::published()->with('tags')->latest('published_at');
 
         if ($request->has('tag')) {
             $query->whereHas('tags', fn ($q) => $q->where('slug', $request->tag));
@@ -25,6 +25,8 @@ class PostController extends Controller
 
     public function show(Post $post)
     {
+        abort_unless($post->published_at?->isPast(), 404);
+
         $post->load('tags');
 
         return view('pages.knowledge-hub.show', compact('post'));

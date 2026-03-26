@@ -3,10 +3,17 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Cache;
 
 class SiteScript extends Model
 {
-    protected $guarded = [];
+    protected $fillable = ['name', 'location', 'content', 'is_active'];
+
+    protected static function booted(): void
+    {
+        static::saved(fn () => Cache::forget('site_scripts'));
+        static::deleted(fn () => Cache::forget('site_scripts'));
+    }
 
     protected function casts(): array
     {
@@ -20,8 +27,4 @@ class SiteScript extends Model
         return $query->where('is_active', true);
     }
 
-    public function scopeForLocation($query, string $location)
-    {
-        return $query->where('location', $location);
-    }
 }

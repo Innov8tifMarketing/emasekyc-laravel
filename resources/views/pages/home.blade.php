@@ -11,8 +11,8 @@
                 Helping businesses improve compliance and security, reduce fraud and churn rate.
             </p>
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/features-and-components" class="btn btn-primary">Our Components</a>
-                <a href="/contact" class="btn btn-outline">Get Started</a>
+                <a href="{{ route('features.index') }}" class="btn btn-primary">Our Components</a>
+                <a href="{{ route('contact') }}" class="btn btn-outline">Get Started</a>
             </div>
         </div>
     </section>
@@ -22,8 +22,8 @@
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p class="text-sm font-medium text-base-content/50 mb-4">Trusted by Industry Leaders</p>
             <div class="flex flex-wrap justify-center items-center gap-6 opacity-60">
-                @foreach(['bnm', 'celcomdigi', 'great-eastern', 'alliance', 'aeon-credit', 'telekom', 'boost', 'pos-malaysia', 'uob-mighty', 'tokio-marine', 'bursa-malaysia', 'nus'] as $logo)
-                    <img src="/images/logos/logo-{{ $logo }}.webp" alt="{{ $logo }}" class="h-8 object-contain grayscale hover:grayscale-0 transition">
+                @foreach($clients as $client)
+                    <img src="{{ $client->logo }}" alt="{{ $client->name }}" class="h-8 object-contain grayscale hover:grayscale-0 transition">
                 @endforeach
             </div>
         </div>
@@ -78,25 +78,25 @@
                 <div class="flex-1">
                     <div x-show="tab === 'identity'" class="space-y-3">
                         <p class="text-base-content/70 mb-4">Ensuring users are who they claim to be.</p>
-                        <a href="/features-and-components/identity-verification/facial-matching" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Facial Matching</h3></a>
-                        <a href="/features-and-components/identity-verification/remote-and-video-verification" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Remote and Video Verification</h3></a>
-                        <a href="/features-and-components/identity-verification/id-data-extraction" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">ID Data Extraction</h3></a>
-                        <a href="/features-and-components/identity-verification/id-verification" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">ID Verification</h3></a>
-                        <a href="/features-and-components/identity-verification/liveness-detection" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Liveness Detection</h3></a>
+                        <a href="{{ route('features.identity-verification.facial-matching') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Facial Matching</h3></a>
+                        <a href="{{ route('features.identity-verification.remote-video-verification') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Remote and Video Verification</h3></a>
+                        <a href="{{ route('features.identity-verification.id-data-extraction') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">ID Data Extraction</h3></a>
+                        <a href="{{ route('features.identity-verification.id-verification') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">ID Verification</h3></a>
+                        <a href="{{ route('features.identity-verification.liveness-detection') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Liveness Detection</h3></a>
                     </div>
                     <div x-show="tab === 'screening'" class="space-y-3" style="display: none;">
                         <p class="text-base-content/70 mb-4">Filter only relevant and qualified users.</p>
-                        <a href="/features-and-components/user-screening/digital-footprint-analysis" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Digital Footprint Analysis</h3></a>
-                        <a href="/features-and-components/user-screening/credit-score-and-bankruptcy-checks" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Credit Score and Bankruptcy Checks</h3></a>
-                        <a href="/features-and-components/user-screening/aml-cft-screening" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">AML/CFT Screening</h3></a>
-                        <a href="/features-and-components/user-screening/face-recognition-search" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Face Recognition Search</h3></a>
+                        <a href="{{ route('features.user-screening.digital-footprint-analysis') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Digital Footprint Analysis</h3></a>
+                        <a href="{{ route('features.user-screening.credit-score-bankruptcy') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Credit Score and Bankruptcy Checks</h3></a>
+                        <a href="{{ route('features.user-screening.aml-cft-screening') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">AML/CFT Screening</h3></a>
+                        <a href="{{ route('features.user-screening.face-recognition-search') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Face Recognition Search</h3></a>
                     </div>
                     <div x-show="tab === 'additional'" class="space-y-3" style="display: none;">
                         <p class="text-base-content/70 mb-4">For any specialised verification needs.</p>
-                        <a href="/features-and-components/additional-verification/income-and-address-proofing" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Income and Address Proofing</h3></a>
-                        <a href="/features-and-components/additional-verification/device-binding-and-intelligence" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Device Binding and Intelligence</h3></a>
-                        <a href="/features-and-components/additional-verification/digital-signatures" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Digital Signatures</h3></a>
-                        <a href="/features-and-components/additional-verification/deepfake-and-injection-attack-detection" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Deepfake and Injection Attack Detection</h3></a>
+                        <a href="{{ route('features.additional-verification.income-address-proofing') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Income and Address Proofing</h3></a>
+                        <a href="{{ route('features.additional-verification.device-binding-intelligence') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Device Binding and Intelligence</h3></a>
+                        <a href="{{ route('features.additional-verification.digital-signatures') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Digital Signatures</h3></a>
+                        <a href="{{ route('features.additional-verification.deepfake-detection') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Deepfake and Injection Attack Detection</h3></a>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,6 @@
     </section>
 
     {{-- Recent Posts --}}
-    @php $recentPosts = \App\Models\Post::published()->latest('published_at')->take(3)->get(); @endphp
     @if($recentPosts->isNotEmpty())
     <section class="py-20">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -136,22 +135,11 @@
                     <h2 class="text-3xl sm:text-5xl font-semibold tracking-tight mb-2">Insights from the Lab</h2>
                     <p class="text-lg text-base-content/70">Recent posts</p>
                 </div>
-                <a href="/resources/knowledge-hub" class="btn btn-outline btn-sm">View All</a>
+                <a href="{{ route('resources.knowledge-hub.index') }}" class="btn btn-outline btn-sm">View All</a>
             </div>
             <div class="grid md:grid-cols-3 gap-6">
                 @foreach($recentPosts as $post)
-                    <a href="/resources/knowledge-hub/{{ $post->slug }}" class="card bg-base-200 hover:shadow-md transition">
-                        @if($post->featured_image)
-                            <figure><img src="{{ $post->featured_image }}" alt="{{ $post->title }}" class="w-full h-48 object-cover"></figure>
-                        @endif
-                        <div class="card-body">
-                            <h3 class="card-title text-base line-clamp-2">{{ $post->title }}</h3>
-                            @if($post->excerpt)
-                                <p class="text-sm text-base-content/70 line-clamp-3">{{ $post->excerpt }}</p>
-                            @endif
-                            <p class="text-xs text-base-content/50 mt-2">{{ $post->published_at->format('M d, Y') }}</p>
-                        </div>
-                    </a>
+                    <x-post-card :post="$post" />
                 @endforeach
             </div>
         </div>
@@ -164,8 +152,8 @@
             <h2 class="text-2xl sm:text-3xl font-semibold mb-4">Don't Know Where to Start?</h2>
             <p class="text-base-content/70 mb-8">Our team of experts is ready to help with any questions. Or take your time exploring our products — we're here when you need us.</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/contact" class="btn btn-primary">Talk to an Expert</a>
-                <a href="/features-and-components" class="btn btn-outline">Learn Product Info &rarr;</a>
+                <a href="{{ route('contact') }}" class="btn btn-primary">Talk to an Expert</a>
+                <a href="{{ route('features.index') }}" class="btn btn-outline">Learn Product Info &rarr;</a>
             </div>
         </div>
     </section>

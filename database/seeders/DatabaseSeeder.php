@@ -15,6 +15,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        User::factory()->admin()->create([
+            'name' => 'Admin',
+            'email' => 'admin@cothink.ing',
+        ]);
+
         $this->call(WpPostSeeder::class);
     }
 }

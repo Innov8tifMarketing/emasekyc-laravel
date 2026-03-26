@@ -29,7 +29,10 @@ class PostForm
                     ->multiple()
                     ->preload()
                     ->createOptionForm([
-                        TextInput::make('name')->required(),
+                        TextInput::make('name')
+                            ->required()
+                            ->live(onBlur: true)
+                            ->afterStateUpdated(fn ($state, callable $set) => $set('slug', Str::slug($state))),
                         TextInput::make('slug')->required(),
                     ]),
                 Textarea::make('excerpt')
@@ -37,10 +40,16 @@ class PostForm
                     ->columnSpanFull(),
                 RichEditor::make('body')
                     ->required()
+                    ->fileAttachmentsDisk('public')
+                    ->fileAttachmentsDirectory('images/blog/attachments')
+                    ->fileAttachmentsVisibility('public')
                     ->columnSpanFull(),
                 FileUpload::make('featured_image')
                     ->image()
-                    ->directory('images/blog'),
+                    ->disk('public')
+                    ->directory('images/blog')
+                    ->visibility('public')
+                    ->maxSize(2048),
                 DateTimePicker::make('published_at'),
             ]);
     }

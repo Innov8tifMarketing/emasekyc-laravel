@@ -20,7 +20,7 @@ class ContactFormMail extends Mailable
     {
         return new Envelope(
             subject: 'EMAS eKYC Contact: ' . $this->data['inquiry_type'],
-            replyTo: [$this->data['email']],
+            replyTo: [$this->data['work_email']],
         );
     }
 

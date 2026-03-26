@@ -12,14 +12,13 @@
     <link rel="apple-touch-icon" href="/images/android-chrome-512x512-1-300x300.png">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-    @foreach(\App\Models\SiteScript::active()->forLocation('head')->get() as $script)
+    @foreach($siteScripts->get('head', collect()) as $script)
         {!! $script->content !!}
     @endforeach
 </head>
 <body class="bg-base-100 text-base-content antialiased min-h-screen flex flex-col">
-    @foreach(\App\Models\SiteScript::active()->forLocation('body_start')->get() as $script)
+    @foreach($siteScripts->get('body_start', collect()) as $script)
         {!! $script->content !!}
     @endforeach
 
@@ -33,7 +32,7 @@
 
     <x-footer />
 
-    @foreach(\App\Models\SiteScript::active()->forLocation('body_end')->get() as $script)
+    @foreach($siteScripts->get('body_end', collect()) as $script)
         {!! $script->content !!}
     @endforeach
 </body>

@@ -27,7 +27,7 @@ class SiteScriptForm
                 Textarea::make('content')
                     ->required()
                     ->rows(10)
-                    ->helperText('Paste the full script tag(s) here')
+                    ->helperText('Paste the full script tag(s) here. Warning: content is rendered unescaped on every page — only use trusted code (e.g. analytics snippets).')
                     ->columnSpanFull(),
                 Toggle::make('is_active')
                     ->default(true),
