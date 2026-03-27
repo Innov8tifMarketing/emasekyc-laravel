@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="{{ $description ?? 'EMAS eKYC is an all-in-one solution for seamless user onboarding experience by MyNasional eKYC.' }}">
 
     <title>{{ $title ?? 'EMAS eKYC' }}</title>
+
+    @if(isset($ogTitle))
+    <meta property="og:title" content="{{ $ogTitle }}">
+    <meta property="og:description" content="{{ $ogDescription ?? $description ?? '' }}">
+    <meta property="og:type" content="article">
+    @if(isset($ogImage))
+    <meta property="og:image" content="{{ $ogImage }}">
+    @endif
+    @endif
 
     <link rel="icon" href="/images/android-chrome-512x512-1-150x150.png" sizes="32x32">
     <link rel="icon" href="/images/android-chrome-512x512-1-300x300.png" sizes="192x192">

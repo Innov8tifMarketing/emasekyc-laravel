@@ -11,7 +11,7 @@
                 Helping businesses improve compliance and security, reduce fraud and churn rate.
             </p>
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="{{ route('features.index') }}" class="btn btn-primary">Our Components</a>
+                <a href="{{ route('wiki.index') }}" class="btn btn-primary">Our Components</a>
                 <a href="{{ route('contact') }}" class="btn btn-outline">Get Started</a>
             </div>
         </div>
@@ -78,25 +78,25 @@
                 <div class="flex-1">
                     <div x-show="tab === 'identity'" class="space-y-3">
                         <p class="text-base-content/70 mb-4">Ensuring users are who they claim to be.</p>
-                        <a href="{{ route('features.identity-verification.facial-matching') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Facial Matching</h3></a>
-                        <a href="{{ route('features.identity-verification.remote-video-verification') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Remote and Video Verification</h3></a>
-                        <a href="{{ route('features.identity-verification.id-data-extraction') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">ID Data Extraction</h3></a>
-                        <a href="{{ route('features.identity-verification.id-verification') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">ID Verification</h3></a>
-                        <a href="{{ route('features.identity-verification.liveness-detection') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Liveness Detection</h3></a>
+                        <a href="{{ route('wiki.show', 'identity-verification/facial-matching') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Facial Matching</h3></a>
+                        <a href="{{ route('wiki.show', 'identity-verification/remote-video-verification') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Remote and Video Verification</h3></a>
+                        <a href="{{ route('wiki.show', 'identity-verification/id-data-extraction') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">ID Data Extraction</h3></a>
+                        <a href="{{ route('wiki.show', 'identity-verification/id-verification') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">ID Verification</h3></a>
+                        <a href="{{ route('wiki.show', 'identity-verification/liveness-detection') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Liveness Detection</h3></a>
                     </div>
                     <div x-show="tab === 'screening'" class="space-y-3" style="display: none;">
                         <p class="text-base-content/70 mb-4">Filter only relevant and qualified users.</p>
-                        <a href="{{ route('features.user-screening.digital-footprint-analysis') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Digital Footprint Analysis</h3></a>
-                        <a href="{{ route('features.user-screening.credit-score-bankruptcy') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Credit Score and Bankruptcy Checks</h3></a>
-                        <a href="{{ route('features.user-screening.aml-cft-screening') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">AML/CFT Screening</h3></a>
-                        <a href="{{ route('features.user-screening.face-recognition-search') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Face Recognition Search</h3></a>
+                        <a href="{{ route('wiki.show', 'user-screening/digital-footprint-analysis') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Digital Footprint Analysis</h3></a>
+                        <a href="{{ route('wiki.show', 'user-screening/credit-score-bankruptcy') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Credit Score and Bankruptcy Checks</h3></a>
+                        <a href="{{ route('wiki.show', 'user-screening/aml-cft-screening') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">AML/CFT Screening</h3></a>
+                        <a href="{{ route('wiki.show', 'user-screening/face-recognition-search') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Face Recognition Search</h3></a>
                     </div>
                     <div x-show="tab === 'additional'" class="space-y-3" style="display: none;">
                         <p class="text-base-content/70 mb-4">For any specialised verification needs.</p>
-                        <a href="{{ route('features.additional-verification.income-address-proofing') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Income and Address Proofing</h3></a>
-                        <a href="{{ route('features.additional-verification.device-binding-intelligence') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Device Binding and Intelligence</h3></a>
-                        <a href="{{ route('features.additional-verification.digital-signatures') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Digital Signatures</h3></a>
-                        <a href="{{ route('features.additional-verification.deepfake-detection') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Deepfake and Injection Attack Detection</h3></a>
+                        <a href="{{ route('wiki.show', 'additional-verification/income-address-proofing') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Income and Address Proofing</h3></a>
+                        <a href="{{ route('wiki.show', 'additional-verification/device-binding-intelligence') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Device Binding and Intelligence</h3></a>
+                        <a href="{{ route('wiki.show', 'additional-verification/digital-signatures') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Digital Signatures</h3></a>
+                        <a href="{{ route('wiki.show', 'additional-verification/deepfake-detection') }}" class="block card bg-base-100 p-4 hover:shadow-md transition"><h3 class="font-medium">Deepfake and Injection Attack Detection</h3></a>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@
             <p class="text-base-content/70 mb-8">Our team of experts is ready to help with any questions. Or take your time exploring our products — we're here when you need us.</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="{{ route('contact') }}" class="btn btn-primary">Talk to an Expert</a>
-                <a href="{{ route('features.index') }}" class="btn btn-outline">Learn Product Info &rarr;</a>
+                <a href="{{ route('wiki.index') }}" class="btn btn-outline">Learn Product Info &rarr;</a>
             </div>
         </div>
     </section>

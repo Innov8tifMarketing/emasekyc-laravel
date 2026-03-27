@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\WikiPageController;
 use Illuminate\Support\Facades\Route;
 
 // Homepage
@@ -15,34 +16,14 @@ Route::view('/careers', 'pages.careers')->name('careers');
 Route::view('/contact', 'pages.contact')->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->middleware('throttle:5,1')->name('contact.store');
 
-// Features & Components
-Route::prefix('features-and-components')->name('features.')->group(function () {
-    Route::view('/', 'pages.features.index')->name('index');
-
-    Route::prefix('identity-verification')->name('identity-verification.')->group(function () {
-        Route::view('/', 'pages.features.identity-verification.index')->name('index');
-        Route::view('/facial-matching', 'pages.features.identity-verification.facial-matching')->name('facial-matching');
-        Route::view('/remote-and-video-verification', 'pages.features.identity-verification.remote-video-verification')->name('remote-video-verification');
-        Route::view('/id-data-extraction', 'pages.features.identity-verification.id-data-extraction')->name('id-data-extraction');
-        Route::view('/id-verification', 'pages.features.identity-verification.id-verification')->name('id-verification');
-        Route::view('/liveness-detection', 'pages.features.identity-verification.liveness-detection')->name('liveness-detection');
-    });
-
-    Route::prefix('user-screening')->name('user-screening.')->group(function () {
-        Route::view('/', 'pages.features.user-screening.index')->name('index');
-        Route::view('/digital-footprint-analysis', 'pages.features.user-screening.digital-footprint-analysis')->name('digital-footprint-analysis');
-        Route::view('/credit-score-and-bankruptcy-checks', 'pages.features.user-screening.credit-score-bankruptcy')->name('credit-score-bankruptcy');
-        Route::view('/aml-cft-screening', 'pages.features.user-screening.aml-cft-screening')->name('aml-cft-screening');
-        Route::view('/face-recognition-search', 'pages.features.user-screening.face-recognition-search')->name('face-recognition-search');
-    });
-
-    Route::prefix('additional-verification')->name('additional-verification.')->group(function () {
-        Route::view('/', 'pages.features.additional-verification.index')->name('index');
-        Route::view('/income-and-address-proofing', 'pages.features.additional-verification.income-address-proofing')->name('income-address-proofing');
-        Route::view('/device-binding-and-intelligence', 'pages.features.additional-verification.device-binding-intelligence')->name('device-binding-intelligence');
-        Route::view('/digital-signatures', 'pages.features.additional-verification.digital-signatures')->name('digital-signatures');
-        Route::view('/deepfake-and-injection-attack-detection', 'pages.features.additional-verification.deepfake-detection')->name('deepfake-detection');
-    });
+// Features (wiki)
+Route::prefix('features')->name('wiki.')->group(function () {
+    Route::get('/', [WikiPageController::class, 'index'])->name('index');
+    Route::get('/search', [WikiPageController::class, 'search'])->name('search');
+    Route::post('/{wikiPage}/feedback', [WikiPageController::class, 'feedback'])
+        ->middleware('throttle:3,1')->name('feedback');
+    Route::get('/{path}', [WikiPageController::class, 'show'])
+        ->where('path', '.*')->name('show');
 });
 
 // Solutions

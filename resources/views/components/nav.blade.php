@@ -18,29 +18,29 @@
                             <div>
                                 <h3 class="font-semibold text-sm mb-2">Identity Verification</h3>
                                 <ul class="space-y-1">
-                                    <li><a href="{{ route('features.identity-verification.facial-matching') }}" class="text-sm hover:text-primary">Facial Matching</a></li>
-                                    <li><a href="{{ route('features.identity-verification.remote-video-verification') }}" class="text-sm hover:text-primary">Remote & Video Verification</a></li>
-                                    <li><a href="{{ route('features.identity-verification.id-data-extraction') }}" class="text-sm hover:text-primary">ID Data Extraction</a></li>
-                                    <li><a href="{{ route('features.identity-verification.id-verification') }}" class="text-sm hover:text-primary">ID Verification</a></li>
-                                    <li><a href="{{ route('features.identity-verification.liveness-detection') }}" class="text-sm hover:text-primary">Liveness Detection</a></li>
+                                    <li><a href="{{ route('wiki.show', 'identity-verification/facial-matching') }}" class="text-sm hover:text-primary">Facial Matching</a></li>
+                                    <li><a href="{{ route('wiki.show', 'identity-verification/remote-video-verification') }}" class="text-sm hover:text-primary">Remote & Video Verification</a></li>
+                                    <li><a href="{{ route('wiki.show', 'identity-verification/id-data-extraction') }}" class="text-sm hover:text-primary">ID Data Extraction</a></li>
+                                    <li><a href="{{ route('wiki.show', 'identity-verification/id-verification') }}" class="text-sm hover:text-primary">ID Verification</a></li>
+                                    <li><a href="{{ route('wiki.show', 'identity-verification/liveness-detection') }}" class="text-sm hover:text-primary">Liveness Detection</a></li>
                                 </ul>
                             </div>
                             <div>
                                 <h3 class="font-semibold text-sm mb-2">User Screening</h3>
                                 <ul class="space-y-1">
-                                    <li><a href="{{ route('features.user-screening.digital-footprint-analysis') }}" class="text-sm hover:text-primary">Digital Footprint Analysis</a></li>
-                                    <li><a href="{{ route('features.user-screening.credit-score-bankruptcy') }}" class="text-sm hover:text-primary">Credit Score & Bankruptcy</a></li>
-                                    <li><a href="{{ route('features.user-screening.aml-cft-screening') }}" class="text-sm hover:text-primary">AML/CFT Screening</a></li>
-                                    <li><a href="{{ route('features.user-screening.face-recognition-search') }}" class="text-sm hover:text-primary">Face Recognition Search</a></li>
+                                    <li><a href="{{ route('wiki.show', 'user-screening/digital-footprint-analysis') }}" class="text-sm hover:text-primary">Digital Footprint Analysis</a></li>
+                                    <li><a href="{{ route('wiki.show', 'user-screening/credit-score-bankruptcy') }}" class="text-sm hover:text-primary">Credit Score & Bankruptcy</a></li>
+                                    <li><a href="{{ route('wiki.show', 'user-screening/aml-cft-screening') }}" class="text-sm hover:text-primary">AML/CFT Screening</a></li>
+                                    <li><a href="{{ route('wiki.show', 'user-screening/face-recognition-search') }}" class="text-sm hover:text-primary">Face Recognition Search</a></li>
                                 </ul>
                             </div>
                             <div>
                                 <h3 class="font-semibold text-sm mb-2">Additional Verification</h3>
                                 <ul class="space-y-1">
-                                    <li><a href="{{ route('features.additional-verification.income-address-proofing') }}" class="text-sm hover:text-primary">Income & Address Proofing</a></li>
-                                    <li><a href="{{ route('features.additional-verification.device-binding-intelligence') }}" class="text-sm hover:text-primary">Device Binding & Intelligence</a></li>
-                                    <li><a href="{{ route('features.additional-verification.digital-signatures') }}" class="text-sm hover:text-primary">Digital Signatures</a></li>
-                                    <li><a href="{{ route('features.additional-verification.deepfake-detection') }}" class="text-sm hover:text-primary">Deepfake Detection</a></li>
+                                    <li><a href="{{ route('wiki.show', 'additional-verification/income-address-proofing') }}" class="text-sm hover:text-primary">Income & Address Proofing</a></li>
+                                    <li><a href="{{ route('wiki.show', 'additional-verification/device-binding-intelligence') }}" class="text-sm hover:text-primary">Device Binding & Intelligence</a></li>
+                                    <li><a href="{{ route('wiki.show', 'additional-verification/digital-signatures') }}" class="text-sm hover:text-primary">Digital Signatures</a></li>
+                                    <li><a href="{{ route('wiki.show', 'additional-verification/deepfake-detection') }}" class="text-sm hover:text-primary">Deepfake Detection</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -125,7 +125,7 @@
             </label>
             <nav class="mt-12 space-y-2">
                 <a href="{{ route('home') }}" class="block py-2 text-sm font-medium">Homepage</a>
-                <a href="{{ route('features.index') }}" class="block py-2 text-sm font-medium">Features & Components</a>
+                <a href="{{ route('wiki.index') }}" class="block py-2 text-sm font-medium">Features</a>
                 <a href="{{ route('solutions.index') }}" class="block py-2 text-sm font-medium">Solutions</a>
                 <a href="{{ route('resources.index') }}" class="block py-2 text-sm font-medium">Resources</a>
                 <a href="{{ route('about') }}" class="block py-2 text-sm font-medium">About Us</a>

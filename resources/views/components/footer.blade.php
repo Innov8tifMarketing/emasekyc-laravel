@@ -25,9 +25,9 @@
             <div>
                 <h3 class="font-semibold text-sm mb-3">Features & Components</h3>
                 <ul class="space-y-1.5 text-sm text-neutral-content/70">
-                    <li><a href="{{ route('features.identity-verification.index') }}" class="hover:text-neutral-content">Identity Verification</a></li>
-                    <li><a href="{{ route('features.user-screening.index') }}" class="hover:text-neutral-content">User Screening</a></li>
-                    <li><a href="{{ route('features.additional-verification.index') }}" class="hover:text-neutral-content">Additional Verification</a></li>
+                    <li><a href="{{ route('wiki.show', 'identity-verification') }}" class="hover:text-neutral-content">Identity Verification</a></li>
+                    <li><a href="{{ route('wiki.show', 'user-screening') }}" class="hover:text-neutral-content">User Screening</a></li>
+                    <li><a href="{{ route('wiki.show', 'additional-verification') }}" class="hover:text-neutral-content">Additional Verification</a></li>
                 </ul>
             </div>
 
