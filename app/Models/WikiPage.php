@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -10,15 +11,14 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Str;
 use Laravel\Scout\Searchable;
 
+#[Fillable([
+    'parent_id', 'title', 'slug', 'full_slug', 'excerpt', 'body', 'body_html',
+    'featured_image', 'icon_svg', 'meta_title', 'meta_description', 'og_image',
+    'status', 'published_at', 'sort_order', 'reading_time_minutes', 'last_edited_by',
+])]
 class WikiPage extends Model
 {
     use SoftDeletes, Searchable;
-
-    protected $fillable = [
-        'parent_id', 'title', 'slug', 'full_slug', 'excerpt', 'body', 'body_html',
-        'featured_image', 'icon_svg', 'meta_title', 'meta_description', 'og_image',
-        'status', 'published_at', 'sort_order', 'reading_time_minutes', 'last_edited_by',
-    ];
 
     protected static function booted(): void
     {

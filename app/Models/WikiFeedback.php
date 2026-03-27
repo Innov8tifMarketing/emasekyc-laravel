@@ -2,14 +2,14 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
+#[Fillable(['wiki_page_id', 'helpful', 'comment', 'ip_hash', 'created_at'])]
 class WikiFeedback extends Model
 {
     public $timestamps = false;
-
-    protected $fillable = ['wiki_page_id', 'helpful', 'comment', 'ip_hash', 'created_at'];
 
     protected function casts(): array
     {

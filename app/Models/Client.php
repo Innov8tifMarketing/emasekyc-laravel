@@ -2,12 +2,13 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
 
+#[Fillable(['name', 'website_url', 'logo', 'sort_order', 'is_active'])]
 class Client extends Model
 {
-    protected $fillable = ['name', 'website_url', 'logo', 'sort_order', 'is_active'];
 
     protected static function booted(): void
     {

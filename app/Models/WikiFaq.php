@@ -2,12 +2,13 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
+#[Fillable(['wiki_page_id', 'question', 'answer', 'sort_order'])]
 class WikiFaq extends Model
 {
-    protected $fillable = ['wiki_page_id', 'question', 'answer', 'sort_order'];
 
     protected function casts(): array
     {

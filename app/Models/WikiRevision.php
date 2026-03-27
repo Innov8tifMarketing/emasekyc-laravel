@@ -2,14 +2,14 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
+#[Fillable(['wiki_page_id', 'title', 'body', 'faqs', 'user_id', 'created_at'])]
 class WikiRevision extends Model
 {
     public $timestamps = false;
-
-    protected $fillable = ['wiki_page_id', 'title', 'body', 'faqs', 'user_id', 'created_at'];
 
     protected function casts(): array
     {

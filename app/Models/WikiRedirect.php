@@ -2,14 +2,14 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
+#[Fillable(['old_slug', 'wiki_page_id', 'created_at'])]
 class WikiRedirect extends Model
 {
     public $timestamps = false;
-
-    protected $fillable = ['old_slug', 'wiki_page_id', 'created_at'];
 
     protected function casts(): array
     {
