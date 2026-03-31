@@ -1,0 +1,8 @@
+filename: biometric-authentication-img-6.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0e2863f9-02f9-4eb5-907a-015a79a682fe/Untitled.png
+description: Biometric Authentication interface showing fingerprint/face auth options
+referenced_by:
+  - auth-authorization/device-risk-screening.md
+extracted: 2026-03-31

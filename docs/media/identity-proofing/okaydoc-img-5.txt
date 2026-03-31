@@ -1,0 +1,8 @@
+filename: okaydoc-img-5.webp
+original_filename: My_Video-3.webp (converted from GIF)
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/419e6641-87cd-4d9f-ba55-648852a9baa3/My_Video-3.webp (converted from GIF)
+description: Animated GIF demonstrating OkayDoc document authentication scanning process
+referenced_by:
+  - identity-proofing/document-authentication.md
+extracted: 2026-03-31

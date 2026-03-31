@@ -1,0 +1,8 @@
+filename: what-is-liveness-detection-for-facial-recognition-img-4.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa4de3aa-7629-4cba-9ed0-44f1fb7f8cb4/Untitled.png
+description: Liveness detection for facial recognition - limitations and challenges illustration
+referenced_by:
+  - (from Notion page: What Is Liveness Detection For Facial Recognition? )
+extracted: 2026-03-31

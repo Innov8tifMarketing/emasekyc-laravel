@@ -1,0 +1,8 @@
+filename: content-downloads-img-14.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ea2d635-0dbc-4dab-89e9-17d8204d093a/Untitled.png
+description: Content download thumbnail - solution brief
+referenced_by:
+  - (from Notion page: Content Downloads)
+extracted: 2026-03-31

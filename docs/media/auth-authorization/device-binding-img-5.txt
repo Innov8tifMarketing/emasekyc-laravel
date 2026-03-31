@@ -1,0 +1,8 @@
+filename: device-binding-img-5.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11310448-01dd-4221-84d9-63dca4e6af09/Untitled.png
+description: Device Binding security architecture diagram showing 4-layer protection
+referenced_by:
+  - auth-authorization/device-binding.md
+extracted: 2026-03-31

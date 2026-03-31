@@ -1,0 +1,9 @@
+filename: cida-architecture-diamond.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 3 / PDF page 3
+description: Diamond-shaped CIDA architecture diagram showing 3 pillars: Identity Proofing, Customer Due Diligence, Authentication & Authorization — with ASEAN map background
+referenced_by:
+  - cida-framework/overview.md
+  - concepts/what-is-emas-cida.md
+extracted: 2026-03-31

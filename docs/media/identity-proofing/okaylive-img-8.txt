@@ -1,0 +1,8 @@
+filename: okaylive-img-8.webp
+original_filename: My_Video-2.webp (converted from GIF)
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d61326cd-f2ff-4d48-bde9-44cd9b67bce8/My_Video-2.webp (converted from GIF)
+description: Animated GIF demonstrating OkayLive liveness detection - failed spoofing attempt
+referenced_by:
+  - identity-proofing/liveness-detection.md
+extracted: 2026-03-31

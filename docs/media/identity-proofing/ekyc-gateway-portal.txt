@@ -1,0 +1,8 @@
+filename: ekyc-gateway-portal.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 30 / PDF page 29
+description: eKYC Gateway portal with circular feature wheel and admin dashboard showing 7-step verification flow
+referenced_by:
+  - identity-proofing/ekyc-gateway.md
+extracted: 2026-03-31

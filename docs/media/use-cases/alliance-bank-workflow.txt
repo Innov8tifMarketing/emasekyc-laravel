@@ -1,0 +1,8 @@
+filename: alliance-bank-workflow.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 60 / PDF page ~56
+description: Alliance Bank branch banking circular workflow diagram showing mobile POS eKYC process
+referenced_by:
+  - use-cases/banking-branch.md
+extracted: 2026-03-31

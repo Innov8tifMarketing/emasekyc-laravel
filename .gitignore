@@ -27,3 +27,6 @@ Homestead.yaml
 Thumbs.db
 /.agent-shell/
 scratch.org
+docs/__pycache__/
+docs/_*.py
+docs/_*.json

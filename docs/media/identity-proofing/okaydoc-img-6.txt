@@ -1,0 +1,8 @@
+filename: okaydoc-img-6.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/271a204c-6d25-47b7-ab1a-23aa1c3555a2/Untitled.png
+description: OkayDoc authentication results showing pass/fail security checks
+referenced_by:
+  - identity-proofing/document-authentication.md
+extracted: 2026-03-31

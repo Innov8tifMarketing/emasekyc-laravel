@@ -1,0 +1,8 @@
+filename: liveness-detection-4phone-grid.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 16 / PDF page 15
+description: 2x2 grid of mobile phones showing OkayLive results: live person (pass), photo attack (fail), screen replay (fail), printed photo (fail)
+referenced_by:
+  - identity-proofing/liveness-detection.md
+extracted: 2026-03-31

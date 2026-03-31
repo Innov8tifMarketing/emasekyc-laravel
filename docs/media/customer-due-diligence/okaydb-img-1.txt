@@ -1,0 +1,8 @@
+filename: okaydb-img-1.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c7e7d34-afe5-4fc2-a46b-cc659e4e1adb/Untitled.png
+description: OkayDB screening dashboard showing AML/CFT and financial risk check results
+referenced_by:
+  - customer-due-diligence/aml-check.md
+extracted: 2026-03-31

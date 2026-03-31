@@ -1,0 +1,8 @@
+filename: cida-4-layer-architecture.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 8 / PDF page 7
+description: 4-layer stacked CIDA architecture: Portal Access Layer, Channel Layer, Features Layer, Data Layer — showing how components interconnect
+referenced_by:
+  - cida-framework/overview.md
+extracted: 2026-03-31

@@ -1,0 +1,8 @@
+filename: okayid-img-3.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6bac7232-73db-46f2-b4ed-13339b45a85f/Untitled.png
+description: OkayID extracted data results showing parsed fields from scanned ID document
+referenced_by:
+  - identity-proofing/id-data-extraction.md
+extracted: 2026-03-31

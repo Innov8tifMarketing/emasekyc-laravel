@@ -1,0 +1,8 @@
+filename: digital-footprint-analysis-img-6.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9c6b9bb8-d6ff-40e7-9c50-779677530d4e/Untitled.png
+description: Digital Footprint Analysis dashboard showing social media presence check results
+referenced_by:
+  - customer-due-diligence/digital-footprint-analysis.md
+extracted: 2026-03-31

@@ -1,0 +1,8 @@
+filename: facial-recognition-img-1.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fac18bd9-4151-4be0-b337-3d3d7a0433ba/Untitled.png
+description: Facial recognition technology overview illustration showing face scanning process
+referenced_by:
+  - (from Notion page: Facial Recognition)
+extracted: 2026-03-31

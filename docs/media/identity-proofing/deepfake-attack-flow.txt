@@ -1,0 +1,8 @@
+filename: deepfake-attack-flow.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 34 / PDF page 33
+description: Two-lane diagram comparing normal eKYC flow vs fraudster injection attack with deepfake generation
+referenced_by:
+  - identity-proofing/deepfake-detection.md
+extracted: 2026-03-31

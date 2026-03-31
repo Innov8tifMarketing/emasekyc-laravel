@@ -1,0 +1,8 @@
+filename: biometric-alert-list-img-19.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/067b8953-eabc-49af-b438-2c79e301f632/Untitled.png
+description: Biometric Alert List dashboard showing blacklist management interface
+referenced_by:
+  - customer-due-diligence/biometric-alert-list.md
+extracted: 2026-03-31

@@ -1,0 +1,8 @@
+filename: video-call-verification-img-2.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6510531-ca68-47dd-8622-a3631d43ccea/Untitled.png
+description: Video Call Verification interface showing agent and customer video session
+referenced_by:
+  - customer-due-diligence/video-call-verification.md
+extracted: 2026-03-31

@@ -1,0 +1,8 @@
+filename: device-risk-screening-img-3.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22de61f4-fe36-4712-b79d-b091bac37f06/Untitled.png
+description: Device Risk Screening device profile with risk indicators
+referenced_by:
+  - auth-authorization/device-risk-screening.md
+extracted: 2026-03-31

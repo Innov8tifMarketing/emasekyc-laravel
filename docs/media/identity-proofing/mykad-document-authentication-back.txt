@@ -1,0 +1,8 @@
+filename: mykad-document-authentication-back.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 20 / PDF page 13
+description: Malaysian MyKad back face with annotated security features and MRZ zone checks
+referenced_by:
+  - identity-proofing/document-authentication.md
+extracted: 2026-03-31

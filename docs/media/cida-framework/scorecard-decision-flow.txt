@@ -1,0 +1,8 @@
+filename: scorecard-decision-flow.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 55 / PDF page ~50
+description: Scorecard decision engine flow diagram with 3 risk outcomes: Clear (green), Cautious (yellow), Suspicious (red)
+referenced_by:
+  - cida-framework/scorecard.md
+extracted: 2026-03-31

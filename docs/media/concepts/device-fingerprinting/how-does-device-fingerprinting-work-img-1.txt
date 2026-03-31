@@ -1,0 +1,8 @@
+filename: how-does-device-fingerprinting-work-img-1.png
+original_filename: facial-recognition-7.png
+source: notion
+source_url: https://innov8tif.com/wp-content/uploads/2023/08/facial-recognition-7.png
+description: Diagram showing how device fingerprinting collects browser, OS, and hardware signals
+referenced_by:
+  - concepts/device-fingerprinting/how-does-it-work.md
+extracted: 2026-03-31

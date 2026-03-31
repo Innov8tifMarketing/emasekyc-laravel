@@ -1,0 +1,8 @@
+filename: okaylive-img-7.webp
+original_filename: My_Video-1.webp (converted from GIF)
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/181f931c-28ad-48a9-a671-1ec305fb1180/My_Video-1.webp (converted from GIF)
+description: Animated GIF demonstrating OkayLive liveness detection - successful live face verification
+referenced_by:
+  - identity-proofing/liveness-detection.md
+extracted: 2026-03-31

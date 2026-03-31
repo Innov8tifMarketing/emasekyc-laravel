@@ -1,0 +1,8 @@
+filename: digital-footprint-analysis-img-9.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be1d2d27-e8d4-4390-85bf-18761c872bd8/Untitled.png
+description: Digital Footprint Analysis configuration panel for platform selection
+referenced_by:
+  - customer-due-diligence/digital-footprint-analysis.md
+extracted: 2026-03-31

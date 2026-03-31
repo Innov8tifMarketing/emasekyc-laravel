@@ -1,0 +1,8 @@
+filename: great-eastern-insurance-workflow.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 63 / PDF page ~60
+description: Great Eastern insurance cross-country circular workflow diagram for policy application eKYC
+referenced_by:
+  - use-cases/insurance.md
+extracted: 2026-03-31

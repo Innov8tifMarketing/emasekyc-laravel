@@ -1,0 +1,8 @@
+filename: content-downloads-img-15.png
+original_filename: Wikipage_-_Contents_Download_section_(1).png
+source: notion
+source_url: https://prod-files-secure.s3.us-west-2.amazonaws.com/6e776735-38d2-49cc-aed7-77cc726c15a0/ac6314f8-b3aa-4458-8117-b95284ad5a99/Wikipage_-_Contents_Download_section_(1).png
+description: Content download thumbnail - product comparison guide
+referenced_by:
+  - (from Notion page: Content Downloads)
+extracted: 2026-03-31

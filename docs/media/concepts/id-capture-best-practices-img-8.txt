@@ -1,0 +1,8 @@
+filename: id-capture-best-practices-img-8.png
+original_filename: ID_Capture_best_practices.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2e05187-4285-4bef-89e1-c5a1658fc9d8/ID_Capture_best_practices.png
+description: ID capture best practices showing correct vs incorrect document positioning examples
+referenced_by:
+  - (from Notion page: ID Capture Best Practices)
+extracted: 2026-03-31

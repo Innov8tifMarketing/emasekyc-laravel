@@ -1,0 +1,8 @@
+filename: mykad-document-authentication-front.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 19 / PDF page 12
+description: Malaysian MyKad front face with ~15 annotated security feature check points used by OkayDoc
+referenced_by:
+  - identity-proofing/document-authentication.md
+extracted: 2026-03-31

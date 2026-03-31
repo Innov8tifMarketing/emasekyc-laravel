@@ -1,0 +1,8 @@
+filename: digital-footprint-analysis-img-7.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94e8c50f-8d16-453c-b1c5-26b27ee30de0/Untitled.png
+description: Digital Footprint Analysis detailed report with platform-level findings
+referenced_by:
+  - customer-due-diligence/digital-footprint-analysis.md
+extracted: 2026-03-31

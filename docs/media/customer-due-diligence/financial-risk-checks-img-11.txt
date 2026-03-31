@@ -1,0 +1,8 @@
+filename: financial-risk-checks-img-11.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b14ce487-76cc-4fb4-a603-37c046f9c4e6/Untitled.png
+description: Financial Risk Checks detailed report with risk indicators
+referenced_by:
+  - customer-due-diligence/credit-scoring.md
+extracted: 2026-03-31

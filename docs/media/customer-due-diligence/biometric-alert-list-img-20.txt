@@ -1,0 +1,8 @@
+filename: biometric-alert-list-img-20.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94821485-eb22-48c4-adef-9411df49f77f/Untitled.png
+description: Biometric Alert List duplicate detection results
+referenced_by:
+  - customer-due-diligence/biometric-alert-list.md
+extracted: 2026-03-31

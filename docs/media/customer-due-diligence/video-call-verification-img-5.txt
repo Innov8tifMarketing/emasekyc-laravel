@@ -1,0 +1,8 @@
+filename: video-call-verification-img-5.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/73bab43d-f272-458e-b834-f3977df172f9/Untitled.png
+description: Video Call Verification session completion with verification status
+referenced_by:
+  - customer-due-diligence/video-call-verification.md
+extracted: 2026-03-31

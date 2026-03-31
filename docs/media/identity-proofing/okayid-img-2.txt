@@ -1,0 +1,8 @@
+filename: okayid-img-2.webp
+original_filename: VE_Project_1.webp (converted from GIF)
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6cecf1ef-9ab9-4e03-a8d6-d2ce6898f682/VE_Project_1.webp (converted from GIF)
+description: Animated GIF demonstrating OkayID OCR scanning process on a real ID document
+referenced_by:
+  - identity-proofing/id-data-extraction.md
+extracted: 2026-03-31

@@ -1,0 +1,8 @@
+filename: device-risk-screening-img-1.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/451d89db-bb03-421c-9a8b-431e825769d1/Untitled.png
+description: Device Risk Screening dashboard showing device fingerprint analysis
+referenced_by:
+  - auth-authorization/device-risk-screening.md
+extracted: 2026-03-31

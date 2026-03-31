@@ -1,0 +1,8 @@
+filename: accuracy-of-facial-recognition-technologies-from-different-c.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7e89aff-52d8-4d2b-9e02-d087699029c5/Untitled.png
+description: Accuracy of facial recognition technologies from different companies. Retrieved from: https://sitn.hms.harvard.edu/flash/2020/racial-discrimination-in-face-recognition-technology/
+referenced_by:
+  - (from Notion page: How Accurate Is Facial Recognition Technology?)
+extracted: 2026-03-31

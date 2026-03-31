@@ -1,0 +1,8 @@
+filename: video-call-verification-img-4.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87eb9215-2b8e-4338-bf77-21826561e964/Untitled.png
+description: Video Call Verification mobile client view during identity check
+referenced_by:
+  - customer-due-diligence/video-call-verification.md
+extracted: 2026-03-31

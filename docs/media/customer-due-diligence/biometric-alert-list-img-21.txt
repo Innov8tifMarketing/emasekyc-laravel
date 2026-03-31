@@ -1,0 +1,8 @@
+filename: biometric-alert-list-img-21.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/499e7aa4-8c93-4d48-945c-71b59286dce1/Untitled.png
+description: Biometric Alert List detailed match report with face comparison
+referenced_by:
+  - customer-due-diligence/biometric-alert-list.md
+extracted: 2026-03-31

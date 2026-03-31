@@ -1,0 +1,8 @@
+filename: income-address-proofing-img-14.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/606d768a-e6fe-4942-a3b3-155c70667833/Untitled.png
+description: Intellidoc document classification showing supported document types
+referenced_by:
+  - customer-due-diligence/income-address-proofing.md
+extracted: 2026-03-31

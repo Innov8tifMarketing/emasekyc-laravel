@@ -1,0 +1,8 @@
+filename: financial-risk-checks-img-10.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afa17175-2737-4aa1-8b5b-c829f0fcc2b9/Untitled.png
+description: Financial Risk Checks interface showing credit and AML screening results
+referenced_by:
+  - customer-due-diligence/credit-scoring.md
+extracted: 2026-03-31

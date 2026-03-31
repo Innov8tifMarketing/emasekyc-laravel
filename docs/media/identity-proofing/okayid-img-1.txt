@@ -1,0 +1,8 @@
+filename: okayid-img-1.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13f5a018-0ae5-4efe-98c7-e7c6d677fc69/Untitled.png
+description: OkayID interface screenshot showing ID document capture and OCR data extraction
+referenced_by:
+  - identity-proofing/id-data-extraction.md
+extracted: 2026-03-31

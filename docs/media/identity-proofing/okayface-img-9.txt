@@ -1,0 +1,8 @@
+filename: okayface-img-9.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bb09ae6-1361-442b-ab8e-23aaac4f5a43/Untitled.png
+description: OkayFace facial matching interface showing face comparison and match score
+referenced_by:
+  - identity-proofing/facial-matching.md
+extracted: 2026-03-31

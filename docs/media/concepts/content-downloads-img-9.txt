@@ -1,0 +1,8 @@
+filename: content-downloads-img-9.png
+original_filename: CleanShot_2024-07-22_at_14.23.032x.png
+source: notion
+source_url: https://prod-files-secure.s3.us-west-2.amazonaws.com/6e776735-38d2-49cc-aed7-77cc726c15a0/744f8f07-36c3-481a-baef-aba25341b54b/CleanShot_2024-07-22_at_14.23.032x.png
+description: Content download thumbnail - EMAS eKYC product brochure
+referenced_by:
+  - (from Notion page: Content Downloads)
+extracted: 2026-03-31

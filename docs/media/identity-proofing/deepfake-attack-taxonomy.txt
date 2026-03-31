@@ -1,0 +1,8 @@
+filename: deepfake-attack-taxonomy.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 35 / PDF page 34
+description: Full attack taxonomy: 3 columns showing injection attacks (3 types), presentation attacks (4 types), and OkayLive Plus detection approach
+referenced_by:
+  - identity-proofing/deepfake-detection.md
+extracted: 2026-03-31

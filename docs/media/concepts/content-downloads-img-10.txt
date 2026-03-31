@@ -1,0 +1,8 @@
+filename: content-downloads-img-10.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4dedac0-0dfd-4ba8-8e80-be1a9e0d34e0/Untitled.png
+description: Content download thumbnail - EMAS CIDA framework overview
+referenced_by:
+  - (from Notion page: Content Downloads)
+extracted: 2026-03-31

@@ -1,0 +1,8 @@
+filename: income-address-proofing-img-12.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e0667d1-ee32-4b9b-8f51-033df9e68c4e/Untitled.png
+description: Intellidoc income verification interface showing document upload
+referenced_by:
+  - customer-due-diligence/income-address-proofing.md
+extracted: 2026-03-31

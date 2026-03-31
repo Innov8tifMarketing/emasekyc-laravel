@@ -1,0 +1,8 @@
+filename: hip-portal-architecture.png
+original_filename: Extracted from PPTX
+source: pptx
+source_url: PPTX slide 24 / PDF page 23
+description: Host Integration Platform (HIP) portal architecture diagram showing integration points and deployment model
+referenced_by:
+  - identity-proofing/hip-portal.md
+extracted: 2026-03-31

@@ -1,0 +1,8 @@
+filename: okaydoc-img-4.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63b47db0-bf65-4a25-8493-c392841dc919/Untitled.png
+description: OkayDoc document authentication interface showing security feature analysis
+referenced_by:
+  - identity-proofing/document-authentication.md
+extracted: 2026-03-31

@@ -1,0 +1,8 @@
+filename: device-risk-screening-img-2.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/442a82df-0e00-40cf-8919-53f2efd19465/Untitled.png
+description: Device Risk Screening anomaly detection results
+referenced_by:
+  - auth-authorization/device-risk-screening.md
+extracted: 2026-03-31

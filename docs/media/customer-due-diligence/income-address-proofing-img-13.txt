@@ -1,0 +1,8 @@
+filename: income-address-proofing-img-13.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3de9b7ce-03da-4fdb-8be2-12681acc96a1/Untitled.png
+description: Intellidoc address proofing results with extracted data
+referenced_by:
+  - customer-due-diligence/income-address-proofing.md
+extracted: 2026-03-31

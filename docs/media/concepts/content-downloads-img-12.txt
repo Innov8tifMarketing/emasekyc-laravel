@@ -1,0 +1,8 @@
+filename: content-downloads-img-12.png
+original_filename: Untitled.png
+source: notion
+source_url: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/053dcf0f-4c5a-40dc-921a-be70d1fb04c5/Untitled.png
+description: Content download thumbnail - case study document
+referenced_by:
+  - (from Notion page: Content Downloads)
+extracted: 2026-03-31

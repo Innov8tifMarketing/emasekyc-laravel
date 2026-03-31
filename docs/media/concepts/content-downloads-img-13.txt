@@ -1,0 +1,8 @@
+filename: content-downloads-img-13.png
+original_filename: Wikipage_-_Contents_Download_section.png
+source: notion
+source_url: https://prod-files-secure.s3.us-west-2.amazonaws.com/6e776735-38d2-49cc-aed7-77cc726c15a0/d2fb42be-50e1-40cc-8d4a-9c4af4446358/Wikipage_-_Contents_Download_section.png
+description: Content download thumbnail - technical specification sheet
+referenced_by:
+  - (from Notion page: Content Downloads)
+extracted: 2026-03-31
