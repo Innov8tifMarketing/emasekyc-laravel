@@ -38,7 +38,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Security and Fraud Prevention</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Prevent account takeover by 90%+</strong> — block unauthorized access even with valid credentials</li>
                     <li><strong>Stop fraud before it happens</strong> — real-time device screening blocks known criminal devices</li>
                     <li><strong>Expose coordinated fraud networks</strong> — fingerprinting reveals multi-account device patterns</li>
@@ -49,7 +49,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Superior User Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Eliminate password fatigue</strong> — trusted devices enable one-tap biometric login</li>
                     <li><strong>Reduce login time by 80%</strong> — seamless authentication on bound devices</li>
                     <li><strong>Invisible to legitimate users</strong> — device screening operates silently</li>
@@ -60,7 +60,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Fully automated fraud prevention</strong> — real-time checks require zero manual intervention</li>
                     <li><strong>Eliminate manual review costs by 60-80%</strong> — automated device-based decisions</li>
                     <li><strong>Instant risk decisions in milliseconds</strong> — device lookups complete in under 100ms</li>
@@ -69,7 +69,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Compliance and Risk Management</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Meet strong authentication requirements</strong> — satisfy regulatory MFA mandates</li>
                     <li><strong>Complete audit trails</strong> — document device verification decisions</li>
                     <li><strong>Risk-based authentication</strong> — apply appropriate security based on device trust</li>

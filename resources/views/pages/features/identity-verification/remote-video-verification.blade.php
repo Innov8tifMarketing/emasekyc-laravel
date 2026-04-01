@@ -35,7 +35,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Revenue Recovery</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Convert failed verifications to approvals</strong> — recover revenue from legitimate customers rejected by automated systems</li>
                     <li><strong>Reduce application abandonment</strong> — offer a human alternative instead of forcing retries</li>
                     <li><strong>Capture premium customer segment</strong> — enable high-value accounts requiring rigorous verification</li>
@@ -43,7 +43,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Enhanced Fraud Prevention</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Detect sophisticated fraud</strong> — human agents identify inconsistencies and social engineering</li>
                     <li><strong>Assess risk holistically</strong> — combine document verification with behavioral assessment</li>
                     <li><strong>Prevent high-value fraud</strong> — stop account takeover on significant transactions</li>
@@ -51,7 +51,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Operate without physical branches</strong> — eliminate branch network costs</li>
                     <li><strong>Leverage existing staff</strong> — customer service reps can conduct video verification</li>
                     <li><strong>Lower costs than branches</strong> — reduce operational costs by 40-70%</li>
@@ -59,7 +59,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Regulatory Compliance</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Meet human oversight mandates</strong> — satisfy regulations requiring human involvement</li>
                     <li><strong>Documented audit trails</strong> — recorded sessions provide proof of verification</li>
                     <li><strong>Adapt to varying risk levels</strong> — apply verification intensity based on requirements</li>

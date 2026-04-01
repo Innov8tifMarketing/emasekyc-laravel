@@ -39,7 +39,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Fraud Prevention</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>90% reduction in duplicate account fraud</strong> — detect multi-account creation under different names</li>
                     <li><strong>Identify fraud network connections</strong> — link seemingly unrelated accounts</li>
                     <li><strong>Prevent ban evasion</strong> — stop banned users from returning under new identities</li>
@@ -48,7 +48,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Instant searches across millions of records</strong> — query the entire database in seconds</li>
                     <li><strong>Eliminate manual photo comparison</strong> — AI-powered matching replaces human inspection</li>
                     <li><strong>Automated duplicate detection</strong> — real-time searches during onboarding</li>
@@ -57,7 +57,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Enhanced Security</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>99.5% facial recognition accuracy</strong> — industry-leading precision</li>
                     <li><strong>Biometric certainty</strong> — facial features cannot be changed like names or phone numbers</li>
                     <li><strong>Network analysis</strong> — map connections between fraudulent accounts</li>
@@ -66,7 +66,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Improved Customer Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Instant account recovery</strong> — help customers who forgot credentials or changed names</li>
                     <li><strong>Seamless identity verification</strong> — verify across name changes and account updates</li>
                     <li><strong>Unified customer view</strong> — connect all accounts and interactions per individual</li>

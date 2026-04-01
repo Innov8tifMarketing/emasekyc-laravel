@@ -38,7 +38,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Regulatory Compliance</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Automated KYC/AML compliance</strong> — meet requirements across ASEAN and international markets</li>
                     <li><strong>Complete audit trails</strong> — document every screening decision with timestamps</li>
                     <li><strong>Multi-jurisdiction coverage</strong> — screen against local and international databases</li>
@@ -47,7 +47,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Risk Mitigation</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Block sanctioned entities automatically</strong> — prevent relationships with watchlisted individuals</li>
                     <li><strong>Identify PEPs for enhanced due diligence</strong> — apply appropriate monitoring</li>
                     <li><strong>Detect terrorist financing links</strong> — screen against global databases</li>
@@ -56,7 +56,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>95% faster screening</strong> — complete AML checks in seconds instead of hours</li>
                     <li><strong>Eliminate manual research</strong> — automated queries across 40+ databases</li>
                     <li><strong>Scalable compliance</strong> — screen thousands daily without additional staff</li>
@@ -65,7 +65,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Reputational Protection</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Prevent criminal association</strong> — avoid relationships with money launderers</li>
                     <li><strong>Demonstrate compliance commitment</strong> — show robust screening processes</li>
                     <li><strong>Protect brand integrity</strong> — prevent news coverage of compliance failures</li>

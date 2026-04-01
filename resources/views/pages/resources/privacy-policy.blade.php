@@ -7,7 +7,7 @@
                 <x-breadcrumb :items="['Resources' => '/resources', 'Privacy Policy' => '']" />
 
                 <h1 class="text-3xl font-semibold tracking-tight mb-2">Privacy Policy</h1>
-                <p class="text-sm text-base-content/60 mb-8">Last Updated: 13 Oct 2025</p>
+                <p class="text-sm text-muted-foreground mb-8">Last Updated: 13 Oct 2025</p>
 
                 <div class="prose max-w-none">
 
@@ -88,7 +88,7 @@
 
                     <p>In the event of any inconsistency between the English version and the Bahasa Malaysia version of this notice, the English version shall prevail over the Bahasa Malaysia version.</p>
 
-                    <div class="divider"></div>
+                    <div class="border-t border-border my-2"></div>
 
                     <h2>Bahasa Malaysia's Version &mdash; Dasar Privasi</h2>
 

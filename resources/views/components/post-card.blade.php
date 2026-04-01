@@ -1,19 +1,19 @@
 @props(['post'])
 
-<a href="{{ route('resources.knowledge-hub.show', $post) }}" class="card bg-base-200 hover:shadow-md transition">
+<a href="{{ route('resources.knowledge-hub.show', $post) }}" aria-label="{{ $post->title }}" class="rounded-xl border border-border bg-muted hover:shadow-md transition hover-lift">
     @if($post->featured_image)
-        <figure><img src="{{ $post->featured_image }}" alt="{{ $post->title }}" class="w-full h-48 object-cover"></figure>
+        <figure><img src="{{ $post->featured_image }}" alt="{{ $post->title }}" loading="lazy" class="w-full h-48 object-cover rounded-t-xl"></figure>
     @endif
-    <div class="card-body p-5">
-        <time class="text-xs text-base-content/50">{{ $post->published_at->format('M d, Y') }}</time>
-        <h3 class="card-title text-base line-clamp-2">{{ $post->title }}</h3>
+    <div class="p-5 flex flex-col gap-2">
+        <time class="text-xs text-muted-foreground">{{ $post->published_at->format('M d, Y') }}</time>
+        <h3 class="font-semibold leading-none tracking-tight text-base line-clamp-2">{{ $post->title }}</h3>
         @if($post->excerpt)
-            <p class="text-sm text-base-content/70 line-clamp-3">{{ $post->excerpt }}</p>
+            <p class="text-sm text-muted-foreground line-clamp-3">{{ $post->excerpt }}</p>
         @endif
         @if($post->tags->isNotEmpty())
             <div class="flex flex-wrap gap-1 mt-2">
                 @foreach($post->tags->take(3) as $tag)
-                    <span class="badge badge-sm badge-soft">{{ $tag->name }}</span>
+                    <span class="inline-flex items-center rounded-full px-2 py-0 text-[10px] font-medium bg-accent text-accent-foreground">{{ $tag->name }}</span>
                 @endforeach
             </div>
         @endif

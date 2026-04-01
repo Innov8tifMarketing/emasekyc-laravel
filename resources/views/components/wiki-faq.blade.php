@@ -6,9 +6,9 @@
 
     <div class="space-y-2">
         @foreach($faqs as $faq)
-            <details class="collapse collapse-arrow bg-base-200">
-                <summary class="collapse-title font-medium">{{ $faq->question }}</summary>
-                <div class="collapse-content">
+            <details class="rounded-lg bg-muted">
+                <summary class="px-4 py-3 font-medium cursor-pointer list-none">{{ $faq->question }}</summary>
+                <div class="px-4 pb-4">
                     <p>{{ $faq->answer }}</p>
                 </div>
             </details>

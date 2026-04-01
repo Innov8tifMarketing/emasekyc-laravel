@@ -39,7 +39,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>95% faster document processing</strong> — reduce verification from days to seconds</li>
                     <li><strong>Eliminate manual data entry</strong> — auto-populate fields, reducing errors by 87%</li>
                     <li><strong>Scale without staffing</strong> — process unlimited documents without hiring verification teams</li>
@@ -49,7 +49,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Fraud Prevention and Security</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Detect sophisticated forgeries</strong> — AI identifies photoshopped documents and digital alterations</li>
                     <li><strong>Watermark verification</strong> — confirm authentic security features</li>
                     <li><strong>Cross-reference extracted data</strong> — validate against external databases</li>
@@ -59,7 +59,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Regulatory Compliance</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Meet customer due diligence requirements</strong> — satisfy regulatory obligations</li>
                     <li><strong>Complete audit trails</strong> — store verified documents and extraction results</li>
                     <li><strong>Standardized verification process</strong> — eliminate subjective decision-making</li>
@@ -68,7 +68,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Customer Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Mobile-first convenience</strong> — submit documents by photographing with smartphones</li>
                     <li><strong>Instant feedback</strong> — real-time image quality checks ensure successful submission</li>
                     <li><strong>Reduced friction</strong> — streamlined process keeps conversion rates high</li>

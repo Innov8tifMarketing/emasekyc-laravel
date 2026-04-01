@@ -3,12 +3,12 @@
     <section class="py-16 sm:py-24">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight mb-6">Join Our Team</h1>
-            <p class="text-lg text-base-content/70 max-w-3xl mx-auto">Help us build the future of identity verification in Southeast Asia. We're always looking for talented individuals to join MyNasional eKYC.</p>
+            <p class="text-lg text-muted-foreground max-w-3xl mx-auto">Help us build the future of identity verification in Southeast Asia. We're always looking for talented individuals to join MyNasional eKYC.</p>
         </div>
     </section>
 
     {{-- Why Work With Us --}}
-    <section class="py-16 bg-base-200">
+    <section class="py-16 bg-muted">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-2xl font-semibold tracking-tight text-center mb-10">Why Work With Us</h2>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -20,10 +20,10 @@
                     'Flexible Working' => 'We support flexible and remote work arrangements to help you do your best work.',
                     'Competitive Benefits' => 'Competitive compensation, health benefits, and other perks to support your wellbeing.',
                 ] as $title => $desc)
-                    <div class="card bg-base-100 shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title text-base">{{ $title }}</h3>
-                            <p class="text-sm text-base-content/70">{{ $desc }}</p>
+                    <div class="rounded-xl border border-border bg-background shadow-sm">
+                        <div class="p-6 flex flex-col gap-2">
+                            <h3 class="font-semibold leading-none tracking-tight text-base">{{ $title }}</h3>
+                            <p class="text-sm text-muted-foreground">{{ $desc }}</p>
                         </div>
                     </div>
                 @endforeach
@@ -37,18 +37,18 @@
             <h2 class="text-2xl font-semibold tracking-tight text-center mb-10">Our Offices</h2>
             <div class="flex flex-wrap justify-center gap-3">
                 @foreach(['Malaysia (HQ)', 'Singapore', 'Indonesia', 'Cambodia', 'Philippines'] as $office)
-                    <span class="badge badge-lg badge-outline">{{ $office }}</span>
+                    <span class="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium border border-border text-foreground">{{ $office }}</span>
                 @endforeach
             </div>
         </div>
     </section>
 
     {{-- CTA --}}
-    <section class="py-16 bg-base-200">
+    <section class="py-16 bg-muted">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-2xl font-semibold tracking-tight mb-4">Interested in joining us?</h2>
-            <p class="text-base-content/70 mb-8">We'd love to hear from you. Send us your resume and tell us how you'd like to contribute.</p>
-            <a href="/contact" class="btn btn-primary btn-lg">Get In Touch</a>
+            <p class="text-muted-foreground mb-8">We'd love to hear from you. Send us your resume and tell us how you'd like to contribute.</p>
+            <a href="/contact" class="inline-flex items-center justify-center gap-2 rounded-lg h-12 px-6 text-base font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Get In Touch</a>
         </div>
     </section>
 </x-layout>

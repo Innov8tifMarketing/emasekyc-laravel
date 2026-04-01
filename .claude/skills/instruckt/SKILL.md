@@ -1,10 +1,12 @@
 ---
 name: instruckt
 description: "Visual feedback from users via in-browser annotations. Activates when the user pastes UI feedback markdown starting with '# UI Feedback', when annotations or visual feedback are mentioned, or when you need to check for pending UI feedback via MCP."
+
 license: MIT
 metadata:
   author: joshcirre
 ---
+
 # Instruckt — Visual Feedback for AI Agents
 
 Instruckt lets users annotate elements directly in the browser. The user pastes structured markdown into the chat — everything you need is in the paste.
@@ -22,9 +24,11 @@ When the user pastes UI feedback:
 When the user pastes text like this, treat it as instruckt annotations:
 
 ```
+
 # UI Feedback: /dashboard
 
 ## 1. Change the heading text
+
 - ID: `01JWXYZ123ABC`
 - Element: `h1.text-xl` in `pages::dashboard`
 - Source: `app/Livewire/Pages/Dashboard.php:1`

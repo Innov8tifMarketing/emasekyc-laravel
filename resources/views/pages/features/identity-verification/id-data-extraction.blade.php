@@ -35,7 +35,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>95% faster data entry</strong> — reduce capture from 5-10 minutes to under 30 seconds</li>
                     <li><strong>Eliminate data entry positions</strong> — remove the need for dedicated staff</li>
                     <li><strong>24/7 automated onboarding</strong> — enable registration around the clock</li>
@@ -44,7 +44,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Superior Accuracy</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>High extraction accuracy</strong> — exceed human data entry accuracy rates</li>
                     <li><strong>Automatic field validation</strong> — ensure data formats match requirements</li>
                     <li><strong>Multi-language support</strong> — accurately recognize Thai, Khmer, Roman characters, and numbers</li>
@@ -53,7 +53,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Enhanced Customer Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Instant data capture</strong> — complete applications in minutes</li>
                     <li><strong>Mobile-first convenience</strong> — register anywhere using smartphone cameras</li>
                     <li><strong>Higher completion rates</strong> — reduce abandonment by 40-60%</li>
@@ -62,7 +62,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Compliance and Security</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Meet KYC requirements</strong> — automatically capture all required data points</li>
                     <li><strong>Create audit trails</strong> — document what was captured and when</li>
                     <li><strong>Support multiple document types</strong> — passports, national IDs, driver's licenses</li>

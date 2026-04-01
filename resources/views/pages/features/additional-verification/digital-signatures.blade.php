@@ -36,7 +36,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Speed and Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Instant agreement execution</strong> — complete signings in minutes rather than days or weeks</li>
                     <li><strong>Eliminate postal delays</strong> — remove multi-day mail cycles from workflows</li>
                     <li><strong>Same-day deal closing</strong> — fund loans, activate policies, and start services immediately</li>
@@ -46,7 +46,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Enhanced Security and Compliance</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Cryptographic signature integrity</strong> — detect any document alterations after signing</li>
                     <li><strong>Identity-linked signatures</strong> — tied to verified identities from EMAS eKYC</li>
                     <li><strong>Complete audit trails</strong> — timestamp every action with IP and device information</li>
@@ -57,7 +57,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Cost Reduction</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Eliminate printing and paper costs</strong> — save on paper, ink, and equipment</li>
                     <li><strong>Remove postal expenses</strong> — eliminate courier fees and postage</li>
                     <li><strong>Reduce physical storage needs</strong> — replace filing cabinets with digital archives</li>
@@ -67,7 +67,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Customer Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Sign from anywhere</strong> — complete agreements from home, office, or mobile</li>
                     <li><strong>Mobile-optimized experience</strong> — review and sign easily on smartphones</li>
                     <li><strong>Immediate gratification</strong> — activate services and receive confirmations instantly</li>

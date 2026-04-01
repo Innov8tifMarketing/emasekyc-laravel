@@ -46,7 +46,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Next-Generation Fraud Prevention</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Detect AI-generated faces and deepfakes</strong> — identify synthetic media that fools traditional systems</li>
                     <li><strong>Block injection attacks</strong> — prevent fake video streams fed directly into the system</li>
                     <li><strong>Stop sophisticated, organized fraud</strong> — defend against well-funded criminals</li>
@@ -57,7 +57,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Future-Proof Security Infrastructure</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Continuously updated AI models</strong> — detection evolves with new fraud techniques</li>
                     <li><strong>Advanced threat intelligence</strong> — benefit from global fraud pattern analysis</li>
                     <li><strong>Protection against unknown threats</strong> — anomaly detection for novel attacks</li>
@@ -67,7 +67,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Regulatory Compliance and Risk Management</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Meet enhanced due diligence requirements</strong> — satisfy expectations for high-risk customers</li>
                     <li><strong>Demonstrate security leadership</strong> — show regulators cutting-edge anti-fraud measures</li>
                     <li><strong>Reduce liability exposure</strong> — protect against inadequate security claims</li>
@@ -77,7 +77,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Operational and Reputational Benefits</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Protect brand reputation</strong> — prevent high-profile fraud incidents</li>
                     <li><strong>Maintain market position</strong> — avoid security breaches that drive customers away</li>
                     <li><strong>Selective deployment</strong> — apply advanced detection where risk is highest</li>

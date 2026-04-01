@@ -38,7 +38,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Risk Mitigation</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>75% reduction in default rates</strong> — identify customers unable to repay before extending credit</li>
                     <li><strong>Prevent bad debt write-offs</strong> — avoid extending credit to bankrupt individuals</li>
                     <li><strong>Data-driven credit decisions</strong> — replace subjective judgment with objective assessment</li>
@@ -47,7 +47,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>95% faster credit decisions</strong> — complete checks in seconds instead of days</li>
                     <li><strong>Automated approval workflows</strong> — eliminate manual credit assessment</li>
                     <li><strong>Single integration point</strong> — access multiple regional credit bureaus through one API</li>
@@ -56,7 +56,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Revenue Optimization</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Risk-based pricing</strong> — charge appropriate rates based on credit profiles</li>
                     <li><strong>Optimized credit limits</strong> — maximize revenue from low-risk, minimize exposure to high-risk</li>
                     <li><strong>Reduced collection costs</strong> — fewer defaults mean less spent on debt recovery</li>
@@ -65,7 +65,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Customer Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Instant approval decisions</strong> — immediate feedback instead of multi-day waits</li>
                     <li><strong>Fair and consistent treatment</strong> — objective criteria for every applicant</li>
                     <li><strong>Transparent processing</strong> — credit checks happen seamlessly without friction</li>

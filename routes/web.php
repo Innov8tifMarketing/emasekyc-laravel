@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\WikiPageController;
 use Illuminate\Support\Facades\Route;
@@ -11,10 +12,15 @@ Route::view('/', 'pages.home')->name('home');
 // Company
 Route::view('/about', 'pages.about')->name('about');
 Route::view('/careers', 'pages.careers')->name('careers');
+Route::view('/why-us', 'pages.why-us')->name('why-us');
 
 // Contact
 Route::view('/contact', 'pages.contact')->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->middleware('throttle:5,1')->name('contact.store');
+Route::post('/contact/quick', [ContactController::class, 'quickStore'])->middleware('throttle:3,1')->name('contact.quick');
+
+// Newsletter
+Route::post('/newsletter/subscribe', [NewsletterController::class, 'store'])->middleware('throttle:3,1')->name('newsletter.subscribe');
 
 // Features (wiki)
 Route::prefix('features')->name('wiki.')->group(function () {
@@ -31,6 +37,7 @@ Route::prefix('solutions')->name('solutions.')->group(function () {
     Route::view('/', 'pages.solutions.index')->name('index');
     Route::view('/ekyc-for-developers', 'pages.solutions.developers')->name('developers');
     Route::view('/ekyc-for-sme-corporations', 'pages.solutions.sme-corporations')->name('sme-corporations');
+    Route::view('/emas-cida', 'pages.solutions.emas-cida')->name('emas-cida');
 
     // Country Solutions
     Route::prefix('landing-pages')->name('landing.')->group(function () {

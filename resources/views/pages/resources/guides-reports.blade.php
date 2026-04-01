@@ -7,7 +7,7 @@
                 <x-breadcrumb :items="['Resources' => route('resources.index'), 'Guides & Reports' => '']" />
 
                 <h1 class="text-3xl font-semibold tracking-tight mb-2">Guides & Reports</h1>
-                <p class="text-sm text-base-content/60 mb-8">Whitepapers, industry reports, and implementation guides</p>
+                <p class="text-sm text-muted-foreground mb-8">Whitepapers, industry reports, and implementation guides</p>
 
                 <div class="prose prose-lg max-w-none mb-12">
                     <p>Download our latest whitepapers, fraud reports, and industry guides to stay ahead of the curve in identity verification and digital compliance.</p>
@@ -15,61 +15,61 @@
 
                 <div class="grid md:grid-cols-2 gap-6">
                     {{-- Fraud Report --}}
-                    <div class="card bg-base-200 shadow-sm">
-                        <div class="card-body">
-                            <div class="badge badge-secondary mb-2">Report</div>
-                            <h3 class="card-title text-base">2024 Fraud Report</h3>
-                            <p class="text-sm text-base-content/70">Key Trends and Insights of Identity Fraud Activities in ASEAN. Discover the latest fraud patterns and how to combat them.</p>
-                            <div class="card-actions justify-end mt-4">
-                                <a href="{{ route('solutions.landing.fraud-report') }}" class="btn btn-primary btn-sm">Learn More</a>
+                    <div class="rounded-xl border border-border bg-muted shadow-sm">
+                        <div class="p-6 flex flex-col gap-2">
+                            <div class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-secondary text-secondary-foreground mb-2">Report</div>
+                            <h3 class="font-semibold leading-none tracking-tight text-base">2024 Fraud Report</h3>
+                            <p class="text-sm text-muted-foreground">Key Trends and Insights of Identity Fraud Activities in ASEAN. Discover the latest fraud patterns and how to combat them.</p>
+                            <div class="flex items-center justify-end mt-4">
+                                <a href="{{ route('solutions.landing.fraud-report') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
                             </div>
                         </div>
                     </div>
 
                     {{-- Government Whitepaper --}}
-                    <div class="card bg-base-200 shadow-sm">
-                        <div class="card-body">
-                            <div class="badge badge-secondary mb-2">Whitepaper</div>
-                            <h3 class="card-title text-base">Secure Digital Identity for Government Services</h3>
-                            <p class="text-sm text-base-content/70">How advanced eKYC solutions are transforming government services in Malaysia, protecting citizens from identity theft and fraud.</p>
-                            <div class="card-actions justify-end mt-4">
-                                <a href="{{ route('solutions.landing.government-malaysia') }}" class="btn btn-primary btn-sm">Learn More</a>
+                    <div class="rounded-xl border border-border bg-muted shadow-sm">
+                        <div class="p-6 flex flex-col gap-2">
+                            <div class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-secondary text-secondary-foreground mb-2">Whitepaper</div>
+                            <h3 class="font-semibold leading-none tracking-tight text-base">Secure Digital Identity for Government Services</h3>
+                            <p class="text-sm text-muted-foreground">How advanced eKYC solutions are transforming government services in Malaysia, protecting citizens from identity theft and fraud.</p>
+                            <div class="flex items-center justify-end mt-4">
+                                <a href="{{ route('solutions.landing.government-malaysia') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
                             </div>
                         </div>
                     </div>
 
                     {{-- Philippines Telco --}}
-                    <div class="card bg-base-200 shadow-sm">
-                        <div class="card-body">
-                            <div class="badge badge-secondary mb-2">Whitepaper</div>
-                            <h3 class="card-title text-base">Philippines Telco Whitepaper</h3>
-                            <p class="text-sm text-base-content/70">How ID verification services can help Philippine telcos authenticate users and comply with SIM registration regulations.</p>
-                            <div class="card-actions justify-end mt-4">
-                                <a href="{{ route('solutions.landing.philippines-telco') }}" class="btn btn-primary btn-sm">Learn More</a>
+                    <div class="rounded-xl border border-border bg-muted shadow-sm">
+                        <div class="p-6 flex flex-col gap-2">
+                            <div class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-secondary text-secondary-foreground mb-2">Whitepaper</div>
+                            <h3 class="font-semibold leading-none tracking-tight text-base">Philippines Telco Whitepaper</h3>
+                            <p class="text-sm text-muted-foreground">How ID verification services can help Philippine telcos authenticate users and comply with SIM registration regulations.</p>
+                            <div class="flex items-center justify-end mt-4">
+                                <a href="{{ route('solutions.landing.philippines-telco') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
                             </div>
                         </div>
                     </div>
 
                     {{-- Hospitality --}}
-                    <div class="card bg-base-200 shadow-sm">
-                        <div class="card-body">
-                            <div class="badge badge-secondary mb-2">Use Case</div>
-                            <h3 class="card-title text-base">ID Assurance for Hospitality</h3>
-                            <p class="text-sm text-base-content/70">Seamless registration solutions for the travel, tourism, and F&B industries using identity verification.</p>
-                            <div class="card-actions justify-end mt-4">
-                                <a href="{{ route('solutions.landing.hospitality') }}" class="btn btn-primary btn-sm">Learn More</a>
+                    <div class="rounded-xl border border-border bg-muted shadow-sm">
+                        <div class="p-6 flex flex-col gap-2">
+                            <div class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-secondary text-secondary-foreground mb-2">Use Case</div>
+                            <h3 class="font-semibold leading-none tracking-tight text-base">ID Assurance for Hospitality</h3>
+                            <p class="text-sm text-muted-foreground">Seamless registration solutions for the travel, tourism, and F&B industries using identity verification.</p>
+                            <div class="flex items-center justify-end mt-4">
+                                <a href="{{ route('solutions.landing.hospitality') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 {{-- CTA --}}
-                <div class="card bg-base-200 shadow-sm mt-12">
-                    <div class="card-body text-center">
-                        <h3 class="card-title justify-center">Need a Custom Report?</h3>
-                        <p class="text-sm text-base-content/70">Contact us for industry-specific reports and implementation guides tailored to your needs.</p>
-                        <div class="card-actions justify-center mt-4">
-                            <a href="{{ route('contact') }}" class="btn btn-primary btn-sm">Contact Us</a>
+                <div class="rounded-xl border border-border bg-muted shadow-sm mt-12">
+                    <div class="p-6 flex flex-col gap-2 text-center">
+                        <h3 class="font-semibold leading-none tracking-tight justify-center">Need a Custom Report?</h3>
+                        <p class="text-sm text-muted-foreground">Contact us for industry-specific reports and implementation guides tailored to your needs.</p>
+                        <div class="flex items-center justify-center mt-4">
+                            <a href="{{ route('contact') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Contact Us</a>
                         </div>
                     </div>
                 </div>

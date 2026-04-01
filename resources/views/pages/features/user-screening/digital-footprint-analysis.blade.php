@@ -35,7 +35,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Fraud Prevention</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>85% reduction in synthetic identity fraud</strong> — detect fake identities that pass traditional checks</li>
                     <li><strong>Block mass fake account creation</strong> — identify coordinated fraud using disposable credentials</li>
                     <li><strong>Prevent bonus abuse</strong> — stop fraudsters from exploiting promotional offers</li>
@@ -44,7 +44,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Cost Savings</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>60% lower customer acquisition costs</strong> — stop wasting budget on fake accounts</li>
                     <li><strong>Automated risk scoring</strong> — eliminate manual review of suspicious accounts</li>
                     <li><strong>Targeted communications</strong> — send updates only to users with active footprints</li>
@@ -53,7 +53,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Improved Accuracy</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Multi-dimensional risk assessment</strong> — combine digital footprint with other signals</li>
                     <li><strong>Contextual evaluation</strong> — supporting evidence, not sole deciding factor</li>
                     <li><strong>Lower false positive rates</strong> — better distinguish genuine users from synthetic identities</li>
@@ -62,7 +62,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Enhanced Customer Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Invisible screening</strong> — check digital presence without adding friction</li>
                     <li><strong>Faster approvals for established users</strong> — streamline onboarding for strong footprints</li>
                     <li><strong>Fair treatment</strong> — avoid penalizing legitimate users with limited online presence</li>

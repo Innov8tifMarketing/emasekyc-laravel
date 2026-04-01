@@ -1,0 +1,20 @@
+{
+    "agents": [
+        "claude_code"
+    ],
+    "guidelines": true,
+    "mcp": true,
+    "nightwatch_mcp": false,
+    "packages": [
+        "filament/filament",
+        "filament/blueprint",
+        "joshcirre/instruckt-laravel"
+    ],
+    "sail": false,
+    "skills": [
+        "laravel-best-practices",
+        "scout-development",
+        "tailwindcss-development",
+        "instruckt"
+    ]
+}

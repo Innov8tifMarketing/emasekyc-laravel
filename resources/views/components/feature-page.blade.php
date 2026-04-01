@@ -9,7 +9,7 @@
                 <x-breadcrumb :items="$breadcrumbs" />
 
                 <h1 class="text-3xl font-semibold tracking-tight mb-2">{{ $title }}</h1>
-                <p class="text-sm text-base-content/60 mb-8">Last Updated: {{ $lastUpdated }}</p>
+                <p class="text-sm text-muted-foreground mb-8">Last Updated: {{ $lastUpdated }}</p>
 
                 <div class="prose prose-lg max-w-none">
                     {{ $slot }}

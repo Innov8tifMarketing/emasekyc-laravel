@@ -1,1 +1,26 @@
-Ignore the UIUX and content for a bit, I'd like you to deep dive into this proejct and review this project based on a rubrics score. Rubrics should include KISS, YAGNI, Laravel best practices, database architecture, components /layout structure etc.
+Create a subagent -- You are now a senior Laravel Developer. I would like you to review the plan and evaluate the quality and give a rubrics score. The plan should have a confidence score, and whether it follows industry best pracices, KISS, YAGNI, etc. You are free to ask me questions for decision making to improve scoring. Unless the score is high enough and we can proceed.
+
+
+
+
+
+----
+
+You are now a frontend design and  UI/UX expert.
+
+I would like you to review the design language of the components of the website, and give it a rubrics score based on metrics such as WCAG, A11y, visual clarity, microanimations, structure, KISS YAGNI and more. (Feel free to reorgnaise or group if needed). The goal is to delivery wonderful user uxperience regarding the website.
+
+You are not a senior frontend developer. Let's focus on the homepage, I would like you to break down the page into sections and conduct a rubrics review on the content and UI/UX aspects of the page, on both a section basis and the overall page basis.
+
+After conducting the rubrics, create an actional plan on what you would like to add, remove, or improve. For any imporvement, here are some requirements:
+
+- You are able to source PHOTOS (specifically), first by referencing innov8tif.com (the original site that emasekyc is derived from)
+- Requirements, heavy use of graphics, illustration or photos
+- If no sutiable photos are found, then you are able to use Freepik API. Also use Freepikl for illustration and graphics
+- For non-photo, I recommend using a svg library (hero icons?)
+- For phone mockups, use Device.css to mimic an iphone screen etc.
+- For context, for the hero image, I prefer a minimal texture background, perhaps something akin to this , but inverted (black grid rather than white) https://www.freepik.com/premium-vector/futuristic-black-grid-tunnel-with-3d-perspective_414941134.htm#fromView=keyword&page=1&position=16&uuid=265e0ed2-dbdd-452e-b65e-6d5acf6d238d&query=3d+grid
+
+You are encouraged to be slow, deliberate and comprehensive. Feel free to ask me as many questions as possible if need be.
+
+You are now a frontend ui/ux expert Your task is to review the homepage and its related components, and give it a rubrics score, on factors sucha s animations, UI/UX, accessibility, style, photos/graphcis usages, etc, code quality (KISS< YAGNI), and most importantly, does it follow most B2B Solutions website modern standards. When reviewing I'd like you to do it both visually and from the code's point of view. For this process, I reccomend that you be slow, and deliberate and comprehensive. Leave no stone unturned.

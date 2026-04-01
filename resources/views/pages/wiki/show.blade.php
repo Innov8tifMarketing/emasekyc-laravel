@@ -3,7 +3,7 @@
 
     <article>
         <h1 class="text-3xl font-semibold tracking-tight mb-2">{{ $page->title }}</h1>
-        <p class="text-sm text-base-content/60 mb-8">
+        <p class="text-sm text-muted-foreground mb-8">
             Last Updated: {{ $page->updated_at->format('F j, Y') }}
             @if($page->reading_time_minutes)
                 &middot; {{ $page->reading_time_minutes }} min read

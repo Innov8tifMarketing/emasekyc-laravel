@@ -1,12 +1,12 @@
 <x-layout title="BNPL Use Case Document — EMAS eKYC">
     {{-- Hero --}}
-    <section class="bg-primary text-primary-content py-16 sm:py-24">
+    <section class="bg-primary text-primary-foreground py-16 sm:py-24">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight mb-4">BNPL Use Case Document</h1>
-            <p class="text-lg text-primary-content/80 max-w-2xl mx-auto mb-8">Discover how eKYC identity verification strengthens Buy Now, Pay Later platforms with fraud prevention and compliance across ASEAN.</p>
+            <p class="text-lg text-primary-foreground/80 max-w-2xl mx-auto mb-8">Discover how eKYC identity verification strengthens Buy Now, Pay Later platforms with fraud prevention and compliance across ASEAN.</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/contact" class="btn btn-secondary">Download Document</a>
-                <a href="/solutions" class="btn btn-ghost border-primary-content/30">View Solutions</a>
+                <a href="/contact" class="inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors bg-secondary text-secondary-foreground hover:bg-secondary/80 cursor-pointer">Download Document</a>
+                <a href="/solutions" class="inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground border-primary-foreground/30 cursor-pointer">View Solutions</a>
             </div>
         </div>
     </section>
@@ -23,7 +23,7 @@
     </section>
 
     {{-- Key Topics --}}
-    <section class="py-16 bg-base-200">
+    <section class="py-16 bg-muted">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-2xl font-semibold tracking-tight text-center mb-10">What's Covered</h2>
             <div class="grid md:grid-cols-2 gap-4">
@@ -35,7 +35,7 @@
                     'Regulatory compliance across ASEAN markets',
                     'Case studies and implementation examples',
                 ] as $topic)
-                    <div class="flex gap-3 items-start p-4 bg-base-100 rounded-box">
+                    <div class="flex gap-3 items-start p-4 bg-background rounded-xl">
                         <svg class="w-5 h-5 text-success shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                         <p class="text-sm">{{ $topic }}</p>
                     </div>
@@ -48,8 +48,8 @@
     <section class="py-16">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-2xl font-semibold tracking-tight mb-4">Get the Full Document</h2>
-            <p class="text-base-content/70 mb-8">Contact us to receive the complete BNPL Use Case Document and learn how EMAS eKYC can help your platform.</p>
-            <a href="/contact" class="btn btn-primary btn-lg">Contact Us</a>
+            <p class="text-muted-foreground mb-8">Contact us to receive the complete BNPL Use Case Document and learn how EMAS eKYC can help your platform.</p>
+            <a href="/contact" class="inline-flex items-center justify-center gap-2 rounded-lg h-12 px-6 text-base font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Contact Us</a>
         </div>
     </section>
 </x-layout>

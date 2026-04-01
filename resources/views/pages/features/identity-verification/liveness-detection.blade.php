@@ -32,7 +32,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Superior User Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Passive detection requires zero user actions</strong> — no head tilting, blinking, or movements</li>
                     <li><strong>Higher completion rates</strong> — eliminate abandonment from confusing active checks</li>
                     <li><strong>Accessibility for all users</strong> — elderly users and people with disabilities verify easily</li>
@@ -42,7 +42,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Comprehensive Fraud Prevention</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Detects printed photo attacks</strong> — identifies print artifacts and paper texture</li>
                     <li><strong>Blocks digital screen spoofing</strong> — recognizes moire patterns and pixel characteristics</li>
                     <li><strong>Prevents video replay attacks</strong> — identifies pre-recorded videos</li>
@@ -52,7 +52,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Fully automated detection</strong> — zero manual review required</li>
                     <li><strong>Instant results</strong> — real-time processing enables immediate decisions</li>
                     <li><strong>Detailed error feedback</strong> — specific messages guide users to acceptable selfies</li>
@@ -62,7 +62,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Regulatory Compliance</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Meet KYC liveness requirements</strong> — satisfy regulatory mandates for presence verification</li>
                     <li><strong>Documented verification decisions</strong> — complete audit trail with timestamps</li>
                     <li><strong>Consistent application</strong> — every verification follows identical standards</li>

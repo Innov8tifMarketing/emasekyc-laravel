@@ -35,7 +35,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Fraud Prevention and Security</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Detect sophisticated forgeries</strong> — approximately 20 security checks exceeding human inspection</li>
                     <li><strong>Stop presentation attacks</strong> — detect photographed documents, screen displays, and printed copies</li>
                     <li><strong>Prevent document tampering</strong> — identify altered or modified documents</li>
@@ -44,7 +44,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Instant verification</strong> — authenticate documents in 2-5 seconds</li>
                     <li><strong>24/7 automation</strong> — verify around the clock without human staff</li>
                     <li><strong>Eliminate verification teams</strong> — reduce labor costs by 80-90%</li>
@@ -53,7 +53,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Regulatory Compliance</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Meet KYC/AML requirements</strong> — satisfy regulatory obligations across ASEAN</li>
                     <li><strong>Comprehensive audit trail</strong> — detailed reports for regulatory inspections</li>
                     <li><strong>Support regional documents</strong> — verify IDs from Thailand, Malaysia, Singapore, Indonesia, Philippines, Vietnam, Cambodia, and Laos</li>
@@ -62,7 +62,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Customer Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Instant decisions</strong> — immediate onboarding approval for legitimate customers</li>
                     <li><strong>Seamless mobile experience</strong> — verify documents from smartphone cameras</li>
                     <li><strong>Higher conversion rates</strong> — reduce abandonment from lengthy verification</li>

@@ -38,7 +38,7 @@
         <div class="grid sm:grid-cols-2 gap-6 my-6">
             <div>
                 <h3 class="font-semibold mb-2">Operational Efficiency</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Real-time verification under 1 second</strong> — eliminate multi-day waiting periods</li>
                     <li><strong>Zero manual review required</strong> — automated AI-powered decisions</li>
                     <li><strong>Process unlimited verifications</strong> — scale instantly during peak demand</li>
@@ -47,7 +47,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Enhanced Security</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>99.50% accuracy</strong> — industry-leading precision using AI algorithms</li>
                     <li><strong>0.000001 false match rate</strong> — extremely low false positives</li>
                     <li><strong>Detect stolen identity fraud</strong> — prevent criminals from using genuine documents</li>
@@ -56,7 +56,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Regulatory Compliance</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Meet KYC/AML requirements</strong> — satisfy verification obligations across ASEAN</li>
                     <li><strong>Complete audit trail</strong> — automated documentation with confidence scores</li>
                     <li><strong>Consistent application</strong> — eliminate human bias in every verification</li>
@@ -65,7 +65,7 @@
             </div>
             <div>
                 <h3 class="font-semibold mb-2">Superior Customer Experience</h3>
-                <ul class="list-disc list-inside text-sm space-y-1 text-base-content/80">
+                <ul class="list-disc list-inside text-sm space-y-1 text-muted-foreground">
                     <li><strong>Instant results</strong> — immediate verification feedback</li>
                     <li><strong>Mobile-first design</strong> — seamless smartphone experience</li>
                     <li><strong>Higher conversion rates</strong> — reduce application abandonment</li>
