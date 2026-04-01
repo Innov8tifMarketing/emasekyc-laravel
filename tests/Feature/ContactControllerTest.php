@@ -2,8 +2,12 @@
 
 namespace Tests\Feature;
 
+use App\Events\LeadCaptured;
 use App\Mail\ContactFormMail;
+use App\Models\LandingPage;
+use App\Models\Lead;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Mail;
 use Tests\TestCase;
 
@@ -91,5 +95,52 @@ class ContactControllerTest extends TestCase
         $response = $this->post(route('contact.store'), $this->validData());
 
         $response->assertStatus(429);
+    }
+
+    public function test_contact_form_creates_lead_and_dispatches_event(): void
+    {
+        Mail::fake();
+        Event::fake();
+
+        $this->post(route('contact.store'), $this->validData());
+
+        $this->assertDatabaseHas('leads', [
+            'email' => 'john@example.com',
+            'first_name' => 'John',
+            'last_name' => 'Doe',
+            'original_source' => 'contact_form',
+        ]);
+
+        Event::assertDispatched(LeadCaptured::class);
+    }
+
+    public function test_duplicate_email_merges_across_contact_and_landing_page(): void
+    {
+        Mail::fake();
+        Event::fake();
+
+        $page = LandingPage::factory()->published()->withForm()->create();
+
+        // First: landing page form
+        $this->postJson("/solutions/landing-pages/{$page->slug}/submit", [
+            'first_name' => 'Jane',
+            'email' => 'jane@example.com',
+            'company' => 'Acme',
+        ]);
+
+        // Second: contact form with same email
+        $this->post(route('contact.store'), $this->validData([
+            'first_name' => 'Jane',
+            'last_name' => 'Smith',
+            'work_email' => 'jane@example.com',
+        ]));
+
+        $this->assertDatabaseCount('leads', 1);
+
+        $lead = Lead::where('email', 'jane@example.com')->first();
+        $this->assertEquals('landing_page', $lead->original_source);
+        $this->assertEquals('Smith', $lead->last_name);
+        $this->assertEquals('Acme Corp', $lead->company);
+        $this->assertCount(2, $lead->activities);
     }
 }
