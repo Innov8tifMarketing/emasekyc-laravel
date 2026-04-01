@@ -39,4 +39,13 @@ return [
         'recipients' => array_filter(explode(',', env('LEAD_NOTIFICATION_RECIPIENTS', 'sales@innov8tif.com,marketing@innov8tif.com'))),
     ],
 
+    'zoho' => [
+        'enabled' => env('ZOHO_CRM_ENABLED', false),
+        'client_id' => env('ZOHO_CLIENT_ID'),
+        'client_secret' => env('ZOHO_CLIENT_SECRET'),
+        'refresh_token' => env('ZOHO_REFRESH_TOKEN'),
+        'api_url' => env('ZOHO_API_URL', 'https://www.zohoapis.com'),
+        'accounts_url' => env('ZOHO_ACCOUNTS_URL', 'https://accounts.zoho.com'),
+    ],
+
 ];
