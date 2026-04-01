@@ -101,15 +101,23 @@ class LandingPageSeeder extends Seeder
                         ],
                     ],
                     [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
+                        ],
+                    ],
+                    [
                         'type' => 'feature_grid',
                         'data' => [
-                            'heading' => 'How It Works',
+                            'heading' => 'Why EMAS eKYC for Malaysia',
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'Capture ID Document', 'description' => 'Users snap a photo of their MyKad or passport using their device camera.'],
-                                ['title' => 'Facial Biometric Verification', 'description' => 'AI-powered facial matching with liveness detection to prevent spoofing.'],
-                                ['title' => 'Instant Verification', 'description' => 'Real-time results with NRIC checks against government databases.'],
+                                ['title' => 'NRIC Checks', 'description' => 'Millions of ID Verification Checks Completed. Real-time validation against government databases.'],
+                                ['title' => 'Regulatory Compliance', 'description' => 'Implemented for Businesses Regulated by Bank Negara Malaysia, Securities Commission and MCMC.'],
+                                ['title' => 'Fast Verification', 'description' => 'Can Be Completed in LESS THAN 1 Minute! Seamless customer onboarding experience.'],
                             ],
                         ],
                     ],
@@ -136,9 +144,9 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements.'],
+                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements. API platform available at ekycondemand.com.'],
                             ],
                         ],
                     ],
@@ -148,6 +156,39 @@ class LandingPageSeeder extends Seeder
                             'heading' => 'Documents That We Verify',
                             'content' => '<p class="text-center">Tested and compliant to Malaysian standards including NRIC checks.</p><p class="text-center">MyKad (NRIC), Passport, Driving License, MyTentera, MyPR, MyKAS</p>',
                             'has_background' => true,
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Singapore', 'url' => '/solutions/landing-pages/ekyc-singapore'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-philippines'],
+                                ['label' => 'Vietnam', 'url' => '/solutions/landing-pages/ekyc-vietnam'],
+                                ['label' => 'Myanmar', 'url' => '/solutions/landing-pages/ekyc-myanmar'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-indonesia'],
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-cambodia'],
+                                ['label' => 'Brunei', 'url' => '/solutions/landing-pages/ekyc-brunei'],
+                                ['label' => 'Hong Kong', 'url' => '/solutions/landing-pages/ekyc-hong-kong'],
+                                ['label' => 'Kenya', 'url' => '/solutions/landing-pages/ekyc-kenya'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'feature_grid',
+                        'data' => [
+                            'heading' => 'Trusted By Leading Malaysian Companies',
+                            'columns' => 2,
+                            'style' => 'cards',
+                            'items' => [
+                                ['title' => 'UOB Mighty', 'description' => 'One of Malaysia\'s leading banks. The implementation of EMAS eKYC during the sign-up process can be completed in just 2 minutes.'],
+                                ['title' => 'Tune Talk', 'description' => 'A mobile virtual network operator in Malaysia. With EMAS eKYC, end-users can now register a new phone number anywhere and anytime.'],
+                                ['title' => 'Astro', 'description' => 'Malaysia\'s leading media and entertainment company. EMAS eKYC eases their customer billing verification process.'],
+                                ['title' => 'Maxis', 'description' => 'A leading communications service provider in Malaysia. Using EMAS eKYC to onboard customers faster and seamlessly.'],
+                                ['title' => 'IOUpay', 'description' => 'A Buy Now Pay Later service. Through EMAS eKYC, IOUpay\'s digital channels are protected against fraudsters.'],
+                                ['title' => 'Celcom', 'description' => 'A major telecommunications company. EMAS eKYC ensures faster and more secure user registration for Celcom services.'],
+                            ],
                         ],
                     ],
                     [
@@ -182,6 +223,14 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -234,9 +283,37 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Local office in Singapore with regional support across Southeast Asia.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'In-house AI technology optimised for ASEAN identity documents and diverse facial features.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Singapore\'s data residency requirements.'],
+                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Local office in Singapore with regional support across Southeast Asia. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'In-house AI technology optimised for ASEAN identity documents and diverse facial features, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Singapore\'s data residency requirements. API platform available at ekycondemand.com.'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Malaysia', 'url' => '/solutions/landing-pages/ekyc-malaysia'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-philippines'],
+                                ['label' => 'Vietnam', 'url' => '/solutions/landing-pages/ekyc-vietnam'],
+                                ['label' => 'Myanmar', 'url' => '/solutions/landing-pages/ekyc-myanmar'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-indonesia'],
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-cambodia'],
+                                ['label' => 'Brunei', 'url' => '/solutions/landing-pages/ekyc-brunei'],
+                                ['label' => 'Hong Kong', 'url' => '/solutions/landing-pages/ekyc-hong-kong'],
+                                ['label' => 'Kenya', 'url' => '/solutions/landing-pages/ekyc-kenya'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'feature_grid',
+                        'data' => [
+                            'heading' => 'Our Clients in Singapore',
+                            'columns' => 2,
+                            'style' => 'cards',
+                            'items' => [
+                                ['title' => 'Fundaztic SG', 'description' => 'A financing platform licensed by MAS. Using EMAS eKYC for secure remote customer onboarding.'],
                             ],
                         ],
                     ],
@@ -272,6 +349,14 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -316,9 +401,37 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Local office in Makati City with dedicated support for Philippine clients.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'AI technology trained on Philippine identity documents for high accuracy verification.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options to meet your compliance needs.'],
+                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Local office in Makati City with dedicated support for Philippine clients. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'AI technology trained on Philippine identity documents for high accuracy verification, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options to meet your compliance needs. API platform available at ekycondemand.com.'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Malaysia', 'url' => '/solutions/landing-pages/ekyc-malaysia'],
+                                ['label' => 'Singapore', 'url' => '/solutions/landing-pages/ekyc-singapore'],
+                                ['label' => 'Vietnam', 'url' => '/solutions/landing-pages/ekyc-vietnam'],
+                                ['label' => 'Myanmar', 'url' => '/solutions/landing-pages/ekyc-myanmar'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-indonesia'],
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-cambodia'],
+                                ['label' => 'Brunei', 'url' => '/solutions/landing-pages/ekyc-brunei'],
+                                ['label' => 'Hong Kong', 'url' => '/solutions/landing-pages/ekyc-hong-kong'],
+                                ['label' => 'Kenya', 'url' => '/solutions/landing-pages/ekyc-kenya'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'feature_grid',
+                        'data' => [
+                            'heading' => 'Our Clients in the Philippines',
+                            'columns' => 2,
+                            'style' => 'cards',
+                            'items' => [
+                                ['title' => '4Gives', 'description' => 'A leading BNPL provider in the Philippines. Using EMAS eKYC for identity verification during customer registration.'],
                             ],
                         ],
                     ],
@@ -354,6 +467,14 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -398,9 +519,9 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional presence with support teams familiar with Vietnamese regulatory requirements.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for Vietnamese identity documents including the new chip-based CCCD.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Vietnam\'s data localisation requirements.'],
+                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional presence with support teams familiar with Vietnamese regulatory requirements. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for Vietnamese identity documents including the new chip-based CCCD, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Vietnam\'s data localisation requirements. API platform available at ekycondemand.com.'],
                             ],
                         ],
                     ],
@@ -410,6 +531,23 @@ class LandingPageSeeder extends Seeder
                             'heading' => 'Industry Reports, Brochures & Whitepapers',
                             'content' => '<p class="text-center">Download our latest resources on eKYC implementation in Vietnam.</p>',
                             'has_background' => false,
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Malaysia', 'url' => '/solutions/landing-pages/ekyc-malaysia'],
+                                ['label' => 'Singapore', 'url' => '/solutions/landing-pages/ekyc-singapore'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-philippines'],
+                                ['label' => 'Myanmar', 'url' => '/solutions/landing-pages/ekyc-myanmar'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-indonesia'],
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-cambodia'],
+                                ['label' => 'Brunei', 'url' => '/solutions/landing-pages/ekyc-brunei'],
+                                ['label' => 'Hong Kong', 'url' => '/solutions/landing-pages/ekyc-hong-kong'],
+                                ['label' => 'Kenya', 'url' => '/solutions/landing-pages/ekyc-kenya'],
+                            ],
                         ],
                     ],
                     [
@@ -444,6 +582,14 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -490,9 +636,26 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional support teams with understanding of Myanmar\'s identity document landscape.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'AI technology trained to handle Myanmar script and local identity documents accurately.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options for your infrastructure needs.'],
+                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional support teams with understanding of Myanmar\'s identity document landscape. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'AI technology trained to handle Myanmar script and local identity documents accurately, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options for your infrastructure needs. API platform available at ekycondemand.com.'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Malaysia', 'url' => '/solutions/landing-pages/ekyc-malaysia'],
+                                ['label' => 'Singapore', 'url' => '/solutions/landing-pages/ekyc-singapore'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-philippines'],
+                                ['label' => 'Vietnam', 'url' => '/solutions/landing-pages/ekyc-vietnam'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-indonesia'],
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-cambodia'],
+                                ['label' => 'Brunei', 'url' => '/solutions/landing-pages/ekyc-brunei'],
+                                ['label' => 'Hong Kong', 'url' => '/solutions/landing-pages/ekyc-hong-kong'],
+                                ['label' => 'Kenya', 'url' => '/solutions/landing-pages/ekyc-kenya'],
                             ],
                         ],
                     ],
@@ -528,6 +691,14 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -574,9 +745,26 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'Local Presence in Indonesia', 'description' => 'Office in Bandung with local support teams familiar with Indonesian regulatory requirements including OJK guidelines.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for Indonesian identity documents including e-KTP with chip-based verification.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Indonesia\'s data localisation requirements under GR 71/2019.'],
+                                ['title' => 'Local Presence in Indonesia', 'description' => 'Office in Bandung with local support teams familiar with Indonesian regulatory requirements including OJK guidelines. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for Indonesian identity documents including e-KTP with chip-based verification, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Indonesia\'s data localisation requirements under GR 71/2019. API platform available at ekycondemand.com.'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Malaysia', 'url' => '/solutions/landing-pages/ekyc-malaysia'],
+                                ['label' => 'Singapore', 'url' => '/solutions/landing-pages/ekyc-singapore'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-philippines'],
+                                ['label' => 'Vietnam', 'url' => '/solutions/landing-pages/ekyc-vietnam'],
+                                ['label' => 'Myanmar', 'url' => '/solutions/landing-pages/ekyc-myanmar'],
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-cambodia'],
+                                ['label' => 'Brunei', 'url' => '/solutions/landing-pages/ekyc-brunei'],
+                                ['label' => 'Hong Kong', 'url' => '/solutions/landing-pages/ekyc-hong-kong'],
+                                ['label' => 'Kenya', 'url' => '/solutions/landing-pages/ekyc-kenya'],
                             ],
                         ],
                     ],
@@ -612,6 +800,14 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -658,9 +854,26 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'Local Presence in Cambodia', 'description' => 'Office in Phnom Penh with local support teams familiar with Cambodian banking and regulatory requirements.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for Cambodian identity documents with Khmer script recognition.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements.'],
+                                ['title' => 'Local Presence in Cambodia', 'description' => 'Office in Phnom Penh with local support teams familiar with Cambodian banking and regulatory requirements. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for Cambodian identity documents with Khmer script recognition, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements. API platform available at ekycondemand.com.'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Malaysia', 'url' => '/solutions/landing-pages/ekyc-malaysia'],
+                                ['label' => 'Singapore', 'url' => '/solutions/landing-pages/ekyc-singapore'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-philippines'],
+                                ['label' => 'Vietnam', 'url' => '/solutions/landing-pages/ekyc-vietnam'],
+                                ['label' => 'Myanmar', 'url' => '/solutions/landing-pages/ekyc-myanmar'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-indonesia'],
+                                ['label' => 'Brunei', 'url' => '/solutions/landing-pages/ekyc-brunei'],
+                                ['label' => 'Hong Kong', 'url' => '/solutions/landing-pages/ekyc-hong-kong'],
+                                ['label' => 'Kenya', 'url' => '/solutions/landing-pages/ekyc-kenya'],
                             ],
                         ],
                     ],
@@ -696,6 +909,14 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -742,9 +963,26 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional support with familiarity in Brunei\'s regulatory and Syariah-compliant financial landscape.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for Bruneian identity documents with Jawi and Latin script recognition.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements.'],
+                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional support with familiarity in Brunei\'s regulatory and Syariah-compliant financial landscape. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for Bruneian identity documents with Jawi and Latin script recognition, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements. API platform available at ekycondemand.com.'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Malaysia', 'url' => '/solutions/landing-pages/ekyc-malaysia'],
+                                ['label' => 'Singapore', 'url' => '/solutions/landing-pages/ekyc-singapore'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-philippines'],
+                                ['label' => 'Vietnam', 'url' => '/solutions/landing-pages/ekyc-vietnam'],
+                                ['label' => 'Myanmar', 'url' => '/solutions/landing-pages/ekyc-myanmar'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-indonesia'],
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-cambodia'],
+                                ['label' => 'Hong Kong', 'url' => '/solutions/landing-pages/ekyc-hong-kong'],
+                                ['label' => 'Kenya', 'url' => '/solutions/landing-pages/ekyc-kenya'],
                             ],
                         ],
                     ],
@@ -780,6 +1018,14 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -826,9 +1072,26 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'ASEAN & Asia-Pacific Presence', 'description' => 'Regional support with familiarity in Hong Kong\'s regulatory landscape including HKMA and SFC requirements.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for HKID smart cards with both English and Chinese character recognition.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Hong Kong\'s data privacy and security requirements.'],
+                                ['title' => 'ASEAN & Asia-Pacific Presence', 'description' => 'Regional support with familiarity in Hong Kong\'s regulatory landscape including HKMA and SFC requirements. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'AI technology optimised for HKID smart cards with both English and Chinese character recognition, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Hong Kong\'s data privacy and security requirements. API platform available at ekycondemand.com.'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Malaysia', 'url' => '/solutions/landing-pages/ekyc-malaysia'],
+                                ['label' => 'Singapore', 'url' => '/solutions/landing-pages/ekyc-singapore'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-philippines'],
+                                ['label' => 'Vietnam', 'url' => '/solutions/landing-pages/ekyc-vietnam'],
+                                ['label' => 'Myanmar', 'url' => '/solutions/landing-pages/ekyc-myanmar'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-indonesia'],
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-cambodia'],
+                                ['label' => 'Brunei', 'url' => '/solutions/landing-pages/ekyc-brunei'],
+                                ['label' => 'Kenya', 'url' => '/solutions/landing-pages/ekyc-kenya'],
                             ],
                         ],
                     ],
@@ -864,6 +1127,14 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -910,9 +1181,26 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'Expanding into Africa', 'description' => 'Extending our proven ASEAN technology to serve the growing East African digital economy.'],
-                                ['title' => 'Proprietary Technology', 'description' => 'AI technology trained on diverse populations with high accuracy across varying skin tones and document types.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Kenya\'s Data Protection Act requirements.'],
+                                ['title' => 'Expanding into Africa', 'description' => 'Extending our proven ASEAN technology to serve the growing East African digital economy. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'Proprietary Technology', 'description' => 'AI technology trained on diverse populations with high accuracy across varying skin tones and document types, including microprint, hologram, and tampering detection.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Kenya\'s Data Protection Act requirements. API platform available at ekycondemand.com.'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'eKYC Solutions Across ASEAN',
+                            'pages' => [
+                                ['label' => 'Malaysia', 'url' => '/solutions/landing-pages/ekyc-malaysia'],
+                                ['label' => 'Singapore', 'url' => '/solutions/landing-pages/ekyc-singapore'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-philippines'],
+                                ['label' => 'Vietnam', 'url' => '/solutions/landing-pages/ekyc-vietnam'],
+                                ['label' => 'Myanmar', 'url' => '/solutions/landing-pages/ekyc-myanmar'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-indonesia'],
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-cambodia'],
+                                ['label' => 'Brunei', 'url' => '/solutions/landing-pages/ekyc-brunei'],
+                                ['label' => 'Hong Kong', 'url' => '/solutions/landing-pages/ekyc-hong-kong'],
                             ],
                         ],
                     ],
@@ -1015,8 +1303,8 @@ class LandingPageSeeder extends Seeder
                     [
                         'type' => 'hero',
                         'data' => [
-                            'heading' => 'eKYC for the Insurance Industry',
-                            'subheading' => 'Transform your insurance onboarding with AI-powered identity verification. Reduce fraud, streamline claims, and improve customer experience across ASEAN.',
+                            'heading' => 'Insurers in ASEAN: The Role of Digital ID Verification',
+                            'subheading' => 'Climate change efforts have traditionally taken centre stage amidst ESG conversations, but recent years have seen a pivot towards the social and governance aspects of ESG.',
                             'background_style' => 'primary',
                             'cta_buttons' => [
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
@@ -1027,30 +1315,34 @@ class LandingPageSeeder extends Seeder
                     [
                         'type' => 'feature_grid',
                         'data' => [
-                            'heading' => 'Challenges Facing Insurance Companies',
-                            'columns' => 3,
-                            'style' => 'challenges',
+                            'heading' => null,
+                            'columns' => 2,
+                            'style' => 'stats',
                             'items' => [
-                                ['title' => 'Identity Fraud', 'description' => 'Fraudulent claims and synthetic identities cost the insurance industry billions annually across Southeast Asia.'],
-                                ['title' => 'Slow Onboarding', 'description' => 'Manual document review and in-person verification create friction that leads to customer drop-off.'],
-                                ['title' => 'Regulatory Compliance', 'description' => 'Varying KYC and AML requirements across ASEAN markets make compliance complex and costly.'],
+                                ['title' => 'Companies Struggle With Identity Theft', 'value' => '47%', 'description' => 'Over 47% of companies report identity theft as a significant concern'],
+                                ['title' => 'Market Size by 2030', 'value' => '$2.09B', 'description' => 'Global identity theft insurance market expected to reach US$2.09 billion by 2030'],
                             ],
                         ],
                     ],
                     [
                         'type' => 'feature_grid',
                         'data' => [
-                            'heading' => 'How EMAS eKYC Helps Insurers',
-                            'columns' => 2,
-                            'style' => 'checklist',
+                            'heading' => 'Core Features',
+                            'columns' => 3,
+                            'style' => 'cards',
                             'items' => [
-                                ['title' => 'Instant policyholder identity verification during onboarding'],
-                                ['title' => 'Facial matching for claims verification to prevent fraud'],
-                                ['title' => 'Liveness detection to ensure real person is present'],
-                                ['title' => 'AML/CFT screening against global and local watchlists'],
-                                ['title' => 'Document authentication for ID cards and proof documents'],
-                                ['title' => 'Digital signatures for policy agreements and claims forms'],
+                                ['title' => 'Digital Signatures', 'description' => 'Electronic, encrypted stamp of authentication on digital information. A digital signature seals the signed document to protect it against tampering.'],
+                                ['title' => 'e-KYC', 'description' => 'Electronic Know Your Customer is the remote onboarding & paperless process that minimises the costs and traditional bureaucracy necessary in KYC processes.'],
+                                ['title' => 'Process Automation', 'description' => 'Use of software and technologies to automate business processes and functions to accomplish smoother customer registration processes.'],
                             ],
+                        ],
+                    ],
+                    [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => 'EMAS CIDA Solution',
+                            'content' => '<p>EMAS CIDA is our comprehensive identity assurance platform offering end-to-end capabilities including ID evidence collection, Digital Footprint Analysis (DFA), video verification, financial risk checks, income address proofing, biometric blacklisting, device blacklisting, device binding, and biometric authentication.</p>',
+                            'has_background' => false,
                         ],
                     ],
                     [
@@ -1101,6 +1393,27 @@ class LandingPageSeeder extends Seeder
                         ],
                     ],
                     [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<blockquote><p>"Insurance scams are on the rise due to the lack of robust identity verification systems. Digital onboarding and communication methods are needed to meet customer expectations for convenient insurance management, including eKYC and policy renewals."</p><p><strong>— Joe Seah, CCO</strong></p></blockquote>',
+                            'has_background' => false,
+                        ],
+                    ],
+                    [
+                        'type' => 'feature_grid',
+                        'data' => [
+                            'heading' => 'The Rise of Insurance Fraud in Malaysia',
+                            'columns' => 3,
+                            'style' => 'challenges',
+                            'items' => [
+                                ['title' => 'Public Attitude', 'description' => 'A 2022 study reported that 62% of Malaysians surveyed expressed a willingness to commit some form of fraud to gain financial benefits, such as inflating insurance claims or misrepresenting income on applications.'],
+                                ['title' => 'Organized Crime', 'description' => 'In 2024, Johor police uncovered a disturbing case in which a group posed as insurance agents, took out a life policy on a victim, and later orchestrated his murder to collect the payout.'],
+                                ['title' => 'Effects of Digitalisation', 'description' => 'Remote onboarding and digital claims processes can be exploited through identity fraud, synthetic profiles, or even digitally manipulated documentation.'],
+                            ],
+                        ],
+                    ],
+                    [
                         'type' => 'feature_grid',
                         'data' => [
                             'heading' => 'Malaysian Insurance Regulatory Landscape',
@@ -1115,16 +1428,14 @@ class LandingPageSeeder extends Seeder
                     [
                         'type' => 'feature_grid',
                         'data' => [
-                            'heading' => 'How EMAS eKYC Helps Malaysian Insurers',
+                            'heading' => 'Benefits of EMAS eKYC for Malaysian Insurers',
                             'columns' => 2,
-                            'style' => 'checklist',
+                            'style' => 'cards',
                             'items' => [
-                                ['title' => 'MyKad verification with NRIC data extraction'],
-                                ['title' => 'Facial matching for policyholder identity confirmation'],
-                                ['title' => 'Liveness detection to prevent fraudulent applications'],
-                                ['title' => 'AML/CFT screening against BNM watchlists'],
-                                ['title' => 'Digital signatures for policy issuance and claims'],
-                                ['title' => 'Seamless integration with core insurance platforms'],
+                                ['title' => 'Remote Onboarding', 'description' => 'Allows insurance agents to register end users remotely. Digital signatures and policy reviews can also be done online, eliminating the need for physical meet-ups.'],
+                                ['title' => 'Anywhere and Anytime', 'description' => 'Customers can apply for ad-hoc insurance at any time — renewing, upgrading plans, making claims, or adjusting coverage.'],
+                                ['title' => 'Fraud-Free and Secure', 'description' => 'Advanced biometric verification to detect potential fraudsters. Combined with credit score checks to ensure customers are trustworthy.'],
+                                ['title' => 'Scalable and Versatile', 'description' => 'Flexible deployment across web, mobile, and API channels to support growing insurance operations across ASEAN.'],
                             ],
                         ],
                     ],
@@ -1134,6 +1445,18 @@ class LandingPageSeeder extends Seeder
                             'heading' => 'Supported Documents',
                             'content' => '<p class="text-center">MyKad (NRIC), Passport, Driving License, MyTentera, MyPR, MyKAS</p>',
                             'has_background' => false,
+                        ],
+                    ],
+                    [
+                        'type' => 'related_pages',
+                        'data' => [
+                            'heading' => 'Insurance eKYC in Other Countries',
+                            'pages' => [
+                                ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-cambodia'],
+                                ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-indonesia'],
+                                ['label' => 'Thailand', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-thailand'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-the-phillipines'],
+                            ],
                         ],
                     ],
                     [
@@ -1441,7 +1764,7 @@ class LandingPageSeeder extends Seeder
                     [
                         'type' => 'hero',
                         'data' => [
-                            'heading' => 'eKYC for the Credit Financing Industry',
+                            'heading' => 'Streamline Your User Onboarding: Fast, Easy and Secure Verification 24/7',
                             'subheading' => 'Accelerate loan approvals and reduce fraud with AI-powered identity verification for credit financing, BNPL, and lending companies across ASEAN.',
                             'background_style' => 'primary',
                             'cta_buttons' => [
@@ -1520,12 +1843,25 @@ class LandingPageSeeder extends Seeder
                     [
                         'type' => 'hero',
                         'data' => [
-                            'heading' => 'eKYC for the eHealthcare Industry',
-                            'subheading' => 'Secure patient identity verification for telemedicine, digital health platforms, and healthcare providers across ASEAN.',
+                            'heading' => 'Leveraging eKYC For e-Healthcare',
+                            'subheading' => 'Streamlining the e-healthcare services through identity verification solutions swiftly.',
                             'background_style' => 'primary',
                             'cta_buttons' => [
                                 ['label' => 'Get In Touch', 'url' => '/contact', 'variant' => 'secondary'],
                                 ['label' => 'View Solutions', 'url' => '/solutions', 'variant' => 'outline'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'feature_grid',
+                        'data' => [
+                            'heading' => 'eKYC Benefits for Healthcare',
+                            'columns' => 3,
+                            'style' => 'cards',
+                            'items' => [
+                                ['title' => 'Electronic Patient Data Management', 'description' => 'Securing and managing patient health records within the digital space.'],
+                                ['title' => 'Remote/Online Consultation', 'description' => 'Seeking medical advice via TeleHealth, anytime and anywhere.'],
+                                ['title' => 'Secure Medication Deliveries', 'description' => 'Securely deliver medication to patients\' doorsteps with verified identities.'],
                             ],
                         ],
                     ],
@@ -1609,6 +1945,14 @@ class LandingPageSeeder extends Seeder
                         ],
                     ],
                     [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => null,
+                            'content' => '<p>Hotels and homestays are now facilitating remote check-ins and identity proofing to streamline the guest experience. Identity verification is a crucial element in ensuring guest safety and regulatory compliance across the hospitality industry.</p>',
+                            'has_background' => false,
+                        ],
+                    ],
+                    [
                         'type' => 'feature_grid',
                         'data' => [
                             'heading' => 'Sectors That Can Benefit From Identity Proofing',
@@ -1689,15 +2033,23 @@ class LandingPageSeeder extends Seeder
                         ],
                     ],
                     [
+                        'type' => 'prose',
+                        'data' => [
+                            'heading' => 'Digital Identity for Government Services',
+                            'content' => '<p>As Malaysia prepares to launch digital initiatives such as the MyDigital ID SuperApp and MyGov mobile application in 2025, government agencies face increasing pressure to implement secure, efficient digital onboarding processes.</p>',
+                            'has_background' => false,
+                        ],
+                    ],
+                    [
                         'type' => 'feature_grid',
                         'data' => [
                             'heading' => 'Potential Threats: Systemic Risks of Inadequate eKYC Implementation',
                             'columns' => 3,
                             'style' => 'stats',
                             'items' => [
-                                ['title' => 'Identity theft cases', 'value' => 'Increasing', 'description' => 'In early 2021'],
-                                ['title' => 'Losses (MYR)', 'value' => 'Billions', 'description' => 'Due to scams and identity fraud'],
-                                ['title' => 'Online fraud reports', 'value' => 'Thousands', 'description' => 'Over a 6-month period'],
+                                ['title' => 'Identity theft cases in early 2021', 'value' => '319', 'description' => 'Reported identity theft cases in early 2021'],
+                                ['title' => 'Losses due to scams and identity fraud', 'value' => 'MYR 54.02 Billion', 'description' => 'Total losses from scams and identity fraud'],
+                                ['title' => 'Online fraud reports over a 6-month period', 'value' => '55,000', 'description' => 'Online fraud reports filed over a 6-month period'],
                             ],
                         ],
                     ],
@@ -1718,7 +2070,7 @@ class LandingPageSeeder extends Seeder
                             'items' => [
                                 ['title' => 'Document Checks', 'description' => 'AI analysis of MyKad holograms and micro-text to ensure document authenticity and prevent forgery.', 'value' => 'Tier 1'],
                                 ['title' => 'Biometric Matching', 'description' => '1:N facial recognition against 28-million-strong JPN database for accurate identity verification.', 'value' => 'Tier 2'],
-                                ['title' => 'Liveness & Deepfake Detection', 'description' => 'Advanced AI to detect presentation attacks, deepfakes, and injection attacks in real-time.', 'value' => 'Tier 3'],
+                                ['title' => 'Behavioral Analytics', 'description' => 'Detection of abnormal application patterns, such as 50+ submissions from a single device or location.', 'value' => 'Tier 3'],
                             ],
                         ],
                     ],
@@ -1972,11 +2324,17 @@ class LandingPageSeeder extends Seeder
                         ],
                     ],
                     [
-                        'type' => 'prose',
+                        'type' => 'feature_grid',
                         'data' => [
-                            'heading' => 'Overview',
-                            'content' => '<p>The Buy Now, Pay Later (BNPL) industry has grown rapidly across Southeast Asia, providing consumers with flexible payment options. However, this growth has also attracted fraudsters who exploit weak identity verification processes.</p><p>This use case document explores how EMAS eKYC technology helps BNPL providers verify customer identities in real-time, reduce fraud losses, and comply with evolving regulations across ASEAN markets.</p>',
-                            'has_background' => false,
+                            'heading' => 'Types of BNPL Fraud',
+                            'columns' => 2,
+                            'style' => 'cards',
+                            'items' => [
+                                ['title' => 'Account Takeover Fraud', 'description' => 'When a fraudster takes over a current BNPL account and uses it to make unauthorized payments.'],
+                                ['title' => 'Buy Now-Pay Never Fraud', 'description' => 'When a fraudster creates new BNPL accounts using stolen identities and makes large purchases without paying back the amount owed.'],
+                                ['title' => 'Synthetic Identity Fraud', 'description' => 'When a fraudster combines both accurate and false personal information to create a new identity, such as combining a real MyKad number with a fake name.'],
+                                ['title' => 'New Account Abuse', 'description' => 'When a fraudster takes advantage of weak verification measures during signup to create new accounts and enjoy the default line of credit offered to new users.'],
+                            ],
                         ],
                     ],
                     [
@@ -1992,6 +2350,20 @@ class LandingPageSeeder extends Seeder
                                 ['title' => 'Credit score and bankruptcy checks integration'],
                                 ['title' => 'Regulatory compliance across ASEAN markets'],
                                 ['title' => 'Case studies and implementation examples'],
+                            ],
+                        ],
+                    ],
+                    [
+                        'type' => 'feature_grid',
+                        'data' => [
+                            'heading' => 'BNPL Partners We\'ve Helped Transform',
+                            'columns' => 2,
+                            'style' => 'cards',
+                            'items' => [
+                                ['title' => 'Versa', 'description' => 'Digital investment platform'],
+                                ['title' => 'Compasia', 'description' => 'Device trade-in and financing'],
+                                ['title' => 'PAYLATER', 'description' => 'Buy now pay later service'],
+                                ['title' => 'Affin Hwang Capital', 'description' => 'Financial services and asset management'],
                             ],
                         ],
                     ],
