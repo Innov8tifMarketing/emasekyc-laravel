@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'lead_notifications' => [
+        'recipients' => array_filter(explode(',', env('LEAD_NOTIFICATION_RECIPIENTS', 'sales@innov8tif.com,marketing@innov8tif.com'))),
+    ],
+
 ];
