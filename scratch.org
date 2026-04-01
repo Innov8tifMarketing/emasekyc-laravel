@@ -1,6 +1,8 @@
 Create a subagent -- You are now a senior Laravel Developer. I would like you to review the plan and evaluate the quality and give a rubrics score. The plan should have a confidence score, and whether it follows industry best pracices, KISS, YAGNI, etc. You are free to ask me questions for decision making to improve scoring. Unless the score is high enough and we can proceed.
 
 
+I would like you to use a subagent to review the implementation and give a rubrics score, which contains metrics like KISS< YAGNI, and Laravel best practices and more. Be as comprehensive as possible, frontend, backend, db architecture etc, and give a proper scording.
+
 
 
 

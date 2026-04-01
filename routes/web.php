@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\WikiPageController;
@@ -76,6 +77,14 @@ Route::prefix('solutions')->name('solutions.')->group(function () {
         Route::view('/bnpl-use-case-document', 'pages.solutions.landing.bnpl-use-case')->name('bnpl-use-case');
         Route::view('/cambodia-banking-whitepaper', 'pages.solutions.landing.cambodia-banking')->name('cambodia-banking');
         Route::view('/emas-ekyc-api-ondemand', 'pages.solutions.landing.ekyc-api-ondemand')->name('ekyc-api-ondemand');
+    });
+
+    // Dynamic landing pages (catch-all — must be AFTER static routes)
+    Route::prefix('landing-pages')->name('landing.')->group(function () {
+        Route::get('/{landingPage:slug}', [LandingPageController::class, 'show'])->name('show');
+        Route::post('/{landingPage:slug}/submit', [LandingPageController::class, 'submit'])
+            ->middleware('throttle:5,1')->name('submit');
+        Route::get('/{landingPage:slug}/thank-you', [LandingPageController::class, 'thankYou'])->name('thank-you');
     });
 });
 
