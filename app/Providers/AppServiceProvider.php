@@ -2,11 +2,15 @@
 
 namespace App\Providers;
 
+use App\Events\LeadCaptured;
+use App\Listeners\SendLeadNotification;
+use App\Listeners\ZohoCrmSyncListener;
 use App\Models\Client;
 use App\Models\Post;
 use App\Models\SiteScript;
 use App\Models\WikiPage;
 use App\Services\MarkdownRenderer;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -25,6 +29,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        Event::listen(LeadCaptured::class, SendLeadNotification::class);
+        Event::listen(LeadCaptured::class, ZohoCrmSyncListener::class);
+
         View::composer('components.layout', function ($view) {
             $view->with('siteScripts', SiteScript::active()->get()->groupBy('location'));
         });

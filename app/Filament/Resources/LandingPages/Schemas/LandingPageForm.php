@@ -142,6 +142,7 @@ class LandingPageForm
                     ->collection('pdfs')
                     ->acceptedFileTypes(['application/pdf'])
                     ->maxSize(20480)
+                    ->visibility('public')
                     ->label('Gated PDF download'),
                 SpatieMediaLibraryFileUpload::make('images')
                     ->collection('images')

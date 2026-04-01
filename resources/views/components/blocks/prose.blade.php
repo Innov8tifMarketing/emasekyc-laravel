@@ -7,7 +7,7 @@
         @endif
 
         <div class="prose prose-lg max-w-none">
-            {!! $data['content'] !!}
+            {!! strip_tags($data['content'], '<p><br><strong><em><b><i><ul><ol><li><h2><h3><h4><a><blockquote><table><thead><tbody><tr><th><td>') !!}
         </div>
     </div>
 </section>

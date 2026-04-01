@@ -71,30 +71,29 @@ class LeadsTable
 
     private static function exportCsv(): StreamedResponse
     {
-        $leads = Lead::withCount('activities')
-            ->with(['activities' => fn ($q) => $q->select('lead_id', 'created_at')->orderBy('created_at')])
-            ->orderByDesc('created_at')
-            ->get();
-
-        return response()->streamDownload(function () use ($leads) {
+        return response()->streamDownload(function () {
             $handle = fopen('php://output', 'w');
             fputcsv($handle, ['Email', 'First Name', 'Last Name', 'Phone', 'Company', 'Source', 'Activities', 'First Activity', 'Last Activity', 'Created At']);
 
-            foreach ($leads as $lead) {
-                $activities = $lead->activities;
-                fputcsv($handle, [
-                    $lead->email,
-                    $lead->first_name,
-                    $lead->last_name,
-                    $lead->phone,
-                    $lead->company,
-                    $lead->original_source,
-                    $lead->activities_count,
-                    $activities->last()?->created_at?->toDateTimeString(),
-                    $activities->first()?->created_at?->toDateTimeString(),
-                    $lead->created_at->toDateTimeString(),
-                ]);
-            }
+            Lead::withCount('activities')
+                ->with(['activities' => fn ($q) => $q->select('lead_id', 'created_at')->orderBy('created_at')])
+                ->orderByDesc('created_at')
+                ->cursor()
+                ->each(function ($lead) use ($handle) {
+                    $activities = $lead->activities;
+                    fputcsv($handle, [
+                        $lead->email,
+                        $lead->first_name,
+                        $lead->last_name,
+                        $lead->phone,
+                        $lead->company,
+                        $lead->original_source,
+                        $lead->activities_count,
+                        $activities->last()?->created_at?->toDateTimeString(),
+                        $activities->first()?->created_at?->toDateTimeString(),
+                        $lead->created_at->toDateTimeString(),
+                    ]);
+                });
 
             fclose($handle);
         }, 'leads-'.now()->format('Y-m-d').'.csv', [

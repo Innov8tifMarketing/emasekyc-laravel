@@ -424,12 +424,12 @@
 
             @php
                 $industries = [
-                    ['label' => 'Banking & Finance', 'icon' => 'heroicon-o-building-library', 'href' => route('solutions.landing.credit-financing'), 'image' => '/images/home/industry-1.webp'],
+                    ['label' => 'Banking & Finance', 'icon' => 'heroicon-o-building-library', 'href' => route('solutions.landing.show', 'ekyc-for-credit-financing-industry'), 'image' => '/images/home/industry-1.webp'],
                     ['label' => 'Telecommunications', 'icon' => 'heroicon-o-signal', 'href' => route('contact') . '?industry=telecommunications', 'image' => '/images/home/industry-2.webp'],
-                    ['label' => 'Fintech & BNPL', 'icon' => 'heroicon-o-cpu-chip', 'href' => route('solutions.landing.credit-financing'), 'image' => '/images/home/industry-3.webp'],
+                    ['label' => 'Fintech & BNPL', 'icon' => 'heroicon-o-cpu-chip', 'href' => route('solutions.landing.show', 'ekyc-for-credit-financing-industry'), 'image' => '/images/home/industry-3.webp'],
                     ['label' => 'Government', 'icon' => 'heroicon-o-building-office-2', 'href' => route('contact') . '?industry=government', 'image' => '/images/home/industry-4.webp'],
-                    ['label' => 'Insurance', 'icon' => 'heroicon-o-shield-check', 'href' => route('solutions.landing.insurance-industry'), 'image' => '/images/home/industry-5.webp'],
-                    ['label' => 'Healthcare', 'icon' => 'heroicon-o-heart', 'href' => route('solutions.landing.ehealthcare'), 'image' => '/images/home/industry-6.webp'],
+                    ['label' => 'Insurance', 'icon' => 'heroicon-o-shield-check', 'href' => route('solutions.landing.show', 'ekyc-for-insurance-industry'), 'image' => '/images/home/industry-5.webp'],
+                    ['label' => 'Healthcare', 'icon' => 'heroicon-o-heart', 'href' => route('solutions.landing.show', 'ekyc-for-ehealthcare-industry'), 'image' => '/images/home/industry-6.webp'],
                 ];
             @endphp
 

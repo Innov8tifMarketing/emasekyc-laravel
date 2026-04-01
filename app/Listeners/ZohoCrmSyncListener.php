@@ -4,6 +4,7 @@ namespace App\Listeners;
 
 use App\Events\LeadCaptured;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 
@@ -60,14 +61,18 @@ class ZohoCrmSyncListener implements ShouldQueue
 
     private function getAccessToken(): string
     {
-        $response = Http::asForm()->post(config('services.zoho.accounts_url').'/oauth/v2/token', [
-            'grant_type' => 'refresh_token',
-            'client_id' => config('services.zoho.client_id'),
-            'client_secret' => config('services.zoho.client_secret'),
-            'refresh_token' => config('services.zoho.refresh_token'),
-        ]);
+        return Cache::remember('zoho_access_token', 3500, function () {
+            $response = Http::asForm()->post(config('services.zoho.accounts_url').'/oauth/v2/token', [
+                'grant_type' => 'refresh_token',
+                'client_id' => config('services.zoho.client_id'),
+                'client_secret' => config('services.zoho.client_secret'),
+                'refresh_token' => config('services.zoho.refresh_token'),
+            ]);
 
-        return $response->json('access_token');
+            throw_if(! $response->successful(), \RuntimeException::class, 'Failed to obtain Zoho access token: '.$response->body());
+
+            return $response->json('access_token');
+        });
     }
 
     private function mapSource(string $activityType): string

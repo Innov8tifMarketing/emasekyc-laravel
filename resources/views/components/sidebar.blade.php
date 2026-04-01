@@ -53,10 +53,10 @@
                         <svg class="w-3 h-3 transition-transform group-open/sub:rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                     </summary>
                     <ul class="ml-3 mt-1 space-y-1 text-sm">
-                        <li><a href="{{ route('solutions.landing.insurance-industry') }}" class="block py-0.5 hover:text-primary-700">Insurance</a></li>
-                        <li><a href="{{ route('solutions.landing.credit-financing') }}" class="block py-0.5 hover:text-primary-700">Credit Financing</a></li>
-                        <li><a href="{{ route('solutions.landing.ehealthcare') }}" class="block py-0.5 hover:text-primary-700">Healthcare</a></li>
-                        <li><a href="{{ route('solutions.landing.hospitality') }}" class="block py-0.5 hover:text-primary-700">Hospitality</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-for-insurance-industry') }}" class="block py-0.5 hover:text-primary-700">Insurance</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-for-credit-financing-industry') }}" class="block py-0.5 hover:text-primary-700">Credit Financing</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-for-ehealthcare-industry') }}" class="block py-0.5 hover:text-primary-700">Healthcare</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'id-assurance-for-hospitality-industry') }}" class="block py-0.5 hover:text-primary-700">Hospitality</a></li>
                     </ul>
                 </details>
                 <details class="group/sub">
@@ -65,16 +65,16 @@
                         <svg class="w-3 h-3 transition-transform group-open/sub:rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                     </summary>
                     <ul class="ml-3 mt-1 space-y-1 text-sm">
-                        <li><a href="{{ route('solutions.landing.ekyc-malaysia') }}" class="block py-0.5 hover:text-primary-700">Malaysia</a></li>
-                        <li><a href="{{ route('solutions.landing.ekyc-singapore') }}" class="block py-0.5 hover:text-primary-700">Singapore</a></li>
-                        <li><a href="{{ route('solutions.landing.ekyc-indonesia') }}" class="block py-0.5 hover:text-primary-700">Indonesia</a></li>
-                        <li><a href="{{ route('solutions.landing.ekyc-philippines') }}" class="block py-0.5 hover:text-primary-700">Philippines</a></li>
-                        <li><a href="{{ route('solutions.landing.ekyc-vietnam') }}" class="block py-0.5 hover:text-primary-700">Vietnam</a></li>
-                        <li><a href="{{ route('solutions.landing.ekyc-myanmar') }}" class="block py-0.5 hover:text-primary-700">Myanmar</a></li>
-                        <li><a href="{{ route('solutions.landing.ekyc-cambodia') }}" class="block py-0.5 hover:text-primary-700">Cambodia</a></li>
-                        <li><a href="{{ route('solutions.landing.ekyc-brunei') }}" class="block py-0.5 hover:text-primary-700">Brunei</a></li>
-                        <li><a href="{{ route('solutions.landing.ekyc-hong-kong') }}" class="block py-0.5 hover:text-primary-700">Hong Kong</a></li>
-                        <li><a href="{{ route('solutions.landing.ekyc-kenya') }}" class="block py-0.5 hover:text-primary-700">Kenya</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-malaysia') }}" class="block py-0.5 hover:text-primary-700">Malaysia</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-singapore') }}" class="block py-0.5 hover:text-primary-700">Singapore</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-indonesia') }}" class="block py-0.5 hover:text-primary-700">Indonesia</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-philippines') }}" class="block py-0.5 hover:text-primary-700">Philippines</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-vietnam') }}" class="block py-0.5 hover:text-primary-700">Vietnam</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-myanmar') }}" class="block py-0.5 hover:text-primary-700">Myanmar</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-cambodia') }}" class="block py-0.5 hover:text-primary-700">Cambodia</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-brunei') }}" class="block py-0.5 hover:text-primary-700">Brunei</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-hong-kong') }}" class="block py-0.5 hover:text-primary-700">Hong Kong</a></li>
+                        <li><a href="{{ route('solutions.landing.show', 'ekyc-kenya') }}" class="block py-0.5 hover:text-primary-700">Kenya</a></li>
                     </ul>
                 </details>
             </div>

@@ -21,7 +21,7 @@
                             <h3 class="font-semibold leading-none tracking-tight text-base">2024 Fraud Report</h3>
                             <p class="text-sm text-muted-foreground">Key Trends and Insights of Identity Fraud Activities in ASEAN. Discover the latest fraud patterns and how to combat them.</p>
                             <div class="flex items-center justify-end mt-4">
-                                <a href="{{ route('solutions.landing.fraud-report') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
+                                <a href="{{ route('solutions.landing.show', 'innov8tif-fraud-report') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                             <h3 class="font-semibold leading-none tracking-tight text-base">Secure Digital Identity for Government Services</h3>
                             <p class="text-sm text-muted-foreground">How advanced eKYC solutions are transforming government services in Malaysia, protecting citizens from identity theft and fraud.</p>
                             <div class="flex items-center justify-end mt-4">
-                                <a href="{{ route('solutions.landing.government-malaysia') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
+                                <a href="{{ route('solutions.landing.show', 'secure-digital-identity-for-government-services-in-malaysia') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             <h3 class="font-semibold leading-none tracking-tight text-base">Philippines Telco Whitepaper</h3>
                             <p class="text-sm text-muted-foreground">How ID verification services can help Philippine telcos authenticate users and comply with SIM registration regulations.</p>
                             <div class="flex items-center justify-end mt-4">
-                                <a href="{{ route('solutions.landing.philippines-telco') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
+                                <a href="{{ route('solutions.landing.show', 'philippines-telco-whitepaper') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             <h3 class="font-semibold leading-none tracking-tight text-base">ID Assurance for Hospitality</h3>
                             <p class="text-sm text-muted-foreground">Seamless registration solutions for the travel, tourism, and F&B industries using identity verification.</p>
                             <div class="flex items-center justify-end mt-4">
-                                <a href="{{ route('solutions.landing.hospitality') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
+                                <a href="{{ route('solutions.landing.show', 'id-assurance-for-hospitality-industry') }}" class="inline-flex items-center justify-center gap-2 rounded-lg h-8 px-3 text-xs font-medium transition-colors bg-primary text-primary-foreground hover:bg-primary-600 cursor-pointer">Learn More</a>
                             </div>
                         </div>
                     </div>

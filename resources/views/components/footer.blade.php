@@ -87,13 +87,13 @@
                     <li><a href="{{ route('solutions.emas-cida') }}" class="hover:text-neutral-foreground">EMAS CIDA</a></li>
                     <li><a href="https://ekycondemand.com/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-foreground inline-flex items-center" aria-label="eKYC for Developers (opens in new tab)">eKYC for Developers<x-external-link-icon /></a></li>
                     <li><a href="{{ route('contact') }}?subject=ekyc-gateway" class="hover:text-neutral-foreground">EMAS eKYC Gateway <span class="text-neutral-foreground/40 text-xs">(Coming Soon)</span></a></li>
-                    <li><a href="{{ route('solutions.landing.insurance-industry') }}" class="hover:text-neutral-foreground">Insurance Industry</a></li>
-                    <li><a href="{{ route('solutions.landing.credit-financing') }}" class="hover:text-neutral-foreground">Credit Financing</a></li>
-                    <li><a href="{{ route('solutions.landing.ehealthcare') }}" class="hover:text-neutral-foreground">eHealthcare</a></li>
-                    <li><a href="{{ route('solutions.landing.ekyc-malaysia') }}" class="hover:text-neutral-foreground">eKYC Malaysia</a></li>
-                    <li><a href="{{ route('solutions.landing.ekyc-singapore') }}" class="hover:text-neutral-foreground">eKYC Singapore</a></li>
-                    <li><a href="{{ route('solutions.landing.ekyc-indonesia') }}" class="hover:text-neutral-foreground">eKYC Indonesia</a></li>
-                    <li><a href="{{ route('solutions.landing.ekyc-philippines') }}" class="hover:text-neutral-foreground">eKYC Philippines</a></li>
+                    <li><a href="{{ route('solutions.landing.show', 'ekyc-for-insurance-industry') }}" class="hover:text-neutral-foreground">Insurance Industry</a></li>
+                    <li><a href="{{ route('solutions.landing.show', 'ekyc-for-credit-financing-industry') }}" class="hover:text-neutral-foreground">Credit Financing</a></li>
+                    <li><a href="{{ route('solutions.landing.show', 'ekyc-for-ehealthcare-industry') }}" class="hover:text-neutral-foreground">eHealthcare</a></li>
+                    <li><a href="{{ route('solutions.landing.show', 'ekyc-malaysia') }}" class="hover:text-neutral-foreground">eKYC Malaysia</a></li>
+                    <li><a href="{{ route('solutions.landing.show', 'ekyc-singapore') }}" class="hover:text-neutral-foreground">eKYC Singapore</a></li>
+                    <li><a href="{{ route('solutions.landing.show', 'ekyc-indonesia') }}" class="hover:text-neutral-foreground">eKYC Indonesia</a></li>
+                    <li><a href="{{ route('solutions.landing.show', 'ekyc-philippines') }}" class="hover:text-neutral-foreground">eKYC Philippines</a></li>
                 </ul>
             </div>
         </div>

@@ -39,9 +39,7 @@
                         phone: this.phone,
                         website: this.$refs.hp.value,
                         lead_source: '{{ $page->slug }}',
-                        utm_source: new URLSearchParams(window.location.search).get('utm_source') || '',
-                        utm_medium: new URLSearchParams(window.location.search).get('utm_medium') || '',
-                        utm_campaign: new URLSearchParams(window.location.search).get('utm_campaign') || '',
+                        ...(() => { const p = new URLSearchParams(window.location.search); return { utm_source: p.get('utm_source') || '', utm_medium: p.get('utm_medium') || '', utm_campaign: p.get('utm_campaign') || '' }; })(),
                     })
                 })
                 .then(r => r.json().then(d => ({ ok: r.ok, data: d })))

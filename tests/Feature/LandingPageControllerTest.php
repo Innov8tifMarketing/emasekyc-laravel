@@ -4,7 +4,6 @@ namespace Tests\Feature;
 
 use App\Events\LeadCaptured;
 use App\Models\LandingPage;
-use App\Models\Lead;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Event;
 use Tests\TestCase;
@@ -112,5 +111,49 @@ class LandingPageControllerTest extends TestCase
 
         $response->assertOk();
         $response->assertSee('Valid Block');
+    }
+
+    public function test_multi_block_page_renders_all_block_types(): void
+    {
+        $page = LandingPage::factory()->published()->create([
+            'blocks' => [
+                ['type' => 'hero', 'data' => ['heading' => 'Hero Heading', 'subheading' => 'Sub']],
+                ['type' => 'feature_grid', 'data' => ['heading' => 'Features', 'style' => 'cards', 'columns' => 3, 'items' => [['title' => 'Feature One', 'description' => 'Desc']]]],
+                ['type' => 'prose', 'data' => ['heading' => 'About Us', 'content' => '<p>Some content</p>', 'has_background' => false]],
+                ['type' => 'cta_banner', 'data' => ['heading' => 'Get Started', 'text' => 'Contact us today', 'button_label' => 'Contact', 'button_url' => '/contact', 'has_background' => true]],
+                ['type' => 'related_pages', 'data' => ['heading' => 'Related', 'pages' => [['label' => 'Page A', 'url' => '/a']]]],
+            ],
+        ]);
+
+        $response = $this->get("/solutions/landing-pages/{$page->slug}");
+
+        $response->assertOk();
+        $response->assertSee('Hero Heading');
+        $response->assertSee('Features');
+        $response->assertSee('Feature One');
+        $response->assertSee('About Us');
+        $response->assertSee('Get Started');
+        $response->assertSee('Related');
+    }
+
+    public function test_quick_store_creates_lead(): void
+    {
+        Event::fake();
+
+        $response = $this->postJson(route('contact.quick'), [
+            'name' => 'Quick User',
+            'email' => 'quick@example.com',
+            'message' => 'Quick message here',
+        ]);
+
+        $response->assertOk();
+
+        $this->assertDatabaseHas('leads', [
+            'email' => 'quick@example.com',
+            'first_name' => 'Quick User',
+            'original_source' => 'contact_form',
+        ]);
+
+        Event::assertDispatched(LeadCaptured::class);
     }
 }

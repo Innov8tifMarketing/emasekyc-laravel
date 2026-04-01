@@ -40,46 +40,7 @@ Route::prefix('solutions')->name('solutions.')->group(function () {
     Route::view('/ekyc-for-sme-corporations', 'pages.solutions.sme-corporations')->name('sme-corporations');
     Route::view('/emas-cida', 'pages.solutions.emas-cida')->name('emas-cida');
 
-    // Country Solutions
-    Route::prefix('landing-pages')->name('landing.')->group(function () {
-        Route::view('/ekyc-malaysia', 'pages.solutions.landing.ekyc-malaysia')->name('ekyc-malaysia');
-        Route::view('/ekyc-singapore', 'pages.solutions.landing.ekyc-singapore')->name('ekyc-singapore');
-        Route::view('/ekyc-philippines', 'pages.solutions.landing.ekyc-philippines')->name('ekyc-philippines');
-        Route::view('/ekyc-vietnam', 'pages.solutions.landing.ekyc-vietnam')->name('ekyc-vietnam');
-        Route::view('/ekyc-myanmar', 'pages.solutions.landing.ekyc-myanmar')->name('ekyc-myanmar');
-        Route::view('/ekyc-indonesia', 'pages.solutions.landing.ekyc-indonesia')->name('ekyc-indonesia');
-        Route::view('/ekyc-cambodia', 'pages.solutions.landing.ekyc-cambodia')->name('ekyc-cambodia');
-        Route::view('/ekyc-brunei', 'pages.solutions.landing.ekyc-brunei')->name('ekyc-brunei');
-        Route::view('/ekyc-hong-kong', 'pages.solutions.landing.ekyc-hong-kong')->name('ekyc-hong-kong');
-        Route::view('/ekyc-kenya', 'pages.solutions.landing.ekyc-kenya')->name('ekyc-kenya');
-        Route::view('/ekyc-components-for-indonesia', 'pages.solutions.landing.ekyc-components-indonesia')->name('ekyc-components-indonesia');
-    });
-
-    // Industry Solutions
-    Route::prefix('landing-pages')->name('landing.')->group(function () {
-        Route::view('/ekyc-for-insurance-industry', 'pages.solutions.landing.insurance-industry')->name('insurance-industry');
-        Route::view('/ekyc-for-insurance-industry-in-malaysia', 'pages.solutions.landing.insurance-malaysia')->name('insurance-malaysia');
-        Route::view('/ekyc-for-insurance-industry-in-indonesia', 'pages.solutions.landing.insurance-indonesia')->name('insurance-indonesia');
-        Route::view('/ekyc-for-insurance-industry-in-thailand', 'pages.solutions.landing.insurance-thailand')->name('insurance-thailand');
-        Route::view('/ekyc-for-insurance-industry-in-cambodia', 'pages.solutions.landing.insurance-cambodia')->name('insurance-cambodia');
-        Route::view('/ekyc-for-insurance-industry-in-the-phillipines', 'pages.solutions.landing.insurance-philippines')->name('insurance-philippines');
-        Route::view('/ekyc-for-credit-financing-industry', 'pages.solutions.landing.credit-financing')->name('credit-financing');
-        Route::view('/ekyc-for-ehealthcare-industry', 'pages.solutions.landing.ehealthcare')->name('ehealthcare');
-        Route::view('/id-assurance-for-hospitality-industry', 'pages.solutions.landing.hospitality')->name('hospitality');
-    });
-
-    // Whitepapers & Reports
-    Route::prefix('landing-pages')->name('landing.')->group(function () {
-        Route::view('/secure-digital-identity-for-government-services-in-malaysia', 'pages.solutions.landing.government-malaysia')->name('government-malaysia');
-        Route::view('/innov8tif-fraud-report', 'pages.solutions.landing.fraud-report')->name('fraud-report');
-        Route::view('/joget-low-code-development', 'pages.solutions.landing.joget-low-code')->name('joget-low-code');
-        Route::view('/philippines-telco-whitepaper', 'pages.solutions.landing.philippines-telco')->name('philippines-telco');
-        Route::view('/bnpl-use-case-document', 'pages.solutions.landing.bnpl-use-case')->name('bnpl-use-case');
-        Route::view('/cambodia-banking-whitepaper', 'pages.solutions.landing.cambodia-banking')->name('cambodia-banking');
-        Route::view('/emas-ekyc-api-ondemand', 'pages.solutions.landing.ekyc-api-ondemand')->name('ekyc-api-ondemand');
-    });
-
-    // Dynamic landing pages (catch-all — must be AFTER static routes)
+    // Dynamic landing pages (CMS-driven)
     Route::prefix('landing-pages')->name('landing.')->group(function () {
         Route::get('/{landingPage:slug}', [LandingPageController::class, 'show'])->name('show');
         Route::post('/{landingPage:slug}/submit', [LandingPageController::class, 'submit'])
