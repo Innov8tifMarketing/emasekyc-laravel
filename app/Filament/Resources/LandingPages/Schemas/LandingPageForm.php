@@ -10,6 +10,7 @@ use App\Filament\Resources\LandingPages\Schemas\Blocks\RelatedPagesBlock;
 use Filament\Forms\Components\Builder;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Select;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
@@ -18,7 +19,6 @@ use Filament\Schemas\Components\Tabs;
 use Filament\Schemas\Components\Tabs\Tab;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
-use Filament\SpatieLaravelMediaLibrary\Forms\Components\SpatieMediaLibraryFileUpload;
 use Illuminate\Support\Str;
 
 class LandingPageForm
@@ -148,6 +148,7 @@ class LandingPageForm
                     ->collection('images')
                     ->multiple()
                     ->image()
+                    ->responsiveImages()
                     ->visibility('public')
                     ->label('Page images'),
             ]);

@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 #[Fillable(['title', 'slug', 'blocks', 'form_config', 'meta_title', 'meta_description', 'status', 'published_at'])]
 class LandingPage extends Model implements HasMedia
@@ -36,6 +37,18 @@ class LandingPage extends Model implements HasMedia
     {
         $this->addMediaCollection('pdfs')->singleFile();
         $this->addMediaCollection('images');
+    }
+
+    public function registerMediaConversions(?Media $media = null): void
+    {
+        $this->addMediaConversion('thumb')
+            ->width(400)
+            ->nonQueued();
+
+        $this->addMediaConversion('og')
+            ->width(1200)
+            ->height(630)
+            ->nonQueued();
     }
 
     public function resolveRouteBinding($value, $field = null): ?self
