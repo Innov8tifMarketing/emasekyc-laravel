@@ -3,9 +3,9 @@
 namespace App\Filament\Resources\Posts\Schemas;
 
 use Filament\Forms\Components\DateTimePicker;
-use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
@@ -44,10 +44,10 @@ class PostForm
                     ->fileAttachmentsDirectory('images/blog/attachments')
                     ->fileAttachmentsVisibility('public')
                     ->columnSpanFull(),
-                FileUpload::make('featured_image')
+                SpatieMediaLibraryFileUpload::make('featured_image')
+                    ->collection('featured_image')
                     ->image()
-                    ->disk('public')
-                    ->directory('images/blog')
+                    ->responsiveImages()
                     ->visibility('public')
                     ->maxSize(2048),
                 DateTimePicker::make('published_at'),

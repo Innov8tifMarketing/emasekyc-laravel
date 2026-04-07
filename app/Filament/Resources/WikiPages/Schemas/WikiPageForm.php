@@ -4,9 +4,9 @@ namespace App\Filament\Resources\WikiPages\Schemas;
 
 use App\Models\WikiPage;
 use Filament\Forms\Components\DateTimePicker;
-use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\Select;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Tabs;
 use Filament\Forms\Components\Tabs\Tab;
 use Filament\Forms\Components\Textarea;
@@ -59,11 +59,10 @@ class WikiPageForm
                                 Textarea::make('meta_description')
                                     ->rows(3)
                                     ->placeholder('Defaults to excerpt'),
-                                FileUpload::make('og_image')
+                                SpatieMediaLibraryFileUpload::make('og_image')
+                                    ->collection('og_image')
                                     ->label('Open Graph Image')
                                     ->image()
-                                    ->disk('public')
-                                    ->directory('images/wiki/og')
                                     ->visibility('public')
                                     ->maxSize(2048),
                             ]),
@@ -80,10 +79,10 @@ class WikiPageForm
                                 TextInput::make('sort_order')
                                     ->numeric()
                                     ->default(0),
-                                FileUpload::make('featured_image')
+                                SpatieMediaLibraryFileUpload::make('featured_image')
+                                    ->collection('featured_image')
                                     ->image()
-                                    ->disk('public')
-                                    ->directory('images/wiki')
+                                    ->responsiveImages()
                                     ->visibility('public')
                                     ->maxSize(2048),
                                 Textarea::make('icon_svg')

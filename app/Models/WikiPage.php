@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Services\MarkdownRenderer;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -10,15 +11,18 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Str;
 use Laravel\Scout\Searchable;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 #[Fillable([
     'parent_id', 'title', 'slug', 'full_slug', 'excerpt', 'body', 'body_html',
     'featured_image', 'icon_svg', 'meta_title', 'meta_description', 'og_image',
     'status', 'published_at', 'sort_order', 'reading_time_minutes', 'last_edited_by',
 ])]
-class WikiPage extends Model
+class WikiPage extends Model implements HasMedia
 {
-    use SoftDeletes, Searchable;
+    use InteractsWithMedia, Searchable, SoftDeletes;
 
     protected static function booted(): void
     {
@@ -31,7 +35,7 @@ class WikiPage extends Model
             $page->full_slug = $page->buildFullSlug();
 
             if ($page->body) {
-                $renderer = app(\App\Services\MarkdownRenderer::class);
+                $renderer = app(MarkdownRenderer::class);
                 $result = $renderer->render($page->body);
                 $page->body_html = $result->html;
                 $page->reading_time_minutes = $result->readingTime;
@@ -72,6 +76,24 @@ class WikiPage extends Model
             'sort_order' => 'integer',
             'reading_time_minutes' => 'integer',
         ];
+    }
+
+    public function registerMediaCollections(): void
+    {
+        $this->addMediaCollection('featured_image')->singleFile();
+        $this->addMediaCollection('og_image')->singleFile();
+    }
+
+    public function registerMediaConversions(?Media $media = null): void
+    {
+        $this->addMediaConversion('thumb')
+            ->width(400)
+            ->nonQueued();
+
+        $this->addMediaConversion('og')
+            ->width(1200)
+            ->height(630)
+            ->nonQueued();
     }
 
     public function toSearchableArray(): array
@@ -136,7 +158,7 @@ class WikiPage extends Model
     public function buildFullSlug(): string
     {
         if ($this->parent_id && $this->parent) {
-            return $this->parent->slug . '/' . $this->slug;
+            return $this->parent->slug.'/'.$this->slug;
         }
 
         return $this->slug;
@@ -188,7 +210,7 @@ class WikiPage extends Model
 
     public function displayTitle(): string
     {
-        return $this->meta_title ?: $this->title . ' — EMAS eKYC';
+        return $this->meta_title ?: $this->title.' — EMAS eKYC';
     }
 
     public function displayDescription(): ?string
