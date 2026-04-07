@@ -5,21 +5,20 @@ namespace App\Filament\Resources\LandingPages\Schemas\Blocks;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\Toggle;
+use Filament\Support\Icons\Heroicon;
 
 class CtaBannerBlock
 {
     public static function make(): Block
     {
         return Block::make('cta_banner')
+            ->icon(Heroicon::Megaphone)
+            ->preview('filament.content.block-previews.cta-banner')
             ->schema([
                 TextInput::make('heading')->required(),
                 Textarea::make('text'),
                 TextInput::make('button_label'),
                 TextInput::make('button_url'),
-                Toggle::make('has_background')
-                    ->label('Muted background')
-                    ->default(true),
             ])
             ->columns(2)
             ->label(function (?array $state): string {

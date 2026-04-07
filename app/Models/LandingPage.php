@@ -22,6 +22,10 @@ class LandingPage extends Model implements HasMedia
         'prose',
         'cta_banner',
         'related_pages',
+        'faq_accordion',
+        'testimonial',
+        'image_text',
+        'video_embed',
     ];
 
     protected function casts(): array

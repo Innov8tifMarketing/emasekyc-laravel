@@ -8,29 +8,28 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Icons\Heroicon;
 
-class RelatedPagesBlock
+class FaqAccordionBlock
 {
     public static function make(): Block
     {
-        return Block::make('related_pages')
-            ->icon(Heroicon::Link)
-            ->preview('filament.content.block-previews.related-pages')
+        return Block::make('faq_accordion')
+            ->icon(Heroicon::QuestionMarkCircle)
+            ->preview('filament.content.block-previews.faq-accordion')
             ->schema([
                 TextInput::make('heading'),
-                Repeater::make('pages')
+                Repeater::make('items')
                     ->schema([
-                        TextInput::make('label')->required(),
-                        TextInput::make('url')->required(),
-                        Textarea::make('description'),
+                        TextInput::make('question')->required(),
+                        Textarea::make('answer')->required(),
                     ])
                     ->columnSpanFull(),
             ])
             ->label(function (?array $state): string {
                 if ($state === null) {
-                    return 'Related Pages';
+                    return 'FAQ Accordion';
                 }
 
-                return $state['heading'] ?? 'Untitled related pages';
+                return $state['heading'] ?? 'FAQ Section';
             });
     }
 }

@@ -8,29 +8,29 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Icons\Heroicon;
 
-class RelatedPagesBlock
+class TestimonialBlock
 {
     public static function make(): Block
     {
-        return Block::make('related_pages')
-            ->icon(Heroicon::Link)
-            ->preview('filament.content.block-previews.related-pages')
+        return Block::make('testimonial')
+            ->icon(Heroicon::ChatBubbleBottomCenterText)
+            ->preview('filament.content.block-previews.testimonial')
             ->schema([
                 TextInput::make('heading'),
-                Repeater::make('pages')
+                Repeater::make('items')
                     ->schema([
-                        TextInput::make('label')->required(),
-                        TextInput::make('url')->required(),
-                        Textarea::make('description'),
+                        Textarea::make('quote')->required(),
+                        TextInput::make('author')->required(),
+                        TextInput::make('role'),
                     ])
                     ->columnSpanFull(),
             ])
             ->label(function (?array $state): string {
                 if ($state === null) {
-                    return 'Related Pages';
+                    return 'Testimonials';
                 }
 
-                return $state['heading'] ?? 'Untitled related pages';
+                return $state['heading'] ?? 'Testimonials';
             });
     }
 }

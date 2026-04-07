@@ -3,29 +3,30 @@
 namespace App\Filament\Resources\LandingPages\Schemas\Blocks;
 
 use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Icons\Heroicon;
 
-class ProseBlock
+class VideoEmbedBlock
 {
     public static function make(): Block
     {
-        return Block::make('prose')
-            ->icon(Heroicon::DocumentText)
-            ->preview('filament.content.block-previews.prose')
+        return Block::make('video_embed')
+            ->icon(Heroicon::PlayCircle)
+            ->preview('filament.content.block-previews.video-embed')
             ->schema([
                 TextInput::make('heading'),
-                RichEditor::make('content')
+                TextInput::make('video_url')
+                    ->label('Video URL')
                     ->required()
-                    ->columnSpanFull(),
+                    ->helperText('Paste a YouTube or Vimeo URL'),
+                TextInput::make('caption'),
             ])
             ->label(function (?array $state): string {
                 if ($state === null) {
-                    return 'Prose';
+                    return 'Video Embed';
                 }
 
-                return $state['heading'] ?? 'Untitled prose';
+                return $state['heading'] ?? 'Video';
             });
     }
 }

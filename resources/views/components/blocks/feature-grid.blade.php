@@ -2,11 +2,7 @@
 
 @php
     $style = $data['style'] ?? 'cards';
-    $columns = $data['columns'] ?? 3;
-    $gridClass = match((int) $columns) {
-        2 => 'grid md:grid-cols-2 gap-6',
-        default => 'grid sm:grid-cols-2 md:grid-cols-3 gap-6',
-    };
+    $gridClass = 'grid sm:grid-cols-2 md:grid-cols-3 gap-6';
     $items = $data['items'] ?? [];
 @endphp
 

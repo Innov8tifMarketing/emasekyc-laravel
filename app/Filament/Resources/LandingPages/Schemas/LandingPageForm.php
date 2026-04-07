@@ -3,10 +3,14 @@
 namespace App\Filament\Resources\LandingPages\Schemas;
 
 use App\Filament\Resources\LandingPages\Schemas\Blocks\CtaBannerBlock;
+use App\Filament\Resources\LandingPages\Schemas\Blocks\FaqAccordionBlock;
 use App\Filament\Resources\LandingPages\Schemas\Blocks\FeatureGridBlock;
 use App\Filament\Resources\LandingPages\Schemas\Blocks\HeroBlock;
+use App\Filament\Resources\LandingPages\Schemas\Blocks\ImageTextBlock;
 use App\Filament\Resources\LandingPages\Schemas\Blocks\ProseBlock;
 use App\Filament\Resources\LandingPages\Schemas\Blocks\RelatedPagesBlock;
+use App\Filament\Resources\LandingPages\Schemas\Blocks\TestimonialBlock;
+use App\Filament\Resources\LandingPages\Schemas\Blocks\VideoEmbedBlock;
 use Filament\Forms\Components\Builder;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Select;
@@ -56,9 +60,16 @@ class LandingPageForm
                         ProseBlock::make(),
                         CtaBannerBlock::make(),
                         RelatedPagesBlock::make(),
+                        FaqAccordionBlock::make(),
+                        TestimonialBlock::make(),
+                        ImageTextBlock::make(),
+                        VideoEmbedBlock::make(),
                     ])
-                    ->collapsible()
-                    ->collapsed()
+                    ->blockPreviews()
+                    ->blockIcons()
+                    ->cloneable()
+                    ->blockPickerColumns(3)
+                    ->blockPickerWidth('2xl')
                     ->columnSpanFull(),
             ]);
     }

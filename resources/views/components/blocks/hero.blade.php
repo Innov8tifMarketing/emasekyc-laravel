@@ -1,18 +1,9 @@
 @props(['data', 'page'])
 
 @php
-    $bgClass = match($data['background_style'] ?? 'primary') {
-        'dark' => 'bg-foreground text-background',
-        default => 'bg-primary text-primary-foreground',
-    };
-    $textMuted = match($data['background_style'] ?? 'primary') {
-        'dark' => 'text-background/70',
-        default => 'text-primary-foreground/80',
-    };
-    $borderMuted = match($data['background_style'] ?? 'primary') {
-        'dark' => 'border-background/30 hover:bg-background/10',
-        default => 'border-primary-foreground/30 hover:bg-primary-foreground/10',
-    };
+    $bgClass = 'bg-primary text-primary-foreground';
+    $textMuted = 'text-primary-foreground/80';
+    $borderMuted = 'border-primary-foreground/30 hover:bg-primary-foreground/10';
 @endphp
 
 <section class="{{ $bgClass }} py-16 sm:py-24">

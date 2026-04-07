@@ -1,6 +1,6 @@
 @props(['data', 'page'])
 
-<section class="py-16 {{ !empty($data['has_background']) ? 'bg-muted' : '' }}">
+<section class="py-16 bg-muted">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-2xl font-semibold tracking-tight mb-4">{{ $data['heading'] }}</h2>
 

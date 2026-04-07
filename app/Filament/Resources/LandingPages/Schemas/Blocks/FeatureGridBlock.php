@@ -7,20 +7,17 @@ use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
+use Filament\Support\Icons\Heroicon;
 
 class FeatureGridBlock
 {
     public static function make(): Block
     {
         return Block::make('feature_grid')
+            ->icon(Heroicon::Squares2x2)
+            ->preview('filament.content.block-previews.feature-grid')
             ->schema([
                 TextInput::make('heading'),
-                Select::make('columns')
-                    ->options([
-                        2 => '2 Columns',
-                        3 => '3 Columns',
-                    ])
-                    ->default(3),
                 Select::make('style')
                     ->options([
                         'cards' => 'Cards',
@@ -38,7 +35,7 @@ class FeatureGridBlock
                     ])
                     ->columnSpanFull(),
             ])
-            ->columns(3)
+            ->columns(2)
             ->label(function (?array $state): string {
                 if ($state === null) {
                     return 'Feature Grid';

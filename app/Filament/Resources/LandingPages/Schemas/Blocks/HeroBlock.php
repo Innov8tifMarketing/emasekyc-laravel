@@ -6,12 +6,15 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
+use Filament\Support\Icons\Heroicon;
 
 class HeroBlock
 {
     public static function make(): Block
     {
         return Block::make('hero')
+            ->icon(Heroicon::RocketLaunch)
+            ->preview('filament.content.block-previews.hero')
             ->schema([
                 TextInput::make('heading')
                     ->required()
@@ -19,12 +22,6 @@ class HeroBlock
                 TextInput::make('subheading')
                     ->columnSpanFull(),
                 TextInput::make('badge_text'),
-                Select::make('background_style')
-                    ->options([
-                        'primary' => 'Primary',
-                        'dark' => 'Dark',
-                    ])
-                    ->default('primary'),
                 Repeater::make('cta_buttons')
                     ->schema([
                         TextInput::make('label')->required(),
