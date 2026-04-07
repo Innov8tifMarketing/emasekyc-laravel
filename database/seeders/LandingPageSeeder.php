@@ -275,7 +275,7 @@ class LandingPageSeeder extends Seeder
                             'columns' => 3,
                             'style' => 'cards',
                             'items' => [
-                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Local office in Singapore with regional support across Southeast Asia. Currently serving most major Telco operators in the ASEAN region.'],
+                                ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region.'],
                                 ['title' => 'Proprietary Technology', 'description' => 'In-house AI technology optimised for ASEAN identity documents and diverse facial features, including microprint, hologram, and tampering detection.'],
                                 ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Singapore\'s data residency requirements. API platform available at ekycondemand.com.'],
                             ],
@@ -502,7 +502,7 @@ class LandingPageSeeder extends Seeder
                             'items' => [
                                 ['title' => 'ASEAN Presence & Localisation', 'description' => 'Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region.'],
                                 ['title' => 'Proprietary Technology', 'description' => 'In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features, including microprint, hologram, and tampering detection.'],
-                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment to meet Vietnam\'s data localisation requirements. API platform available at ekycondemand.com.'],
+                                ['title' => 'Flexibility in Deployment', 'description' => 'Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements. API platform available at ekycondemand.com.'],
                             ],
                         ],
                     ],
@@ -1299,7 +1299,7 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-indonesia'],
                                 ['label' => 'Thailand', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-thailand'],
                                 ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-cambodia'],
-                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-the-phillipines'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-the-philippines'],
                             ],
                         ],
                     ],
@@ -1400,7 +1400,7 @@ class LandingPageSeeder extends Seeder
                                 ['label' => 'Cambodia', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-cambodia'],
                                 ['label' => 'Indonesia', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-indonesia'],
                                 ['label' => 'Thailand', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-thailand'],
-                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-the-phillipines'],
+                                ['label' => 'Philippines', 'url' => '/solutions/landing-pages/ekyc-for-insurance-industry-in-the-philippines'],
                             ],
                         ],
                     ],
@@ -1630,7 +1630,7 @@ class LandingPageSeeder extends Seeder
             // 17. eKYC for Insurance Industry in the Philippines
             [
                 'title' => 'eKYC for Insurance Industry in the Philippines',
-                'slug' => 'ekyc-for-insurance-industry-in-the-phillipines',
+                'slug' => 'ekyc-for-insurance-industry-in-the-philippines',
                 'meta_title' => 'eKYC for Insurance Industry in the Philippines — EMAS eKYC',
                 'meta_description' => 'Enhance your insurance onboarding with AI-powered identity verification compliant with Insurance Commission and BSP regulations.',
                 'status' => 'published',
