@@ -2,10 +2,16 @@
 
 namespace App\Filament\Resources\WikiPages\Schemas;
 
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\CalloutBlock;
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\ChecklistBlock;
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\DetailsBlock;
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\GridBlock;
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\VideoBlock;
 use App\Filament\Schemas\SeoFields;
 use App\Models\WikiPage;
 use Filament\Forms\Components\DateTimePicker;
-use Filament\Forms\Components\MarkdownEditor;
+use Filament\Forms\Components\Hidden;
+use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Tabs;
@@ -45,7 +51,23 @@ class WikiPageForm
                                     ])
                                     ->default('draft')
                                     ->required(),
-                                MarkdownEditor::make('body')
+                                Hidden::make('body_format')
+                                    ->default('rich'),
+                                RichEditor::make('body')
+                                    ->customBlocks([
+                                        CalloutBlock::class,
+                                        DetailsBlock::class,
+                                        ChecklistBlock::class,
+                                        VideoBlock::class,
+                                        GridBlock::class,
+                                    ])
+                                    ->toolbarButtons([
+                                        ['bold', 'italic', 'underline', 'strike', 'link'],
+                                        ['h2', 'h3', 'h4'],
+                                        ['bulletList', 'orderedList', 'blockquote'],
+                                        ['table', 'attachFiles', 'customBlocks'],
+                                        ['undo', 'redo'],
+                                    ])
                                     ->fileAttachmentsDisk('public')
                                     ->fileAttachmentsDirectory('images/wiki')
                                     ->columnSpanFull(),

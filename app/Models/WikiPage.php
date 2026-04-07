@@ -2,7 +2,14 @@
 
 namespace App\Models;
 
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\CalloutBlock;
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\ChecklistBlock;
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\DetailsBlock;
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\GridBlock;
+use App\Filament\Forms\Components\RichEditor\RichContentCustomBlocks\VideoBlock;
 use App\Services\MarkdownRenderer;
+use Filament\Forms\Components\RichEditor\Models\Concerns\InteractsWithRichContent;
+use Filament\Forms\Components\RichEditor\Models\Contracts\HasRichContent;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -16,13 +23,13 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 #[Fillable([
-    'parent_id', 'title', 'slug', 'full_slug', 'excerpt', 'body', 'body_html',
+    'parent_id', 'title', 'slug', 'full_slug', 'excerpt', 'body', 'body_html', 'body_format',
     'featured_image', 'icon_svg', 'meta_title', 'meta_description', 'og_image',
     'status', 'published_at', 'sort_order', 'reading_time_minutes', 'last_edited_by',
 ])]
-class WikiPage extends Model implements HasMedia
+class WikiPage extends Model implements HasMedia, HasRichContent
 {
-    use InteractsWithMedia, Searchable, SoftDeletes;
+    use InteractsWithMedia, InteractsWithRichContent, Searchable, SoftDeletes;
 
     protected static function booted(): void
     {
@@ -34,11 +41,15 @@ class WikiPage extends Model implements HasMedia
             $oldFullSlug = $page->getOriginal('full_slug');
             $page->full_slug = $page->buildFullSlug();
 
-            if ($page->body) {
+            if ($page->body && $page->body_format === 'markdown') {
                 $renderer = app(MarkdownRenderer::class);
                 $result = $renderer->render($page->body);
                 $page->body_html = $result->html;
                 $page->reading_time_minutes = $result->readingTime;
+            } elseif ($page->body && $page->body_format === 'rich') {
+                $page->body_html = $page->renderRichContent('body');
+                $wordCount = str_word_count(strip_tags($page->body_html));
+                $page->reading_time_minutes = max(1, (int) ceil($wordCount / 200));
             }
 
             // Auto-create redirect when full_slug changes (for existing pages)
@@ -76,6 +87,18 @@ class WikiPage extends Model implements HasMedia
             'sort_order' => 'integer',
             'reading_time_minutes' => 'integer',
         ];
+    }
+
+    public function setUpRichContent(): void
+    {
+        $this->registerRichContent('body')
+            ->customBlocks([
+                CalloutBlock::class,
+                DetailsBlock::class,
+                ChecklistBlock::class,
+                VideoBlock::class,
+                GridBlock::class,
+            ]);
     }
 
     public function registerMediaCollections(): void
