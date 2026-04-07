@@ -11,6 +11,7 @@ use App\Filament\Resources\LandingPages\Schemas\Blocks\ProseBlock;
 use App\Filament\Resources\LandingPages\Schemas\Blocks\RelatedPagesBlock;
 use App\Filament\Resources\LandingPages\Schemas\Blocks\TestimonialBlock;
 use App\Filament\Resources\LandingPages\Schemas\Blocks\VideoEmbedBlock;
+use App\Filament\Schemas\SeoFields;
 use Filament\Forms\Components\Builder;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Select;
@@ -128,11 +129,7 @@ class LandingPageForm
     {
         return Tab::make('SEO & Settings')
             ->schema([
-                TextInput::make('meta_title')
-                    ->label('Meta title'),
-                Textarea::make('meta_description')
-                    ->label('Meta description')
-                    ->rows(3),
+                ...SeoFields::make(),
                 Select::make('status')
                     ->options([
                         'draft' => 'Draft',

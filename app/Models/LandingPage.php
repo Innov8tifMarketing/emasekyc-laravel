@@ -83,4 +83,14 @@ class LandingPage extends Model implements HasMedia
     {
         return $this->hasMedia('pdfs');
     }
+
+    public function displayTitle(): string
+    {
+        return $this->meta_title ?: $this->title.' — EMAS eKYC';
+    }
+
+    public function displayDescription(): ?string
+    {
+        return $this->meta_description ?: null;
+    }
 }

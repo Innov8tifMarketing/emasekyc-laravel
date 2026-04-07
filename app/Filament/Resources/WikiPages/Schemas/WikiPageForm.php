@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\WikiPages\Schemas;
 
+use App\Filament\Schemas\SeoFields;
 use App\Models\WikiPage;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\MarkdownEditor;
@@ -53,19 +54,7 @@ class WikiPageForm
                                     ->columnSpanFull(),
                             ]),
                         Tab::make('SEO & Meta')
-                            ->schema([
-                                TextInput::make('meta_title')
-                                    ->placeholder('Defaults to: {title} — EMAS eKYC'),
-                                Textarea::make('meta_description')
-                                    ->rows(3)
-                                    ->placeholder('Defaults to excerpt'),
-                                SpatieMediaLibraryFileUpload::make('og_image')
-                                    ->collection('og_image')
-                                    ->label('Open Graph Image')
-                                    ->image()
-                                    ->visibility('public')
-                                    ->maxSize(2048),
-                            ]),
+                            ->schema(SeoFields::make()),
                         Tab::make('Relations')
                             ->schema([
                                 Select::make('relatedPages')

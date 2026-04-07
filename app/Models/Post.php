@@ -7,11 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Str;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
-#[Fillable(['title', 'slug', 'excerpt', 'body', 'published_at'])]
+#[Fillable(['title', 'slug', 'excerpt', 'body', 'meta_title', 'meta_description', 'author_name', 'published_at'])]
 class Post extends Model implements HasMedia
 {
     use InteractsWithMedia, SoftDeletes;
@@ -54,5 +55,15 @@ class Post extends Model implements HasMedia
     public function scopePublished($query)
     {
         return $query->whereNotNull('published_at')->where('published_at', '<=', now());
+    }
+
+    public function displayTitle(): string
+    {
+        return $this->meta_title ?: $this->title.' — EMAS eKYC';
+    }
+
+    public function displayDescription(): ?string
+    {
+        return $this->meta_description ?: $this->excerpt ?: Str::limit(strip_tags($this->body ?? ''), 160);
     }
 }
