@@ -34,7 +34,7 @@
             </div>
             @if ($illustration)
                 <div class="flex-1 hidden lg:block">
-                    <img src="{{ $illustration }}" alt="" role="presentation" loading="lazy" class="w-full max-w-sm mx-auto">
+                    <img src="{{ $illustration }}" alt="" role="presentation" loading="lazy" class="w-full max-w-sm mx-auto rounded-xl shadow-lg">
                 </div>
             @endif
         </div>

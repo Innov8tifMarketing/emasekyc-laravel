@@ -245,6 +245,25 @@
 .phone-frame-sm .phone-screen {
     border-radius: 22px;
 }
+.phone-frame-sm .phone-ios-status {
+    padding: 0.25rem 0.75rem 0;
+}
+.phone-frame-sm .phone-ios-status span {
+    font-size: 8px;
+}
+.phone-frame-sm .phone-ios-status svg {
+    width: 10px;
+    height: 10px;
+}
+.phone-frame-sm .phone-ios-status .phone-ios-battery {
+    width: 14px;
+    height: 9px;
+}
+.phone-frame-sm .phone-ios-home {
+    width: 3rem;
+    height: 3px;
+    bottom: 3px;
+}
 
 /* ===== Marquee (infinite scroll logos) ===== */
 @keyframes marquee {
@@ -354,6 +373,23 @@
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
+}
+.viewfinder-darken-outside {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    --cutout-w: 7rem;
+    --cutout-h: 5rem;
+    --cutout-x: center;
+    --cutout-y: center;
+    -webkit-mask:
+        linear-gradient(#000 0 0) var(--cutout-x) var(--cutout-y) / var(--cutout-w) var(--cutout-h) no-repeat,
+        linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask:
+        linear-gradient(#000 0 0) var(--cutout-x) var(--cutout-y) / var(--cutout-w) var(--cutout-h) no-repeat,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
 }
 .face-outline {
     width: 140px;

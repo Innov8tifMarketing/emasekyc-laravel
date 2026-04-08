@@ -1,0 +1,5 @@
+domains:
+    - emasekyc-laravel
+php_version: "8.5"
+framework: laravel
+secured: true

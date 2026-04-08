@@ -34,14 +34,15 @@
                 <div class="flex-shrink-0 hidden md:block gsap-hero-phone" aria-hidden="true">
                     <div class="phone-frame phone-frame-hero">
                         <div class="phone-screen">
+                            <x-phone-ios-chrome />
                             {{-- Person's face as camera feed background --}}
                             <img src="/images/hero/phone-face.webp" alt="" role="presentation" loading="eager" fetchpriority="high" width="280" height="560" class="absolute inset-0 w-full h-full object-cover object-top">
                             {{-- Subtle dark vignette overlay --}}
                             <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60"></div>
                             {{-- Camera viewfinder UI --}}
-                            <div class="phone-viewfinder relative z-10">
+                            <div class="phone-viewfinder relative z-10 pt-8">
                                 {{-- Top bar (camera app style) --}}
-                                <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+                                <div class="absolute top-8 left-4 right-4 flex items-center justify-between">
                                     <x-heroicon-o-x-mark class="w-5 h-5 text-white/70" />
                                     <span class="text-[10px] font-medium text-white/90 tracking-wide uppercase">Verify ID</span>
                                     <x-heroicon-o-bolt class="w-5 h-5 text-white/70" />
@@ -262,10 +263,12 @@
                                 <a href="{{ $child->url }}" class="flex items-center gap-3 rounded-xl border border-border bg-background p-4 hover:shadow-md transition hover-lift group">
                                     @if($child->icon_svg)
                                         <span class="w-5 h-5 text-primary shrink-0 [&>svg]:w-full [&>svg]:h-full">{!! $child->icon_svg !!}</span>
+                                    @else
+                                        <x-heroicon-o-cube class="w-5 h-5 text-primary shrink-0" />
                                     @endif
                                     <div class="flex-1">
                                         <h3 class="font-medium">{{ $child->title }}</h3>
-                                        <p class="text-sm text-muted-foreground">{{ $child->excerpt }}</p>
+                                        <p class="text-sm text-muted-foreground line-clamp-2">{{ $child->excerpt }}</p>
                                     </div>
                                     <x-heroicon-o-chevron-right class="w-4 h-4 text-muted-foreground shrink-0 transition-transform group-hover:translate-x-0.5" />
                                 </a>
@@ -279,6 +282,7 @@
                 <div class="hidden lg:flex items-start justify-center lg:w-56 shrink-0" aria-hidden="true">
                     <div class="phone-frame phone-frame-sm">
                         <div class="phone-screen">
+                            <x-phone-ios-chrome :dark="false" />
                             {{-- Identity: face scan --}}
                             <div x-show="tab === 'identity'" class="phone-viewfinder bg-gradient-to-b from-muted to-accent">
                                 <div class="viewfinder-corners"><span></span></div>
@@ -344,8 +348,8 @@
                 <div class="text-center">
                     <div class="phone-frame phone-frame-sm mx-auto mb-6">
                         <div class="phone-screen">
-                            {{-- Background image (zoomed in to show ID clearly) --}}
-                            <img src="/images/home/step1-id.webp" alt="" role="presentation" class="absolute inset-0 w-full h-full object-cover scale-125 object-center">
+                            <x-phone-ios-chrome />
+                            <img src="/images/home/step1-id.webp" alt="" role="presentation" class="absolute inset-0 w-full h-full object-cover scale-110 object-[center_30%]">
                             <div class="absolute inset-0 bg-black/40"></div>
                             {{-- White overlay UI --}}
                             <div class="phone-viewfinder relative z-10">
@@ -367,18 +371,18 @@
                 <div class="text-center">
                     <div class="phone-frame phone-frame-sm mx-auto mb-6">
                         <div class="phone-screen">
+                            <x-phone-ios-chrome />
                             {{-- Background image --}}
-                            <img src="/images/home/step2-selfie.webp" alt="" role="presentation" class="absolute inset-0 w-full h-full object-cover">
-                            <div class="absolute inset-0 bg-black/30"></div>
+                            <img src="/images/home/step2-selfie.webp" alt="" role="presentation" class="absolute inset-0 w-full h-full object-cover object-[center_20%]">
+                            <div class="absolute inset-0 bg-black/20 z-[5]"></div>
                             {{-- White overlay UI --}}
                             <div class="phone-viewfinder relative z-10">
-                                <div class="w-24 h-32 rounded-2xl border-2 border-white/60 flex items-center justify-center relative">
-                                    <x-heroicon-o-camera class="w-8 h-8 text-white/50" />
+                                <div class="w-36 h-44 rounded-2xl border-2 border-white/60 flex items-center justify-center relative">
                                     {{-- Corner brackets --}}
-                                    <div class="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-white rounded-tl-lg"></div>
-                                    <div class="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-white rounded-tr-lg"></div>
-                                    <div class="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-white rounded-bl-lg"></div>
-                                    <div class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-white rounded-br-lg"></div>
+                                    <div class="absolute top-0 left-0 w-5 h-5 border-t-2 border-l-2 border-white rounded-tl-lg"></div>
+                                    <div class="absolute top-0 right-0 w-5 h-5 border-t-2 border-r-2 border-white rounded-tr-lg"></div>
+                                    <div class="absolute bottom-0 left-0 w-5 h-5 border-b-2 border-l-2 border-white rounded-bl-lg"></div>
+                                    <div class="absolute bottom-0 right-0 w-5 h-5 border-b-2 border-r-2 border-white rounded-br-lg"></div>
                                 </div>
                                 <p class="mt-4 text-[11px] font-medium text-white/80">Align your face</p>
                             </div>
@@ -393,6 +397,7 @@
                 <div class="text-center">
                     <div class="phone-frame phone-frame-sm mx-auto mb-6">
                         <div class="phone-screen bg-gradient-to-b from-success/10 to-muted">
+                            <x-phone-ios-chrome :dark="false" />
                             <div class="phone-viewfinder">
                                 <x-heroicon-o-check-badge class="w-16 h-16 text-success" />
                                 <p class="mt-3 text-base font-semibold text-success">Identity Verified</p>
@@ -469,8 +474,25 @@
     @endif
 
     {{-- ==================== CASE STUDY / WHITEPAPER CALLOUT ==================== --}}
-    <section class="py-16 sm:py-20 bg-muted" data-gsap="fade-up">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-16 sm:py-20 bg-muted relative overflow-hidden" data-gsap="fade-up">
+        {{-- Topographic texture pattern --}}
+        <svg class="absolute inset-0 w-full h-full text-foreground/[0.06]" aria-hidden="true">
+            <defs>
+                <pattern id="topo-pattern" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+                    <path d="M60 5c30 0 55 25 55 55s-25 55-55 55S5 90 5 60 30 5 60 5z" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <path d="M60 18c23 0 42 19 42 42s-19 42-42 42-42-19-42-42 19-42 42-42z" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <path d="M60 32c15.5 0 28 12.5 28 28s-12.5 28-28 28-28-12.5-28-28 12.5-28 28-28z" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <path d="M60 46c7.7 0 14 6.3 14 14s-6.3 14-14 14-14-6.3-14-14 6.3-14 14-14z" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <circle cx="60" cy="60" r="3" fill="currentColor" opacity="0.4"/>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#topo-pattern)"/>
+        </svg>
+        {{-- Gradient orbs --}}
+        <div class="absolute top-0 right-0 w-[300px] h-[300px] bg-primary/5 rounded-full blur-3xl -translate-y-1/3 translate-x-1/4" aria-hidden="true"></div>
+        <div class="absolute bottom-0 left-0 w-[250px] h-[250px] bg-secondary/5 rounded-full blur-3xl translate-y-1/3 -translate-x-1/4" aria-hidden="true"></div>
+
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="flex flex-col md:flex-row items-center gap-8 rounded-xl border border-border bg-background p-8 md:p-10">
                 <div class="flex-1">
                     <p class="text-sm font-medium text-secondary mb-2">Resources</p>
