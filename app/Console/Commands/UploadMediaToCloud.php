@@ -7,7 +7,7 @@ use Illuminate\Console\Attributes\Description;
 use Illuminate\Console\Attributes\Signature;
 use Illuminate\Console\Command;
 
-#[Signature('app:upload-media-to-cloud {--disk=s3 : Target disk for uploads}')]
+#[Signature('app:upload-media-to-cloud {--disk=private : Target disk for uploads}')]
 #[Description('Upload local media files to cloud storage and attach to models')]
 class UploadMediaToCloud extends Command
 {
