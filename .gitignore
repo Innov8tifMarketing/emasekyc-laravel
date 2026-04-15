@@ -31,3 +31,5 @@ scratch.org
 docs/__pycache__/
 docs/_*.py
 docs/_*.json
+*.sync-conflict-*
+/.cloud/
