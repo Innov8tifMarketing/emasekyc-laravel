@@ -27,6 +27,7 @@ class DatabaseSeeder extends Seeder
             ClientSeeder::class,
             LandingPageSeeder::class,
             WikiPageSeeder::class,
+            MediaSeeder::class,
         ]);
     }
 }

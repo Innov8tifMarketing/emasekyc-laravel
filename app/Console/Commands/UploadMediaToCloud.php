@@ -48,8 +48,13 @@ class UploadMediaToCloud extends Command
                 continue;
             }
 
-            if ($model->getMedia($mapping['collection_name'])->where('file_name', $mapping['file_name'])->isNotEmpty()) {
-                $this->line("Already exists: {$mapping['file_name']} on {$mapping['model_slug']} — skipping.");
+            $existsOnDisk = $model->getMedia($mapping['collection_name'])
+                ->where('file_name', $mapping['file_name'])
+                ->where('disk', $disk)
+                ->isNotEmpty();
+
+            if ($existsOnDisk) {
+                $this->line("Already exists on {$disk}: {$mapping['file_name']} on {$mapping['model_slug']} — skipping.");
                 $skipped++;
 
                 continue;
