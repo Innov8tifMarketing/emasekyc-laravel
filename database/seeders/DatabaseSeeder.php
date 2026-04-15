@@ -12,10 +12,15 @@ class DatabaseSeeder extends Seeder
 
     public function run(): void
     {
-        User::factory()->admin()->create([
-            'name' => 'Admin',
-            'email' => 'admin@cothink.ing',
-        ]);
+        User::updateOrCreate(
+            ['email' => 'admin@cothink.ing'],
+            [
+                'name' => 'Admin',
+                'password' => bcrypt('password'),
+                'is_admin' => true,
+                'email_verified_at' => now(),
+            ]
+        );
 
         $this->call([
             WpPostSeeder::class,
