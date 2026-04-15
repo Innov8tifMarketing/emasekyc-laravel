@@ -1,0 +1,4339 @@
+[
+    {
+        "id": 1,
+        "title": "eKYC Malaysia",
+        "slug": "ekyc-malaysia",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Streamlining Your customer journeys with eKYC & ID Verification",
+                    "subheading": "Millions of identity verifications processed. Implemented for businesses across Malaysia. Supporting MyKad, passport, and driving license verification.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why EMAS eKYC for Malaysia",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "NRIC Checks",
+                            "description": "Millions of ID Verification Checks Completed. Real-time validation against government databases."
+                        },
+                        {
+                            "title": "Regulatory Compliance",
+                            "description": "Implemented for Businesses Regulated by Bank Negara Malaysia, Securities Commission and MCMC."
+                        },
+                        {
+                            "title": "Fast Verification",
+                            "description": "Can Be Completed in LESS THAN 1 Minute! Seamless customer onboarding experience."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Banking & Finance"
+                        },
+                        {
+                            "title": "Telecommunication"
+                        },
+                        {
+                            "title": "Insurance"
+                        },
+                        {
+                            "title": "Broadcasting"
+                        },
+                        {
+                            "title": "Digital Banking"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features, including microprint, hologram, and tampering detection."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements. API platform available at ekycondemand.com."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Documents That We Verify",
+                    "content": "<p class=\"text-center\">Tested and compliant to Malaysian standards including NRIC checks.<\/p><p class=\"text-center\">MyKad (NRIC), Passport, Driving License, MyTentera, MyPR<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Explore Our Solutions",
+                    "pages": [
+                        {
+                            "label": "EMAS CIDA",
+                            "url": "\/solutions\/emas-cida",
+                            "description": "Comprehensive Identity & Document Authentication"
+                        },
+                        {
+                            "label": "eKYC for Developers",
+                            "url": "https:\/\/ekycondemand.com\/",
+                            "description": "API-first eKYC platform"
+                        },
+                        {
+                            "label": "Insurance Industry",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "description": "eKYC solutions for insurers"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Trusted By Leading Malaysian Companies",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "UOB Mighty",
+                            "description": "One of Malaysia's leading banks. The implementation of EMAS eKYC during the sign-up process can be completed in just 2 minutes."
+                        },
+                        {
+                            "title": "Tune Talk",
+                            "description": "A mobile virtual network operator in Malaysia. With EMAS eKYC, end-users can now register a new phone number anywhere and anytime."
+                        },
+                        {
+                            "title": "Astro",
+                            "description": "Malaysia's leading media and entertainment company. EMAS eKYC eases their customer billing verification process."
+                        },
+                        {
+                            "title": "Maxis",
+                            "description": "A leading communications service provider in Malaysia. Using EMAS eKYC to onboard customers faster and seamlessly."
+                        },
+                        {
+                            "title": "IOUpay",
+                            "description": "A Buy Now Pay Later service. Through EMAS eKYC, IOUpay's digital channels are protected against fraudsters."
+                        },
+                        {
+                            "title": "Celcom",
+                            "description": "A major telecommunications company. EMAS eKYC ensures faster and more secure user registration for Celcom services."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to streamline your customer onboarding?",
+                    "text": "Talk to our team about implementing eKYC for your Malaysian operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Malaysia — EMAS eKYC",
+        "meta_description": "Streamlining your customer journeys with eKYC & ID verification in Malaysia. Millions of identity verifications processed.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 2,
+        "title": "eKYC Singapore",
+        "slug": "ekyc-singapore",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Singapore — Fast & Secure eKYC for Businesses",
+                    "subheading": "AI-powered identity verification technology for real-time digital customer onboarding and fraud management in Singapore.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Documents That We Verify",
+                    "columns": 4,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Citizen's NRIC",
+                            "description": "Verify Singapore citizens with NRIC front and back scanning."
+                        },
+                        {
+                            "title": "Permanent Resident's NRIC",
+                            "description": "Support for PR identity card verification."
+                        },
+                        {
+                            "title": "Work Permit \/ Employment Pass",
+                            "description": "Verify foreign workers and employment pass holders."
+                        },
+                        {
+                            "title": "Passport",
+                            "description": "International passport verification with MRZ reading."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Verification",
+                            "description": "Millions of ID Verification Checks Completed. Involved Financial Institutions, Insurance, Telecommunication and Many More!"
+                        },
+                        {
+                            "title": "Regulations",
+                            "description": "Implemented for Banking, Financial Institutions, Telecommunication, Insurance and Many More!"
+                        },
+                        {
+                            "title": "Fast Verification",
+                            "description": "Can Be Completed LESS THAN 1 Minute! Users can complete the onboarding process seamlessly anywhere and anytime."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Banking & Finance"
+                        },
+                        {
+                            "title": "Telecommunication"
+                        },
+                        {
+                            "title": "Insurance"
+                        },
+                        {
+                            "title": "Financial Institutions"
+                        },
+                        {
+                            "title": "P2P Lending"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "In-house AI technology optimised for ASEAN identity documents and diverse facial features, including microprint, hologram, and tampering detection."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment to meet Singapore's data residency requirements. API platform available at ekycondemand.com."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Explore Our Solutions",
+                    "pages": [
+                        {
+                            "label": "EMAS CIDA",
+                            "url": "\/solutions\/emas-cida",
+                            "description": "Comprehensive Identity & Document Authentication"
+                        },
+                        {
+                            "label": "eKYC for Developers",
+                            "url": "https:\/\/ekycondemand.com\/",
+                            "description": "API-first eKYC platform"
+                        },
+                        {
+                            "label": "Insurance Industry",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "description": "eKYC solutions for insurers"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Our Clients in Singapore",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Fundaztic SG",
+                            "description": "Fully owned and managed by Fundaztic SG Pte Ltd and operates a peer-to-peer financing platform which holds a Capital Markets Services License (CMS) issued by the Monetary Authority of Singapore (MAS)."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to streamline your customer onboarding in Singapore?",
+                    "text": "Talk to our team about implementing eKYC for your Singapore operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Singapore — EMAS eKYC",
+        "meta_description": "AI-powered identity verification technology for real-time digital customer onboarding and fraud management in Singapore.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 3,
+        "title": "eKYC Philippines",
+        "slug": "ekyc-philippines",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Streamlining customer journeys with eKYC & ID Verification",
+                    "subheading": "AI-powered identity verification for real-time digital customer onboarding and fraud management in the Philippines.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Verification",
+                            "description": "Millions of ID Verification Checks Completed. Involved Financial Institutions, Insurance, Telecommunication and Many More!"
+                        },
+                        {
+                            "title": "Regulations",
+                            "description": "Implemented for Banking, Financial Institutions, Telecommunication, Insurance and Many More!"
+                        },
+                        {
+                            "title": "Fast Verification",
+                            "description": "Can Be Completed LESS THAN 1 Minute! Users can complete the onboarding process seamlessly anywhere and anytime."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Documents That We Verify",
+                    "content": "<p class=\"text-center\">Philippine National ID (PhilSys), Passport, Driver's License, Professional Driving License, SSS ID, Unified Multi-Purpose ID, Voter ID, Professional ID Card<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 4,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Banking"
+                        },
+                        {
+                            "title": "Financial Institutions"
+                        },
+                        {
+                            "title": "Telecommunication"
+                        },
+                        {
+                            "title": "Insurance"
+                        },
+                        {
+                            "title": "BNPL"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features, including microprint, hologram, and tampering detection."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment options to meet your compliance needs. API platform available at ekycondemand.com."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Explore Our Solutions",
+                    "pages": [
+                        {
+                            "label": "EMAS CIDA",
+                            "url": "\/solutions\/emas-cida",
+                            "description": "Comprehensive Identity & Document Authentication"
+                        },
+                        {
+                            "label": "eKYC for Developers",
+                            "url": "https:\/\/ekycondemand.com\/",
+                            "description": "API-first eKYC platform"
+                        },
+                        {
+                            "label": "Insurance Industry",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "description": "eKYC solutions for insurers"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Our Clients in the Philippines",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "4Gives",
+                            "description": "The implementation of EMAS eKYC eases the application process for the end users. Businesses now can verify the eligibility of the customer before approving the BNPL application."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Get In Touch With Us!",
+                    "text": "Talk to our Philippines team about implementing eKYC for your business.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Philippines — EMAS eKYC",
+        "meta_description": "AI-powered identity verification for real-time digital customer onboarding and fraud management in the Philippines.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 4,
+        "title": "eKYC Vietnam",
+        "slug": "ekyc-vietnam",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Streamlining customer journeys with eKYC & ID Verification",
+                    "subheading": "EMAS eKYC AI is an AI-powered ID verification technology for real-time digital customer onboarding and fraud management in Vietnam.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Verification",
+                            "description": "Millions of ID Verification Checks Completed. Involved Financial Institutions, Insurance, Telecommunication and Many More!"
+                        },
+                        {
+                            "title": "Regulations",
+                            "description": "Implemented for Banking, Financial Institutions, Telecommunication, Insurance and Many More!"
+                        },
+                        {
+                            "title": "Fast Verification",
+                            "description": "Can Be Completed LESS THAN 1 Minute! Users can complete the onboarding process seamlessly anywhere and anytime."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Documents That We Verify",
+                    "content": "<p class=\"text-center\">Citizen ID Card (CCCD), Passport, Driving License<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 4,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Banking"
+                        },
+                        {
+                            "title": "Financial Institutions"
+                        },
+                        {
+                            "title": "Telecommunication"
+                        },
+                        {
+                            "title": "Insurance"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features, including microprint, hologram, and tampering detection."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements. API platform available at ekycondemand.com."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Industry Reports, Brochures & Whitepapers",
+                    "content": "<p class=\"text-center\">Download our latest resources on eKYC implementation in Vietnam.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Explore Our Solutions",
+                    "pages": [
+                        {
+                            "label": "EMAS CIDA",
+                            "url": "\/solutions\/emas-cida",
+                            "description": "Comprehensive Identity & Document Authentication"
+                        },
+                        {
+                            "label": "eKYC for Developers",
+                            "url": "https:\/\/ekycondemand.com\/",
+                            "description": "API-first eKYC platform"
+                        },
+                        {
+                            "label": "Insurance Industry",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "description": "eKYC solutions for insurers"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Get In Touch With Us!",
+                    "text": "Talk to our team about implementing eKYC for your Vietnamese operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Vietnam — EMAS eKYC",
+        "meta_description": "EMAS eKYC AI is an AI-powered ID verification technology for real-time digital customer onboarding and fraud management in Vietnam.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 5,
+        "title": "eKYC Myanmar",
+        "slug": "ekyc-myanmar",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Streamlining customer journeys with eKYC & ID Verification",
+                    "subheading": "AI-powered identity verification for real-time digital customer onboarding and fraud management in Myanmar.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Verification",
+                            "description": "Millions of ID Verification Checks Completed. Involved Financial Institutions, Insurance, Telecommunication and Many More!"
+                        },
+                        {
+                            "title": "Regulations",
+                            "description": "Implemented for Banking, Financial Institutions, Telecommunication, Insurance and Many More!"
+                        },
+                        {
+                            "title": "Fast Verification",
+                            "description": "Can Be Completed LESS THAN 1 Minute! Users can complete the onboarding process seamlessly anywhere and anytime."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Documents That We Verify",
+                    "content": "<p class=\"text-center\">Myanmar Driving License, Passport<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Banking"
+                        },
+                        {
+                            "title": "Insurance"
+                        },
+                        {
+                            "title": "Telecommunications"
+                        },
+                        {
+                            "title": "Financial Services"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features, including microprint, hologram, and tampering detection."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment options for your infrastructure needs. API platform available at ekycondemand.com."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Explore Our Solutions",
+                    "pages": [
+                        {
+                            "label": "EMAS CIDA",
+                            "url": "\/solutions\/emas-cida",
+                            "description": "Comprehensive Identity & Document Authentication"
+                        },
+                        {
+                            "label": "eKYC for Developers",
+                            "url": "https:\/\/ekycondemand.com\/",
+                            "description": "API-first eKYC platform"
+                        },
+                        {
+                            "label": "Insurance Industry",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "description": "eKYC solutions for insurers"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to implement eKYC in Myanmar?",
+                    "text": "Talk to our team about identity verification solutions for your business.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Myanmar — EMAS eKYC",
+        "meta_description": "AI-powered identity verification for real-time digital customer onboarding and fraud management in Myanmar.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 6,
+        "title": "eKYC Indonesia",
+        "slug": "ekyc-indonesia",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Streamlining customer journeys with eKYC & ID Verification",
+                    "subheading": "AI-powered identity verification technology for real-time digital customer onboarding and fraud management in Indonesia.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Verification",
+                            "description": "Millions of ID Verification Checks Completed. Involved Financial Institutions, Insurance, Telecommunication and Many More!"
+                        },
+                        {
+                            "title": "Regulations",
+                            "description": "Implemented for Banking, Financial Institutions, Telecommunication, Insurance and Many More!"
+                        },
+                        {
+                            "title": "Fast Verification",
+                            "description": "Can Be Completed LESS THAN 1 Minute! Users can complete the onboarding process seamlessly anywhere and anytime."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Documents That We Verify",
+                    "content": "<p class=\"text-center\">KTP (e-KTP), Passport, Driving License (SIM)<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Banking & Finance"
+                        },
+                        {
+                            "title": "Telecommunication"
+                        },
+                        {
+                            "title": "Insurance"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features, including microprint, hologram, and tampering detection."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements. API platform available at ekycondemand.com."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Explore Our Solutions",
+                    "pages": [
+                        {
+                            "label": "EMAS CIDA",
+                            "url": "\/solutions\/emas-cida",
+                            "description": "Comprehensive Identity & Document Authentication"
+                        },
+                        {
+                            "label": "eKYC for Developers",
+                            "url": "https:\/\/ekycondemand.com\/",
+                            "description": "API-first eKYC platform"
+                        },
+                        {
+                            "label": "Insurance Industry",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "description": "eKYC solutions for insurers"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Our Clients in Indonesia",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "UOB Bank Indonesia",
+                            "description": "Completed in just 2 minutes. Customers now can open a new bank account and verify their identity digitally."
+                        },
+                        {
+                            "title": "DBS Bank Indonesia",
+                            "description": "DBS is a leading financial services group in Asia with a presence in 19 markets."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to streamline your customer onboarding in Indonesia?",
+                    "text": "Talk to our team about implementing eKYC for your Indonesian operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Indonesia — EMAS eKYC",
+        "meta_description": "AI-powered identity verification technology for real-time digital customer onboarding and fraud management in Indonesia.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 7,
+        "title": "eKYC Cambodia",
+        "slug": "ekyc-cambodia",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Streamlining customer journeys with eKYC & ID Verification",
+                    "subheading": "AI-powered identity verification technology for real-time digital customer onboarding and fraud management in Cambodia.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Verification",
+                            "description": "Millions of ID Verification Checks Completed. Involved Financial Institutions, Insurance, Telecommunication and Many More!"
+                        },
+                        {
+                            "title": "Regulations",
+                            "description": "Implemented for Banking, Financial Institutions, Telecommunication, Insurance and Many More!"
+                        },
+                        {
+                            "title": "Fast Verification",
+                            "description": "Can Be Completed LESS THAN 1 Minute! Users can complete the onboarding process seamlessly anywhere and anytime."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Documents That We Verify",
+                    "content": "<p class=\"text-center\">Khmer Identity Card, Passport, Driving License<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Banking & Finance"
+                        },
+                        {
+                            "title": "Microfinance"
+                        },
+                        {
+                            "title": "Insurance"
+                        },
+                        {
+                            "title": "Telecommunication"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features, including microprint, hologram, and tampering detection."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements. API platform available at ekycondemand.com."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Explore Our Solutions",
+                    "pages": [
+                        {
+                            "label": "EMAS CIDA",
+                            "url": "\/solutions\/emas-cida",
+                            "description": "Comprehensive Identity & Document Authentication"
+                        },
+                        {
+                            "label": "eKYC for Developers",
+                            "url": "https:\/\/ekycondemand.com\/",
+                            "description": "API-first eKYC platform"
+                        },
+                        {
+                            "label": "Insurance Industry",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "description": "eKYC solutions for insurers"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Our Clients in Cambodia",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "AMK Microfinance",
+                            "description": "Microfinance license from NBC, financial leasing, money transfer, digital banking."
+                        },
+                        {
+                            "title": "Cambodia Asia Bank",
+                            "description": "Deposit products, cards, loans, remittance services."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to streamline your customer onboarding in Cambodia?",
+                    "text": "Talk to our team about implementing eKYC for your Cambodian operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Cambodia — EMAS eKYC",
+        "meta_description": "AI-powered identity verification technology for real-time digital customer onboarding and fraud management in Cambodia.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 8,
+        "title": "eKYC Brunei",
+        "slug": "ekyc-brunei",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Streamlining customer journeys with eKYC & ID Verification",
+                    "subheading": "AI-powered identity verification technology for real-time digital customer onboarding and fraud management in Brunei Darussalam.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points. We are here to help you mitigate identity forgery risks by securely validating customer identity documents and facial biometrics securely.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Verification",
+                            "description": "Millions of ID Verification Checks Completed. Involved Financial Institutions, Insurance, Telecommunication and Many More!"
+                        },
+                        {
+                            "title": "Regulations",
+                            "description": "Implemented for Banking, Financial Institutions, Telecommunication, Insurance and Many More!"
+                        },
+                        {
+                            "title": "Fast Verification",
+                            "description": "Can Be Completed LESS THAN 1 Minute! Users can complete the onboarding process seamlessly anywhere and anytime."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Documents That We Verify",
+                    "content": "<p class=\"text-center\">Kad Pengenalan - Citizen, Kad Pengenalan - Permanent Resident, Kad Pengenalan - Foreign Worker, Lesen Memandu, Passport<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Banking & Finance"
+                        },
+                        {
+                            "title": "Telecommunication"
+                        },
+                        {
+                            "title": "Insurance"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams. Currently serving most major Telco operators in the ASEAN region."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "In-house AI and machine learning technology built specifically for ASEAN identity documents and facial features, including microprint, hologram, and tampering detection."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment options to meet your security and compliance requirements. API platform available at ekycondemand.com."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Explore Our Solutions",
+                    "pages": [
+                        {
+                            "label": "EMAS CIDA",
+                            "url": "\/solutions\/emas-cida",
+                            "description": "Comprehensive Identity & Document Authentication"
+                        },
+                        {
+                            "label": "eKYC for Developers",
+                            "url": "https:\/\/ekycondemand.com\/",
+                            "description": "API-first eKYC platform"
+                        },
+                        {
+                            "label": "Insurance Industry",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "description": "eKYC solutions for insurers"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Our Clients in Brunei",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "BIBD",
+                            "description": "The only bank in Brunei that serves all segments within the retail banking market. The implementation of EMAS eKYC during the sign-up process can be completed in just 2 minutes."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to streamline your customer onboarding in Brunei?",
+                    "text": "Talk to our team about implementing eKYC for your Bruneian operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Brunei — EMAS eKYC",
+        "meta_description": "AI-powered identity verification technology for real-time digital customer onboarding and fraud management in Brunei Darussalam.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 9,
+        "title": "eKYC Hong Kong",
+        "slug": "ekyc-hong-kong",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Hong Kong — Fast & Secure eKYC for Businesses",
+                    "subheading": "EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey for your digital customer touch points across ASEAN.",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "primary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Verification",
+                            "description": "Millions of ID Verification Checks Completed. Involved Financial Institutions, Insurance, Telecommunication and Many More!"
+                        },
+                        {
+                            "title": "Regulations",
+                            "description": "Implemented for Banking, Financial Institutions, Telecommunication, Insurance and Many More!"
+                        },
+                        {
+                            "title": "Fast Verification",
+                            "description": "Can Be Completed LESS THAN 1 Minute! Users can complete the onboarding process seamlessly anywhere and anytime."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Documents We Verify Across ASEAN",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Malaysia",
+                            "description": "MyKad, Driving License, MyPR, MyTentera, Passport"
+                        },
+                        {
+                            "title": "Cambodia",
+                            "description": "Khmer Identity Card, Driving License, Passport"
+                        },
+                        {
+                            "title": "Singapore",
+                            "description": "Citizen's NRIC, PR's NRIC, Work Permit\/Employment Pass, Passport"
+                        },
+                        {
+                            "title": "Indonesia",
+                            "description": "Kartu Tanda Penduduk (eKTP), Surat Izin Mengemudi, Passport"
+                        },
+                        {
+                            "title": "Philippines",
+                            "description": "UMID, National ID (PhilSys), Driving License, SSS Card, Passport"
+                        },
+                        {
+                            "title": "Thailand",
+                            "description": "Thai National ID, Driving License, Passport"
+                        },
+                        {
+                            "title": "Vietnam",
+                            "description": "Vietnamese Identity Card, Driving License, Passport"
+                        },
+                        {
+                            "title": "Brunei",
+                            "description": "Kad Pengenalan, Lesen Memandu, Passport"
+                        },
+                        {
+                            "title": "Myanmar",
+                            "description": "Myanmar Driving License, Passport"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Banking",
+                            "description": ""
+                        },
+                        {
+                            "title": "Financial Institutions",
+                            "description": ""
+                        },
+                        {
+                            "title": "Telecommunication",
+                            "description": ""
+                        },
+                        {
+                            "title": "Insurance",
+                            "description": ""
+                        },
+                        {
+                            "title": "BNPL",
+                            "description": ""
+                        },
+                        {
+                            "title": "Microfinance",
+                            "description": ""
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Trusted Across ASEAN",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "UOB",
+                            "description": "Completed in just 2 minutes. Customers now can open a new bank account and verify their identity digitally."
+                        },
+                        {
+                            "title": "Maxis",
+                            "description": "A leading communications service provider in Malaysia. Using EMAS eKYC to onboard customers faster and seamlessly."
+                        },
+                        {
+                            "title": "Cambodia Asia Bank",
+                            "description": "Deposit products, cards, loans, and remittance services powered by EMAS eKYC."
+                        },
+                        {
+                            "title": "4Gives",
+                            "description": "A leading BNPL provider in the Philippines. EMAS eKYC eases the application process for end users."
+                        },
+                        {
+                            "title": "BIBD",
+                            "description": "The only bank in Brunei that serves all segments within the retail banking market."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Explore Our Solutions",
+                    "pages": [
+                        {
+                            "label": "EMAS CIDA",
+                            "url": "\/solutions\/emas-cida",
+                            "description": "Comprehensive Identity & Document Authentication"
+                        },
+                        {
+                            "label": "eKYC for Developers",
+                            "url": "https:\/\/ekycondemand.com\/",
+                            "description": "API-first eKYC platform"
+                        },
+                        {
+                            "label": "Insurance Industry",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "description": "eKYC solutions for insurers"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to streamline your customer onboarding across ASEAN?",
+                    "text": "Talk to our team about implementing eKYC for your operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Hong Kong — EMAS eKYC",
+        "meta_description": "EMAS eKYC is an integrated digital ID verification technology that streamlines e-KYC customer onboarding journey across ASEAN.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 10,
+        "title": "eKYC Kenya",
+        "slug": "ekyc-kenya",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Harnessing The Power of AI For Fraud Detection & Prevention",
+                    "subheading": "Secure Your Business, Verify Your Customers, and Build Trust in Seconds.",
+                    "badge_text": "AI-Powered",
+                    "background_style": "dark",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "primary"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>Innov8tif boasts a range of cutting-edge AI solutions to combat fraud. Our identity verification technology helps businesses detect and prevent fraudulent activities in real-time.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "How It Works",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Capture ID Document",
+                            "description": "Users snap a photo of their identity document using their device camera."
+                        },
+                        {
+                            "title": "Liveness Detection",
+                            "description": "AI-powered liveness detection to ensure the person is physically present."
+                        },
+                        {
+                            "title": "Identity Legitimacy",
+                            "description": "Verify the legitimacy of the identity through document and biometric checks."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Choose Innov8tif?",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "24\/7 Reliability",
+                            "description": "Our systems are available around the clock for uninterrupted verification services."
+                        },
+                        {
+                            "title": "Easy Onboarding",
+                            "description": "Streamlined customer onboarding process that takes minutes, not days."
+                        },
+                        {
+                            "title": "Zero Contact",
+                            "description": "Fully digital verification process with no physical interaction required."
+                        },
+                        {
+                            "title": "Lightning Speed",
+                            "description": "Fast, frictionless, and foolproof identity verification in seconds."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Platform Compatibility",
+                    "columns": 3,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "Webpages",
+                            "description": "Browser-based verification"
+                        },
+                        {
+                            "title": "Mac \/ Windows \/ Linux",
+                            "description": "Desktop application support"
+                        },
+                        {
+                            "title": "iOS \/ Android",
+                            "description": "Mobile SDK integration"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Certified Enterprise Control",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Manually Approve",
+                            "description": "Review and approve verifications with full control over the process."
+                        },
+                        {
+                            "title": "Seamless Integration",
+                            "description": "Integrate with your existing systems via our comprehensive API."
+                        },
+                        {
+                            "title": "Audit Logs",
+                            "description": "Complete audit trail for compliance and regulatory requirements."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Documents We Verify",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Passport",
+                            "description": ""
+                        },
+                        {
+                            "title": "National ID",
+                            "description": ""
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Industries We Serve",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "BNPL",
+                            "description": ""
+                        },
+                        {
+                            "title": "Banking",
+                            "description": ""
+                        },
+                        {
+                            "title": "Insurance",
+                            "description": ""
+                        },
+                        {
+                            "title": "Gaming & Gambling",
+                            "description": ""
+                        },
+                        {
+                            "title": "Telecommunication",
+                            "description": ""
+                        },
+                        {
+                            "title": "Hospitality",
+                            "description": ""
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "About Innov8tif",
+                    "content": "<p>Founded in 2011 in Malaysia, Innov8tif has a Singapore subsidiary, an Indonesian joint venture, and representatives in Brunei, Cambodia, Philippines, Thailand, and Vietnam.<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to secure your business?",
+                    "text": "Contact our team to learn how our AI-powered fraud detection can protect your customers.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "AI Fraud Detection & Prevention — EMAS eKYC",
+        "meta_description": "Harnessing the power of AI for fraud detection and prevention. Secure your business, verify your customers, and build trust in seconds.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 11,
+        "title": "eKYC for Insurance Industry",
+        "slug": "ekyc-for-insurance-industry",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Insurers in ASEAN: The Role of Digital ID Verification",
+                    "subheading": "Climate change efforts have traditionally taken centre stage amidst ESG conversations, but recent years have seen a pivot towards the social and governance aspects of ESG.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 2,
+                    "style": "stats",
+                    "items": [
+                        {
+                            "title": "Companies Struggle With Identity Theft",
+                            "value": "47%",
+                            "description": "Over 47% of companies report identity theft as a significant concern"
+                        },
+                        {
+                            "title": "Market Size by 2030",
+                            "value": "$2.09B",
+                            "description": "Global identity theft insurance market expected to reach US$2.09 billion by 2030"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Core Features",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Digital Signatures",
+                            "description": "Electronic, encrypted stamp of authentication on digital information. A digital signature seals the signed document to protect it against tampering."
+                        },
+                        {
+                            "title": "e-KYC",
+                            "description": "Electronic Know Your Customer is the remote onboarding & paperless process that minimises the costs and traditional bureaucracy necessary in KYC processes."
+                        },
+                        {
+                            "title": "Process Automation",
+                            "description": "Use of software and technologies to automate business processes and functions to accomplish smoother customer registration processes."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "EMAS CIDA Solution",
+                    "content": "<p>EMAS CIDA is our comprehensive identity assurance platform offering end-to-end capabilities including ID evidence collection, Digital Footprint Analysis (DFA), video verification, financial risk checks, income address proofing, biometric blacklisting, device blacklisting, device binding, and biometric authentication.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Insurance eKYC by Country",
+                    "pages": [
+                        {
+                            "label": "Malaysia",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry-in-malaysia"
+                        },
+                        {
+                            "label": "Indonesia",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry-in-indonesia"
+                        },
+                        {
+                            "label": "Thailand",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry-in-thailand"
+                        },
+                        {
+                            "label": "Cambodia",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry-in-cambodia"
+                        },
+                        {
+                            "label": "Philippines",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry-in-the-philippines"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to modernise your insurance onboarding?",
+                    "text": "Talk to our team about implementing eKYC for your insurance operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC for Insurance Industry — EMAS eKYC",
+        "meta_description": "Transform your insurance onboarding with AI-powered identity verification. Reduce fraud, streamline claims, and improve customer experience across ASEAN.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 12,
+        "title": "eKYC for Insurance Industry in Malaysia",
+        "slug": "ekyc-for-insurance-industry-in-malaysia",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "eKYC for Insurance Industry in Malaysia",
+                    "subheading": "Enhance your insurance onboarding with AI-powered identity verification compliant with Bank Negara Malaysia (BNM) guidelines.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "Insurance Solutions",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<blockquote><p>\"Insurance scams are on the rise due to the lack of robust identity verification systems. Digital onboarding and communication methods are needed to meet customer expectations for convenient insurance management, including eKYC and policy renewals.\"<\/p><p><strong>— Joe Seah, CCO<\/strong><\/p><\/blockquote>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "The Rise of Insurance Fraud in Malaysia",
+                    "columns": 3,
+                    "style": "challenges",
+                    "items": [
+                        {
+                            "title": "Public Attitude",
+                            "description": "A 2022 study reported that 62% of Malaysians surveyed expressed a willingness to commit some form of fraud to gain financial benefits, such as inflating insurance claims or misrepresenting income on applications."
+                        },
+                        {
+                            "title": "Organized Crime",
+                            "description": "In 2024, Johor police uncovered a disturbing case in which a group posed as insurance agents, took out a life policy on a victim, and later orchestrated his murder to collect the payout."
+                        },
+                        {
+                            "title": "Effects of Digitalisation",
+                            "description": "Remote onboarding and digital claims processes can be exploited through identity fraud, synthetic profiles, or even digitally manipulated documentation."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Malaysian Insurance Regulatory Landscape",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "BNM eKYC Policy",
+                            "description": "Comply with Bank Negara Malaysia's eKYC policy document that enables remote customer onboarding for licensed financial institutions including insurers and takaful operators."
+                        },
+                        {
+                            "title": "PDPA Compliance",
+                            "description": "Our solution ensures compliance with Malaysia's Personal Data Protection Act 2010 for handling policyholder personal data."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Benefits of EMAS eKYC for Malaysian Insurers",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Remote Onboarding",
+                            "description": "Allows insurance agents to register end users remotely. Digital signatures and policy reviews can also be done online, eliminating the need for physical meet-ups."
+                        },
+                        {
+                            "title": "Anywhere and Anytime",
+                            "description": "Customers can apply for ad-hoc insurance at any time — renewing, upgrading plans, making claims, or adjusting coverage."
+                        },
+                        {
+                            "title": "Fraud-Free and Secure",
+                            "description": "Advanced biometric verification to detect potential fraudsters. Combined with credit score checks to ensure customers are trustworthy."
+                        },
+                        {
+                            "title": "Scalable and Versatile",
+                            "description": "Flexible deployment across web, mobile, and API channels to support growing insurance operations across ASEAN."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Supported Documents",
+                    "content": "<p class=\"text-center\">MyKad (NRIC), Passport, Driving License, MyTentera, MyPR<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "related_pages",
+                "data": {
+                    "heading": "Insurance eKYC in Other Countries",
+                    "pages": [
+                        {
+                            "label": "Cambodia",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry-in-cambodia"
+                        },
+                        {
+                            "label": "Indonesia",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry-in-indonesia"
+                        },
+                        {
+                            "label": "Thailand",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry-in-thailand"
+                        },
+                        {
+                            "label": "Philippines",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry-in-the-philippines"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to modernise your insurance onboarding in Malaysia?",
+                    "text": "Talk to our team about implementing eKYC for your Malaysian insurance operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC for Insurance Industry in Malaysia — EMAS eKYC",
+        "meta_description": "Enhance your insurance onboarding with AI-powered identity verification compliant with Bank Negara Malaysia (BNM) guidelines.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 13,
+        "title": "eKYC for Insurance Industry in Indonesia",
+        "slug": "ekyc-for-insurance-industry-in-indonesia",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "eKYC for Insurance Industry in Indonesia",
+                    "subheading": "Enhance your insurance onboarding with AI-powered identity verification compliant with OJK regulations for the Indonesian market.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "Insurance Solutions",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Indonesian Insurance Regulatory Landscape",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "OJK Compliance",
+                            "description": "Comply with Otoritas Jasa Keuangan (OJK) regulations governing digital onboarding for insurance companies in Indonesia."
+                        },
+                        {
+                            "title": "Data Localisation",
+                            "description": "Our solution supports Indonesian data residency requirements under Government Regulation 71\/2019 with on-premise deployment options."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "How EMAS eKYC Helps Indonesian Insurers",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "e-KTP verification with NIK data extraction"
+                        },
+                        {
+                            "title": "Facial matching for policyholder identity confirmation"
+                        },
+                        {
+                            "title": "Liveness detection to prevent fraudulent applications"
+                        },
+                        {
+                            "title": "AML\/CFT screening against global and local watchlists"
+                        },
+                        {
+                            "title": "Digital signatures compliant with Indonesian regulations"
+                        },
+                        {
+                            "title": "API integration with existing insurance platforms"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Supported Documents",
+                    "content": "<p class=\"text-center\">e-KTP, Passport, SIM (Driving License), KITAS, KITAP<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to modernise your insurance onboarding in Indonesia?",
+                    "text": "Talk to our team about implementing eKYC for your Indonesian insurance operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC for Insurance Industry in Indonesia — EMAS eKYC",
+        "meta_description": "Enhance your insurance onboarding with AI-powered identity verification compliant with OJK regulations for the Indonesian market.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 14,
+        "title": "eKYC for Insurance Industry in Thailand",
+        "slug": "ekyc-for-insurance-industry-in-thailand",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "eKYC for Insurance Industry in Thailand",
+                    "subheading": "Enhance your insurance onboarding with AI-powered identity verification compliant with OIC and Bank of Thailand regulations.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "Insurance Solutions",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Thai Insurance Regulatory Landscape",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "OIC Compliance",
+                            "description": "Comply with Office of Insurance Commission (OIC) regulations for digital customer onboarding in Thailand's insurance sector."
+                        },
+                        {
+                            "title": "PDPA Compliance",
+                            "description": "Our solution ensures compliance with Thailand's Personal Data Protection Act (PDPA) for handling policyholder personal data."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "How EMAS eKYC Helps Thai Insurers",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "Thai National ID card verification with data extraction"
+                        },
+                        {
+                            "title": "Facial matching for policyholder identity confirmation"
+                        },
+                        {
+                            "title": "Liveness detection to prevent fraudulent applications"
+                        },
+                        {
+                            "title": "AML\/CFT screening against AMLO and global watchlists"
+                        },
+                        {
+                            "title": "Digital signatures for policy documents"
+                        },
+                        {
+                            "title": "Seamless integration with core insurance platforms"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Supported Documents",
+                    "content": "<p class=\"text-center\">Thai National ID Card, Passport, Driving License, Alien Certificate<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to modernise your insurance onboarding in Thailand?",
+                    "text": "Talk to our team about implementing eKYC for your Thai insurance operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC for Insurance Industry in Thailand — EMAS eKYC",
+        "meta_description": "Enhance your insurance onboarding with AI-powered identity verification compliant with OIC and Bank of Thailand regulations.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 15,
+        "title": "eKYC for Insurance Industry in Cambodia",
+        "slug": "ekyc-for-insurance-industry-in-cambodia",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "eKYC for Insurance Industry in Cambodia",
+                    "subheading": "Enhance your insurance onboarding with AI-powered identity verification for the growing Cambodian insurance market.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "Insurance Solutions",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Cambodian Insurance Regulatory Landscape",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "IRC Compliance",
+                            "description": "Comply with Insurance Regulator of Cambodia (IRC) requirements for customer identification and onboarding."
+                        },
+                        {
+                            "title": "NBC Guidelines",
+                            "description": "Aligned with National Bank of Cambodia guidelines on digital identity verification and AML requirements."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "How EMAS eKYC Helps Cambodian Insurers",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "Khmer Identity Card verification with data extraction"
+                        },
+                        {
+                            "title": "Facial matching for policyholder identity confirmation"
+                        },
+                        {
+                            "title": "Liveness detection to prevent fraudulent applications"
+                        },
+                        {
+                            "title": "AML\/CFT screening against global and local watchlists"
+                        },
+                        {
+                            "title": "Khmer script recognition on identity documents"
+                        },
+                        {
+                            "title": "API integration with existing insurance platforms"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Supported Documents",
+                    "content": "<p class=\"text-center\">Khmer Identity Card, Passport, Driving License<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to modernise your insurance onboarding in Cambodia?",
+                    "text": "Talk to our team about implementing eKYC for your Cambodian insurance operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC for Insurance Industry in Cambodia — EMAS eKYC",
+        "meta_description": "Enhance your insurance onboarding with AI-powered identity verification for the growing Cambodian insurance market.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 16,
+        "title": "eKYC for Insurance Industry in the Philippines",
+        "slug": "ekyc-for-insurance-industry-in-the-phillipines",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "eKYC for Insurance Industry in the Philippines",
+                    "subheading": "Enhance your insurance onboarding with AI-powered identity verification compliant with Insurance Commission and BSP regulations.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "Insurance Solutions",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Philippine Insurance Regulatory Landscape",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Insurance Commission",
+                            "description": "Comply with Philippine Insurance Commission regulations on digital customer identification and onboarding."
+                        },
+                        {
+                            "title": "PhilSys Integration",
+                            "description": "Support for Philippine Identification System (PhilSys) ID and Philippine Statistics Authority-issued documents."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "How EMAS eKYC Helps Philippine Insurers",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "PhilSys ID and government-issued ID verification"
+                        },
+                        {
+                            "title": "Facial matching for policyholder identity confirmation"
+                        },
+                        {
+                            "title": "Liveness detection to prevent fraudulent applications"
+                        },
+                        {
+                            "title": "AML\/CFT screening against AMLC and global watchlists"
+                        },
+                        {
+                            "title": "Digital signatures for policy documents and claims"
+                        },
+                        {
+                            "title": "API integration with existing insurance platforms"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Supported Documents",
+                    "content": "<p class=\"text-center\">PhilSys ID, Passport, Driving License, SSS ID, UMID, Postal ID<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to modernise your insurance onboarding in the Philippines?",
+                    "text": "Talk to our team about implementing eKYC for your Philippine insurance operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC for Insurance Industry in the Philippines — EMAS eKYC",
+        "meta_description": "Enhance your insurance onboarding with AI-powered identity verification compliant with Insurance Commission and BSP regulations.",
+        "status": "published",
+        "published_at": "2026-04-01T13:56:44.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T13:56:44.000000Z"
+    },
+    {
+        "id": 17,
+        "title": "eKYC for Credit Financing Industry",
+        "slug": "ekyc-for-credit-financing-industry",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Streamline Your User Onboarding: Fast, Easy and Secure Verification 24\/7",
+                    "subheading": "Accelerate loan approvals and reduce fraud with AI-powered identity verification for credit financing, BNPL, and lending companies across ASEAN.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Challenges Facing Credit Financing Companies",
+                    "columns": 3,
+                    "style": "challenges",
+                    "items": [
+                        {
+                            "title": "Loan Fraud",
+                            "description": "Synthetic identities and fraudulent applications result in significant losses for lenders and BNPL providers."
+                        },
+                        {
+                            "title": "Application Drop-off",
+                            "description": "Lengthy verification processes cause potential borrowers to abandon their applications."
+                        },
+                        {
+                            "title": "Regulatory Burden",
+                            "description": "Strict KYC and AML requirements across multiple ASEAN jurisdictions create compliance complexity."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "How EMAS eKYC Helps Credit Financing",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "Instant identity verification for loan applications"
+                        },
+                        {
+                            "title": "Credit score and bankruptcy status checks"
+                        },
+                        {
+                            "title": "Facial matching to prevent identity fraud"
+                        },
+                        {
+                            "title": "AML\/CFT screening against global and local watchlists"
+                        },
+                        {
+                            "title": "Income and address proofing for underwriting"
+                        },
+                        {
+                            "title": "Digital signatures for loan agreements and contracts"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Use Cases",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Personal Loans"
+                        },
+                        {
+                            "title": "BNPL (Buy Now Pay Later)"
+                        },
+                        {
+                            "title": "Microfinance"
+                        },
+                        {
+                            "title": "P2P Lending"
+                        },
+                        {
+                            "title": "Auto Financing"
+                        },
+                        {
+                            "title": "SME Loans"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to modernise your credit financing onboarding?",
+                    "text": "Talk to our team about implementing eKYC for your lending operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC for Credit Financing Industry — EMAS eKYC",
+        "meta_description": "Accelerate loan approvals and reduce fraud with AI-powered identity verification for credit financing, BNPL, and lending companies across ASEAN.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 18,
+        "title": "eKYC for eHealthcare Industry",
+        "slug": "ekyc-for-ehealthcare-industry",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Leveraging eKYC For e-Healthcare",
+                    "subheading": "Streamlining the e-healthcare services through identity verification solutions swiftly.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "eKYC Benefits for Healthcare",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Electronic Patient Data Management",
+                            "description": "Securing and managing patient health records within the digital space."
+                        },
+                        {
+                            "title": "Remote\/Online Consultation",
+                            "description": "Seeking medical advice via TeleHealth, anytime and anywhere."
+                        },
+                        {
+                            "title": "Secure Medication Deliveries",
+                            "description": "Securely deliver medication to patients' doorsteps with verified identities."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Challenges Facing Healthcare Providers",
+                    "columns": 3,
+                    "style": "challenges",
+                    "items": [
+                        {
+                            "title": "Patient Identity",
+                            "description": "Verifying patient identities in remote consultations to prevent medical fraud and ensure correct treatment records."
+                        },
+                        {
+                            "title": "Prescription Security",
+                            "description": "Ensuring only verified patients receive controlled medications through digital prescriptions and remote drug delivery."
+                        },
+                        {
+                            "title": "Data Privacy",
+                            "description": "Handling sensitive health data while complying with healthcare data protection regulations across multiple jurisdictions."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "How EMAS eKYC Helps Healthcare",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "Patient identity verification for telemedicine consultations"
+                        },
+                        {
+                            "title": "Facial recognition for secure prescription collection"
+                        },
+                        {
+                            "title": "Liveness detection to prevent impersonation in remote care"
+                        },
+                        {
+                            "title": "Digital signatures for consent forms and health declarations"
+                        },
+                        {
+                            "title": "ID document verification for patient registration"
+                        },
+                        {
+                            "title": "Secure patient data management compliant with health data regulations"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Use Cases",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Telemedicine"
+                        },
+                        {
+                            "title": "Remote Drug Delivery"
+                        },
+                        {
+                            "title": "Health Insurance Claims"
+                        },
+                        {
+                            "title": "Clinical Trials"
+                        },
+                        {
+                            "title": "Patient Registration"
+                        },
+                        {
+                            "title": "Digital Health Platforms"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to implement patient identity verification?",
+                    "text": "Talk to our team about implementing eKYC for your healthcare operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Download Free Report",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Download Now",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "Your download is ready below.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC for eHealthcare Industry — EMAS eKYC",
+        "meta_description": "Secure patient identity verification for telemedicine, digital health platforms, and healthcare providers across ASEAN.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 19,
+        "title": "ID Assurance for Hospitality Industry",
+        "slug": "id-assurance-for-hospitality-industry",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Seamless Registration For Hospitality Industry",
+                    "subheading": "Experience a seamless and expedited registration process tailored for the travel, tourism, and F&B industries!",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>Hotels and homestays are now facilitating remote check-ins and identity proofing to streamline the guest experience. Identity verification is a crucial element in ensuring guest safety and regulatory compliance across the hospitality industry.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Sectors That Can Benefit From Identity Proofing",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "E-Scooter Sharing",
+                            "description": "Verify riders instantly and ensure compliance with local regulations while preventing fraud in e-scooter rental services."
+                        },
+                        {
+                            "title": "Hotels & Homestays",
+                            "description": "Streamline guest check-in with automated identity verification, reducing wait times and improving security."
+                        },
+                        {
+                            "title": "Cruise & Theme Parks",
+                            "description": "Ensure passenger and visitor safety with fast, reliable identity verification at entry points."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Solutions For The Hospitality Industry",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "Contactless check-in with facial recognition"
+                        },
+                        {
+                            "title": "ID document scanning and verification"
+                        },
+                        {
+                            "title": "Guest identity matching against watchlists"
+                        },
+                        {
+                            "title": "Compliance with local hospitality regulations"
+                        },
+                        {
+                            "title": "Integration with property management systems"
+                        },
+                        {
+                            "title": "Real-time verification and reporting"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Southeast Asia with understanding of local hospitality regulations."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "In-house AI optimised for ASEAN identity documents used by travellers across the region."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment to fit your hotel or resort infrastructure."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Download Our FREE Use Case!",
+                    "text": "Learn how identity verification transforms the hospitality industry.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Download Free Report",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Download Now",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "Your download is ready below.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "ID Assurance for Hospitality Industry — EMAS eKYC",
+        "meta_description": "Experience a seamless and expedited registration process tailored for the travel, tourism, and F&B industries!",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 20,
+        "title": "eKYC Components for Indonesia",
+        "slug": "ekyc-components-for-indonesia",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "eKYC Components for Indonesia",
+                    "subheading": "Modular eKYC components designed for the Indonesian market. Pick and choose the verification capabilities you need.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View All Components",
+                            "url": "\/features-and-components",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Available Components",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Data Extraction",
+                            "description": "Extract data from Indonesian e-KTP, passport, SIM, and other identity documents using OCR technology."
+                        },
+                        {
+                            "title": "ID Verification",
+                            "description": "Verify the authenticity of Indonesian identity documents with AI-powered document checks."
+                        },
+                        {
+                            "title": "Facial Matching",
+                            "description": "Compare selfie photos against ID document photos with high-accuracy facial recognition."
+                        },
+                        {
+                            "title": "Liveness Detection",
+                            "description": "Prevent spoofing attacks with passive and active liveness detection technology."
+                        },
+                        {
+                            "title": "AML\/CFT Screening",
+                            "description": "Screen individuals against global and Indonesian watchlists for anti-money laundering compliance."
+                        },
+                        {
+                            "title": "Digital Signatures",
+                            "description": "Enable legally binding digital signatures compliant with Indonesian electronic signature regulations."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Supported Indonesian Documents",
+                    "content": "<p class=\"text-center\">e-KTP, Passport, SIM (Driving License), KITAS, KITAP, SKTT<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Regulatory Compliance",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "OJK Compliance",
+                            "description": "Built to comply with Otoritas Jasa Keuangan (OJK) regulations for financial services and digital onboarding."
+                        },
+                        {
+                            "title": "Data Localisation",
+                            "description": "Supports Indonesian data localisation requirements under Government Regulation 71\/2019 with on-premise deployment."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to build your Indonesian eKYC solution?",
+                    "text": "Talk to our team about which components best fit your Indonesian operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC Components for Indonesia — EMAS eKYC",
+        "meta_description": "Modular eKYC components designed for the Indonesian market. Pick and choose the verification capabilities you need.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 21,
+        "title": "Secure Digital Identity for Government Services in Malaysia",
+        "slug": "secure-digital-identity-for-government-services-in-malaysia",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Powering Trust: Secure Digital Identity for Smarter Government Services",
+                    "subheading": "Discover how advanced eKYC solutions are transforming government services in Malaysia, protecting citizens from identity theft and fraud while enabling seamless digital experiences.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get the Whitepaper",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Digital Identity for Government Services",
+                    "content": "<p>As Malaysia prepares to launch digital initiatives such as the MyDigital ID SuperApp and MyGov mobile application in 2025, government agencies face increasing pressure to implement secure, efficient digital onboarding processes.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Potential Threats: Systemic Risks of Inadequate eKYC Implementation",
+                    "columns": 3,
+                    "style": "stats",
+                    "items": [
+                        {
+                            "title": "Identity theft cases in early 2021",
+                            "value": "319",
+                            "description": "Reported identity theft cases in early 2021"
+                        },
+                        {
+                            "title": "Losses due to scams and identity fraud",
+                            "value": "MYR 54.02 Billion",
+                            "description": "Total losses from scams and identity fraud"
+                        },
+                        {
+                            "title": "Online fraud reports over a 6-month period",
+                            "value": "55,000",
+                            "description": "Online fraud reports filed over a 6-month period"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p>Fraudsters often exploit inconsistencies in fragmented or manual KYC processes to create synthetic identities, register multiple fake accounts, or impersonate legitimate users.<\/p><p>Poor eKYC implementation at the national level can also create systemic vulnerabilities that ripple across interconnected digital services in Malaysia.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Three-Tier Verification Model",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Document Checks",
+                            "description": "AI analysis of MyKad holograms and micro-text to ensure document authenticity and prevent forgery.",
+                            "value": "Tier 1"
+                        },
+                        {
+                            "title": "Biometric Matching",
+                            "description": "1:N facial recognition against 28-million-strong JPN database for accurate identity verification.",
+                            "value": "Tier 2"
+                        },
+                        {
+                            "title": "Behavioral Analytics",
+                            "description": "Detection of abnormal application patterns, such as 50+ submissions from a single device or location.",
+                            "value": "Tier 3"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Fill in the Form to Get Your FREE Whitepaper!",
+                    "text": "Learn how secure digital identity is transforming government services in Malaysia.",
+                    "button_label": "Request Whitepaper",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "Secure Digital Identity for Government Services in Malaysia — EMAS eKYC",
+        "meta_description": "Discover how advanced eKYC solutions are transforming government services in Malaysia, protecting citizens from identity theft and fraud.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 22,
+        "title": "Innov8tif Fraud Report",
+        "slug": "innov8tif-fraud-report",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Our Fraud Report",
+                    "badge_text": "Get For FREE!",
+                    "subheading": "Innov8tif's Annual Report Reveals Increasing Instances of Identity Fraud in Malaysia During eKYC Processes. Have You Ever Pondered the Frequency and Underlying Causes Behind the Prevalence of Identity Fraud in Our Daily Lives? Let's Find Out More!",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Download Free Report",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Rise of Identity Fraud in Malaysia",
+                    "content": "<p>The widespread adoption of digital channels has created fertile ground for cybercriminals looking to exploit vulnerabilities in these systems. With the increasing reliance on digital platforms for financial transactions, personal communications, and business operations, the risk of identity fraud has grown significantly.<\/p><p>With more Malaysians conducting transactions online, vulnerabilities in digital systems can be easily exploited. Significant threats come in the form of popular fraud methods such as:<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": null,
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "Synthetic identity fraud"
+                        },
+                        {
+                            "title": "Document forgery and tampering"
+                        },
+                        {
+                            "title": "Deepfake and presentation attacks"
+                        },
+                        {
+                            "title": "Account takeover fraud"
+                        },
+                        {
+                            "title": "SIM swap fraud"
+                        },
+                        {
+                            "title": "Phishing and social engineering"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "FREE Fraud Report",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "2024 Fraud Report",
+                            "description": "Key Trends and Insights of Identity Fraud Activities in ASEAN",
+                            "value": "Latest"
+                        },
+                        {
+                            "title": "2023 Fraud Report",
+                            "description": "The Rising Number of Identity Fraud Cases in Malaysia"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Want to learn more about combating identity fraud?",
+                    "text": "Contact our team for a consultation on fraud prevention strategies.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "Fraud Report — EMAS eKYC",
+        "meta_description": "Innov8tif's Annual Report Reveals Increasing Instances of Identity Fraud in Malaysia During eKYC Processes.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 23,
+        "title": "Joget Low Code Development",
+        "slug": "joget-low-code-development",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Elevate Your Digital Transformation with Joget",
+                    "subheading": "Joget is an open source no\/low-code application that enables organisations to easily build, deploy and manage enterprise applications. If AI technology is the brains behind our products, Joget is the muscle that powers the process automation and delivery.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local implementation support."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "Combine Joget's low-code power with our AI-driven eKYC technology for end-to-end digital workflows."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment options with seamless Joget integration."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Be Future Ready",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "Rapid application development without extensive coding"
+                        },
+                        {
+                            "title": "Drag-and-drop interface for building enterprise apps"
+                        },
+                        {
+                            "title": "Seamless integration with eKYC and identity verification"
+                        },
+                        {
+                            "title": "Process automation for compliance and onboarding workflows"
+                        },
+                        {
+                            "title": "Open-source platform with enterprise-grade support"
+                        },
+                        {
+                            "title": "Scalable architecture for growing businesses"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Our Regional Offices",
+                    "columns": 5,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Malaysia"
+                        },
+                        {
+                            "title": "Singapore"
+                        },
+                        {
+                            "title": "Indonesia"
+                        },
+                        {
+                            "title": "Cambodia"
+                        },
+                        {
+                            "title": "Philippines"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to Transform Your Business?",
+                    "text": "Get in touch with us to learn how Joget and EMAS eKYC can accelerate your digital transformation.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "Joget Low Code Development — EMAS eKYC",
+        "meta_description": "Joget is an open source no\/low-code application that enables organisations to easily build, deploy and manage enterprise applications.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 24,
+        "title": "Philippines Telco Whitepaper",
+        "slug": "philippines-telco-whitepaper",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Struggling To Onboard Genuine & Legitimate Customers?",
+                    "subheading": "Download our free whitepaper to learn how ID verification services can help you authenticate your users!",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Download Free Whitepaper",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "The Philippines Telco Market is Facing 3 Major Challenges",
+                    "columns": 3,
+                    "style": "challenges",
+                    "items": [
+                        {
+                            "title": "Shifting Consumer Habits & Trends",
+                            "description": "The rapid shift to digital services demands seamless yet secure customer onboarding processes.",
+                            "value": "Challenge 1"
+                        },
+                        {
+                            "title": "Complying With New SIM Card Regulations",
+                            "description": "New Philippine SIM registration laws require telcos to verify subscriber identities before activation.",
+                            "value": "Challenge 2"
+                        },
+                        {
+                            "title": "Rising Cybercrime & Fraud Cases",
+                            "description": "Increasing incidents of SIM-related fraud and identity theft require robust verification measures.",
+                            "value": "Challenge 3"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": null,
+                    "content": "<p class=\"text-center\">In this whitepaper, we will explore the general Philippines' digital economy, obstacles inhibiting the growth of the telco sector, and available solutions in tackling these challenges.<\/p>",
+                    "has_background": true
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Why Innov8tif?",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ASEAN Presence & Localisation",
+                            "description": "Regional offices across Malaysia, Singapore, Indonesia, Cambodia, and the Philippines with local support teams."
+                        },
+                        {
+                            "title": "Proprietary Technology",
+                            "description": "AI technology built for high-volume SIM registration verification with fast processing times."
+                        },
+                        {
+                            "title": "Flexibility in Deployment",
+                            "description": "Cloud, on-premise, or hybrid deployment to match your telco infrastructure requirements."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Download Your Free Whitepaper Today",
+                    "text": "Learn how to overcome the telco industry's biggest challenges with eKYC.",
+                    "button_label": "Request Whitepaper",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get the Whitepaper",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Download Now",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "Your download is ready below.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "Philippines Telco Whitepaper — EMAS eKYC",
+        "meta_description": "Download our free whitepaper to learn how ID verification services can help you authenticate your users in the Philippines telco market.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 25,
+        "title": "BNPL Use Case Document",
+        "slug": "bnpl-use-case-document",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "BNPL Use Case Document",
+                    "subheading": "Discover how eKYC identity verification strengthens Buy Now, Pay Later platforms with fraud prevention and compliance across ASEAN.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Download Document",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Types of BNPL Fraud",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Account Takeover Fraud",
+                            "description": "When a fraudster takes over a current BNPL account and uses it to make unauthorized payments."
+                        },
+                        {
+                            "title": "Buy Now-Pay Never Fraud",
+                            "description": "When a fraudster creates new BNPL accounts using stolen identities and makes large purchases without paying back the amount owed."
+                        },
+                        {
+                            "title": "Synthetic Identity Fraud",
+                            "description": "When a fraudster combines both accurate and false personal information to create a new identity, such as combining a real MyKad number with a fake name."
+                        },
+                        {
+                            "title": "New Account Abuse",
+                            "description": "When a fraudster takes advantage of weak verification measures during signup to create new accounts and enjoy the default line of credit offered to new users."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "What's Covered",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "BNPL fraud landscape in ASEAN"
+                        },
+                        {
+                            "title": "Identity verification challenges for BNPL providers"
+                        },
+                        {
+                            "title": "Real-time eKYC onboarding for BNPL applications"
+                        },
+                        {
+                            "title": "Credit score and bankruptcy checks integration"
+                        },
+                        {
+                            "title": "Regulatory compliance across ASEAN markets"
+                        },
+                        {
+                            "title": "Case studies and implementation examples"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "BNPL Partners We've Helped Transform",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Versa",
+                            "description": "Digital investment platform"
+                        },
+                        {
+                            "title": "Compasia",
+                            "description": "Device trade-in and financing"
+                        },
+                        {
+                            "title": "PAYLATER",
+                            "description": "Buy now pay later service"
+                        },
+                        {
+                            "title": "Affin Hwang Capital",
+                            "description": "Financial services and asset management"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Get the Full Document",
+                    "text": "Contact us to receive the complete BNPL Use Case Document and learn how EMAS eKYC can help your platform.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Download Free Report",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Download Now",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "Your download is ready below.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "BNPL Use Case Document — EMAS eKYC",
+        "meta_description": "Discover how eKYC identity verification strengthens Buy Now, Pay Later platforms with fraud prevention and compliance across ASEAN.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 26,
+        "title": "Cambodia Banking Whitepaper",
+        "slug": "cambodia-banking-whitepaper",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Cambodia Banking Whitepaper",
+                    "subheading": "An in-depth look at digital identity verification in Cambodia's rapidly evolving banking and financial services sector.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Download Whitepaper",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Overview",
+                    "content": "<p>Cambodia's banking sector is experiencing rapid digitalisation, with the National Bank of Cambodia (NBC) driving financial inclusion through digital banking initiatives. This whitepaper examines how eKYC technology enables Cambodian banks and financial institutions to onboard customers digitally while meeting regulatory requirements.<\/p><p>Learn about the current state of digital banking in Cambodia, the regulatory framework for eKYC, and practical implementation strategies for financial institutions.<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "What's Covered",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "Overview of Cambodia's digital banking transformation"
+                        },
+                        {
+                            "title": "NBC regulatory framework for eKYC and digital onboarding"
+                        },
+                        {
+                            "title": "Challenges facing Cambodian banks in identity verification"
+                        },
+                        {
+                            "title": "eKYC implementation strategies for Cambodian financial institutions"
+                        },
+                        {
+                            "title": "Khmer Identity Card document verification capabilities"
+                        },
+                        {
+                            "title": "Case studies from leading Cambodian banks"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Get the Full Whitepaper",
+                    "text": "Contact us to receive the complete Cambodia Banking Whitepaper.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get the Whitepaper",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Download Now",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "Your download is ready below.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "Cambodia Banking Whitepaper — EMAS eKYC",
+        "meta_description": "An in-depth look at digital identity verification in Cambodia's rapidly evolving banking and financial services sector.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 27,
+        "title": "EMAS eKYC API OnDemand",
+        "slug": "emas-ekyc-api-ondemand",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "EMAS eKYC API OnDemand",
+                    "subheading": "Pay-as-you-go eKYC API access. No minimum commitments, no upfront costs. Start verifying identities immediately with our flexible API platform.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get Started",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "Developer Docs",
+                            "url": "\/solutions\/ekyc-for-developers",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "How It Works",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Sign Up",
+                            "description": "Register for an API key and get instant access to our eKYC API endpoints."
+                        },
+                        {
+                            "title": "Integrate",
+                            "description": "Use our RESTful API with comprehensive SDKs for web and mobile integration."
+                        },
+                        {
+                            "title": "Pay Per Use",
+                            "description": "Only pay for the verifications you process. No minimum commitments or upfront costs."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Available API Components",
+                    "columns": 3,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "ID Data Extraction",
+                            "description": "Extract data from identity documents across 10+ ASEAN countries."
+                        },
+                        {
+                            "title": "ID Verification",
+                            "description": "Verify document authenticity with AI-powered checks."
+                        },
+                        {
+                            "title": "Facial Matching",
+                            "description": "Compare selfie against ID photo with high accuracy."
+                        },
+                        {
+                            "title": "Liveness Detection",
+                            "description": "Passive and active liveness detection to prevent spoofing."
+                        },
+                        {
+                            "title": "AML\/CFT Screening",
+                            "description": "Screen against global watchlists and sanctions."
+                        },
+                        {
+                            "title": "Digital Signatures",
+                            "description": "Enable legally binding digital signatures."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to get started?",
+                    "text": "Contact us to get your API key and start verifying identities today.",
+                    "button_label": "Get API Access",
+                    "button_url": "\/contact",
+                    "has_background": false
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": false,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "EMAS eKYC API OnDemand — EMAS eKYC",
+        "meta_description": "Pay-as-you-go eKYC API access. No minimum commitments, no upfront costs. Start verifying identities immediately with our flexible API platform.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:32:44.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    },
+    {
+        "id": 31,
+        "title": "Gaming & Gambling Use Case",
+        "slug": "gaming-gambling-use-case",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "Gaming & Gambling Use Case",
+                    "subheading": "Discover how eKYC identity verification strengthens gaming and gambling platforms with age verification, fraud prevention, and regulatory compliance.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Download Document",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Get the Full Document",
+                    "text": "Contact us to receive the complete Gaming & Gambling Use Case document.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Download Free Report",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Download Now",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "Your download is ready below.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "Gaming & Gambling Use Case — EMAS eKYC",
+        "meta_description": "Discover how eKYC identity verification strengthens gaming and gambling platforms with age verification, fraud prevention, and regulatory compliance.",
+        "status": "draft",
+        "published_at": null,
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:39:27.000000Z",
+        "updated_at": "2026-04-01T12:39:27.000000Z"
+    },
+    {
+        "id": 32,
+        "title": "ESG Insurers in ASEAN Whitepaper",
+        "slug": "esg-insurers-asean",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "ESG Insurers in ASEAN: The Role of Digital ID Verification",
+                    "subheading": "A comprehensive whitepaper exploring how digital identity verification supports ESG compliance and sustainable insurance practices across ASEAN markets.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Download Whitepaper",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Get the Full Whitepaper",
+                    "text": "Contact us to receive the complete ESG Insurers in ASEAN whitepaper.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get the Whitepaper",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Download Now",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "Your download is ready below.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "ESG Insurers in ASEAN Whitepaper — EMAS eKYC",
+        "meta_description": "The role of digital ID verification for ESG-focused insurers in ASEAN.",
+        "status": "draft",
+        "published_at": null,
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:39:27.000000Z",
+        "updated_at": "2026-04-01T12:39:27.000000Z"
+    },
+    {
+        "id": 33,
+        "title": "A Telco's Guide to Leveraging eKYC",
+        "slug": "general-telco-ekyc",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "A Telco's Guide to Leveraging eKYC",
+                    "subheading": "A comprehensive guide for telecommunications companies on leveraging eKYC technology for subscriber onboarding, SIM registration, and regulatory compliance.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Download Whitepaper",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "View Solutions",
+                            "url": "\/solutions",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Get the Full Whitepaper",
+                    "text": "Contact us to receive the complete telco eKYC whitepaper.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get the Whitepaper",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Download Now",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "Your download is ready below.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "A Telco's Guide to Leveraging eKYC — EMAS eKYC",
+        "meta_description": "A comprehensive guide for telecommunications companies on leveraging eKYC for subscriber onboarding and SIM registration.",
+        "status": "draft",
+        "published_at": null,
+        "deleted_at": null,
+        "created_at": "2026-04-01T12:39:27.000000Z",
+        "updated_at": "2026-04-01T12:39:27.000000Z"
+    },
+    {
+        "id": 34,
+        "title": "eKYC for Insurance Industry in the Philippines",
+        "slug": "ekyc-for-insurance-industry-in-the-philippines",
+        "blocks": [
+            {
+                "type": "hero",
+                "data": {
+                    "heading": "eKYC for Insurance Industry in the Philippines",
+                    "subheading": "Enhance your insurance onboarding with AI-powered identity verification compliant with Insurance Commission and BSP regulations.",
+                    "background_style": "primary",
+                    "cta_buttons": [
+                        {
+                            "label": "Get In Touch",
+                            "url": "\/contact",
+                            "variant": "secondary"
+                        },
+                        {
+                            "label": "Insurance Solutions",
+                            "url": "\/solutions\/landing-pages\/ekyc-for-insurance-industry",
+                            "variant": "outline"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "Philippine Insurance Regulatory Landscape",
+                    "columns": 2,
+                    "style": "cards",
+                    "items": [
+                        {
+                            "title": "Insurance Commission",
+                            "description": "Comply with Philippine Insurance Commission regulations on digital customer identification and onboarding."
+                        },
+                        {
+                            "title": "PhilSys Integration",
+                            "description": "Support for Philippine Identification System (PhilSys) ID and Philippine Statistics Authority-issued documents."
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "feature_grid",
+                "data": {
+                    "heading": "How EMAS eKYC Helps Philippine Insurers",
+                    "columns": 2,
+                    "style": "checklist",
+                    "items": [
+                        {
+                            "title": "PhilSys ID and government-issued ID verification"
+                        },
+                        {
+                            "title": "Facial matching for policyholder identity confirmation"
+                        },
+                        {
+                            "title": "Liveness detection to prevent fraudulent applications"
+                        },
+                        {
+                            "title": "AML\/CFT screening against AMLC and global watchlists"
+                        },
+                        {
+                            "title": "Digital signatures for policy documents and claims"
+                        },
+                        {
+                            "title": "API integration with existing insurance platforms"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "prose",
+                "data": {
+                    "heading": "Supported Documents",
+                    "content": "<p class=\"text-center\">PhilSys ID, Passport, Driving License, SSS ID, UMID, Postal ID<\/p>",
+                    "has_background": false
+                }
+            },
+            {
+                "type": "cta_banner",
+                "data": {
+                    "heading": "Ready to modernise your insurance onboarding in the Philippines?",
+                    "text": "Talk to our team about implementing eKYC for your Philippine insurance operations.",
+                    "button_label": "Contact Us",
+                    "button_url": "\/contact",
+                    "has_background": true
+                }
+            }
+        ],
+        "form_config": {
+            "enabled": true,
+            "heading": "Get In Touch",
+            "description": "Fill in your details and we will get back to you.",
+            "button_text": "Submit",
+            "show_last_name": true,
+            "show_company": true,
+            "show_phone": true,
+            "thank_you": {
+                "heading": "Thank You!",
+                "message": "We appreciate your interest. Our team will be in touch shortly.",
+                "show_pdf_download": true,
+                "cta_text": "Explore EMAS CIDA",
+                "cta_url": "\/solutions\/emas-cida"
+            }
+        },
+        "meta_title": "eKYC for Insurance Industry in the Philippines — EMAS eKYC",
+        "meta_description": "Enhance your insurance onboarding with AI-powered identity verification compliant with Insurance Commission and BSP regulations.",
+        "status": "published",
+        "published_at": "2026-04-01T14:13:29.000000Z",
+        "deleted_at": null,
+        "created_at": "2026-04-01T14:13:29.000000Z",
+        "updated_at": "2026-04-01T14:13:29.000000Z"
+    }
+]

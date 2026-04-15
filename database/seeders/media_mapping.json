@@ -1,0 +1,205 @@
+[
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-malaysia",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/1\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-singapore",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/2\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-philippines",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/3\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-vietnam",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/4\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-myanmar",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/5\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-indonesia",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/6\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-cambodia",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/7\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-brunei",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/8\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-hong-kong",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/9\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-kenya",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/10\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-components-for-indonesia",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/11\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-for-insurance-industry",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_Insurance-Use-Case_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/12\/Innov8tif_Insurance-Use-Case_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-for-insurance-industry-in-malaysia",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_Insurance-Use-Case_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/13\/Innov8tif_Insurance-Use-Case_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-for-insurance-industry-in-indonesia",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_Insurance-Use-Case_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/14\/Innov8tif_Insurance-Use-Case_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-for-insurance-industry-in-thailand",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_Insurance-Use-Case_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/15\/Innov8tif_Insurance-Use-Case_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-for-insurance-industry-in-cambodia",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_Insurance-Use-Case_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/16\/Innov8tif_Insurance-Use-Case_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-for-insurance-industry-in-the-phillipines",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_Insurance-Use-Case_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/17\/Innov8tif_Insurance-Use-Case_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-for-credit-financing-industry",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/18\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "ekyc-for-ehealthcare-industry",
+        "collection_name": "pdfs",
+        "file_name": "e-Healthcare-Whitepaper_Innov8tif_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/19\/e-Healthcare-Whitepaper_Innov8tif_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "id-assurance-for-hospitality-industry",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_Hospitality-Industry-Improving-Guest-Experience-With-eKYC-Use-Case_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/20\/Innov8tif_Hospitality-Industry-Improving-Guest-Experience-With-eKYC-Use-Case_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "secure-digital-identity-for-government-services-in-malaysia",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/21\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "innov8tif-fraud-report",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/22\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "philippines-telco-whitepaper",
+        "collection_name": "pdfs",
+        "file_name": "20220928_Whitepaper_Phiippines_Telco_v1.2a.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/23\/20220928_Whitepaper_Phiippines_Telco_v1.2a.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "bnpl-use-case-document",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_BNPL-Use-Case_v3.1.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/24\/Innov8tif_BNPL-Use-Case_v3.1.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "cambodia-banking-whitepaper",
+        "collection_name": "pdfs",
+        "file_name": "(Innov8tif)-Whitepaper_-The-Case-for-ID-Assurance-in-Cambodia.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/25\/(Innov8tif)-Whitepaper_-The-Case-for-ID-Assurance-in-Cambodia.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "emas-ekyc-api-ondemand",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/26\/Innov8tif_EMAS-eKYC-Brochure-V1.9.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "gaming-gambling-use-case",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_Gaming-&-Gambling_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/27\/Innov8tif_Gaming-&-Gambling_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "esg-insurers-asean",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_ESG-Insurers-in-ASEAN-The-Role-of-Digital-ID-Verification_v1.0.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/28\/Innov8tif_ESG-Insurers-in-ASEAN-The-Role-of-Digital-ID-Verification_v1.0.pdf"
+    },
+    {
+        "model_type": "App\\Models\\LandingPage",
+        "model_slug": "general-telco-ekyc",
+        "collection_name": "pdfs",
+        "file_name": "Innov8tif_WHITEPAPER--A-Telco_s-Guide-to-Leveraging-e-KYC-v1.0c.pdf",
+        "local_path": "\/home\/jothamlec\/co_projects\/emasekyc-laravel\/storage\/app\/public\/29\/Innov8tif_WHITEPAPER--A-Telco_s-Guide-to-Leveraging-e-KYC-v1.0c.pdf"
+    }
+]

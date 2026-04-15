@@ -10,9 +10,6 @@ class DatabaseSeeder extends Seeder
 {
     use WithoutModelEvents;
 
-    /**
-     * Seed the application's database.
-     */
     public function run(): void
     {
         User::factory()->admin()->create([
@@ -20,6 +17,11 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@cothink.ing',
         ]);
 
-        $this->call(WpPostSeeder::class);
+        $this->call([
+            WpPostSeeder::class,
+            ClientSeeder::class,
+            LandingPageSeeder::class,
+            WikiPageSeeder::class,
+        ]);
     }
 }
