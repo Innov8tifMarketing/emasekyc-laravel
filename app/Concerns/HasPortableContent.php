@@ -21,15 +21,29 @@ trait HasPortableContent
         // Ensure portable content fields are not in $casts to avoid conflicts
     }
 
+    protected function getMediaBaseUrl(): string
+    {
+        $disk = Storage::disk();
+        $url = rtrim($disk->url(''), '/');
+
+        // For local disks, use path-only URL to avoid port mismatches
+        $parsed = parse_url($url);
+        $appHost = parse_url(config('app.url'), PHP_URL_HOST);
+
+        if (($parsed['host'] ?? '') === $appHost) {
+            return ($parsed['path'] ?? '') ?: '/storage';
+        }
+
+        return $url;
+    }
+
     protected function resolveMediaPlaceholder(?string $value): ?string
     {
         if ($value === null) {
             return null;
         }
 
-        $diskUrl = rtrim(Storage::disk()->url(''), '/');
-
-        return str_replace(static::$mediaPlaceholder, $diskUrl, $value);
+        return str_replace(static::$mediaPlaceholder, $this->getMediaBaseUrl(), $value);
     }
 
     protected function storeMediaPlaceholder(?string $value): ?string
@@ -38,9 +52,7 @@ trait HasPortableContent
             return null;
         }
 
-        $diskUrl = rtrim(Storage::disk()->url(''), '/');
-
-        return str_replace($diskUrl, static::$mediaPlaceholder, $value);
+        return str_replace($this->getMediaBaseUrl(), static::$mediaPlaceholder, $value);
     }
 
     /**
