@@ -2,7 +2,9 @@
 
 namespace App\Models;
 
+use App\Concerns\HasPortableContent;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -15,7 +17,17 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 #[Fillable(['title', 'slug', 'excerpt', 'body', 'meta_title', 'meta_description', 'author_name', 'published_at'])]
 class Post extends Model implements HasMedia
 {
-    use InteractsWithMedia, SoftDeletes;
+    use HasPortableContent, InteractsWithMedia, SoftDeletes;
+
+    protected function portableContentFields(): array
+    {
+        return ['body'];
+    }
+
+    protected function body(): Attribute
+    {
+        return $this->portableContent();
+    }
 
     protected static function booted(): void
     {

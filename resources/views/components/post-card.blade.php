@@ -1,8 +1,8 @@
 @props(['post'])
 
 <a href="{{ route('resources.knowledge-hub.show', $post) }}" aria-label="{{ $post->title }}" class="rounded-xl border border-border bg-muted hover:shadow-md transition hover-lift">
-    @if($post->featured_image)
-        <figure><img src="{{ $post->featured_image }}" alt="{{ $post->title }}" loading="lazy" class="w-full h-48 object-cover rounded-t-xl"></figure>
+    @if($post->getFirstMediaUrl('featured_image'))
+        <figure><img src="{{ $post->getFirstMediaUrl('featured_image') }}" alt="{{ $post->title }}" loading="lazy" class="w-full h-48 object-cover rounded-t-xl"></figure>
     @endif
     <div class="p-5 flex flex-col gap-2">
         <time class="text-xs text-muted-foreground">{{ $post->published_at->format('M d, Y') }}</time>

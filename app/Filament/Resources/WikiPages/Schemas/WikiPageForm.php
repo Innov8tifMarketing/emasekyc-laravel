@@ -68,8 +68,8 @@ class WikiPageForm
                                         ['table', 'attachFiles', 'customBlocks'],
                                         ['undo', 'redo'],
                                     ])
-                                    ->fileAttachmentsDisk('public')
-                                    ->fileAttachmentsDirectory('images/wiki')
+                                    ->fileAttachmentsDisk(config('filesystems.default'))
+                                    ->fileAttachmentsDirectory('wiki')
                                     ->columnSpanFull(),
                                 Textarea::make('excerpt')
                                     ->rows(3)

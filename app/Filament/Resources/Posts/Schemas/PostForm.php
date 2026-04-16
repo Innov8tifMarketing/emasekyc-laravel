@@ -50,8 +50,8 @@ class PostForm
                                     ->columnSpanFull(),
                                 RichEditor::make('body')
                                     ->required()
-                                    ->fileAttachmentsDisk('public')
-                                    ->fileAttachmentsDirectory('images/blog/attachments')
+                                    ->fileAttachmentsDisk(config('filesystems.default'))
+                                    ->fileAttachmentsDirectory('blog')
                                     ->fileAttachmentsVisibility('public')
                                     ->columnSpanFull(),
                             ]),
