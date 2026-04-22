@@ -14,7 +14,7 @@
         "laravel/scout": "^11.1",
         "laravel/tinker": "^3.0",
         "league/commonmark": "^2.8",
-        "league/flysystem-aws-s3-v3": "^3.0",
+        "league/flysystem-aws-s3-v3": "^3.32",
         "spatie/laravel-sitemap": "^8.1"
     },
     "require-dev": {
