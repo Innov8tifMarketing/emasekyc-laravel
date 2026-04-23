@@ -3,3 +3,11 @@ domains:
 php_version: "8.5"
 framework: laravel
 secured: true
+workers:
+    - queue
+    - vite
+custom_workers:
+    vite:
+        label: Vite Dev Server
+        command: npm run dev
+        restart: always
