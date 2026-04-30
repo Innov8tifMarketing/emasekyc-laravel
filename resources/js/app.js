@@ -11,11 +11,8 @@ window.Alpine = Alpine;
 window.gsap = gsap;
 Alpine.start();
 
-// ===== Reduced Motion Guard =====
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-// Vite loads scripts as type="module" (deferred), so DOMContentLoaded
-// may have already fired by the time this runs. Handle both cases.
 function onReady(fn) {
     if (document.readyState !== 'loading') {
         fn();
@@ -24,8 +21,7 @@ function onReady(fn) {
     }
 }
 
-// ===== Reveal fallback if GSAP errors after hiding elements =====
-const gsapAnimatedSelectors = '[data-gsap="fade-up"], .gsap-hero-phone, .gsap-scale-in';
+const gsapAnimatedSelectors = '[data-gsap="fade-up"], .gsap-hero-phone';
 function revealAll() {
     document.querySelectorAll(gsapAnimatedSelectors).forEach(el => {
         el.style.opacity = '1';
@@ -35,9 +31,12 @@ function revealAll() {
 
 if (!prefersReducedMotion) {
     try {
-        gsap.set('[data-gsap="fade-up"]', { opacity: 0, y: 24 });
-        gsap.set('.gsap-hero-phone', { opacity: 0, x: 60 });
-        gsap.set('.gsap-scale-in', { opacity: 0, scale: 0.95 });
+        if (document.querySelector('[data-gsap="fade-up"]')) {
+            gsap.set('[data-gsap="fade-up"]', { opacity: 0, y: 24 });
+        }
+        if (document.querySelector('.gsap-hero-phone')) {
+            gsap.set('.gsap-hero-phone', { opacity: 0, x: 60 });
+        }
 
         onReady(() => {
             try {
@@ -55,7 +54,6 @@ if (!prefersReducedMotion) {
     }
 }
 
-// ===== Hero Entrance =====
 function initHeroAnimations() {
     const hero = document.querySelector('.hero-animate');
     if (!hero) return;
@@ -81,9 +79,7 @@ function initHeroAnimations() {
     );
 }
 
-// ===== Scroll-Triggered Reveals =====
 function initScrollReveals() {
-    // Individual fade-up elements
     gsap.utils.toArray('[data-gsap="fade-up"]').forEach((el) => {
         gsap.fromTo(el,
             { opacity: 0, y: 24 },
@@ -96,7 +92,6 @@ function initScrollReveals() {
         );
     });
 
-    // Stagger groups — children animate in sequence
     gsap.utils.toArray('[data-gsap-stagger]').forEach((container) => {
         const children = container.children;
         if (!children.length) return;
@@ -114,7 +109,6 @@ function initScrollReveals() {
     });
 }
 
-// ===== Counter Animation =====
 function initCounterAnimations() {
     const counters = document.querySelectorAll('[data-count-to]');
     if (!counters.length) return;
@@ -145,4 +139,3 @@ function initCounterAnimations() {
         });
     });
 }
-
